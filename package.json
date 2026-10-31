@@ -1,0 +1,20 @@
+{
+  "name": "codex-project-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "check": "tsc --noEmit",
+    "render": "remotion render src/index.ts BandarLampung out/bandar-lampung.mp4 --codec=h264 --concurrency=2"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.409",
+    "remotion": "4.0.409",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.7.3"
+  }
+}
