@@ -18,7 +18,7 @@ Sumber primer:
 
 GitHub Actions → Render Bandar Lampung → Run workflow. Workflow juga berjalan saat sumber diperbarui di main. Unduh artifact **bandar-lampung-sejarah-2d**: MP4, empat frame pratinjau, subtitle SRT, timing JSON, sumber, dan metadata hasil.
 
-1. Unduh narasi yang dibuat melalui vidIQ dari URL di `voice.json`.
+1. Pakai narasi di `public/narration.mp3`; pada render pertama unduh dari URL hasil vidIQ di `voice.json`.
 2. Normalisasi audio dan transkripsikan dengan Whisper untuk mendapatkan timestamp kata.
 3. Selaraskan naskah asli ke timestamp, agar ejaan nama/tahun subtitle tetap mengikuti naskah.
 4. Buat soundtrack instrumental asli dan render melalui Remotion.
@@ -39,4 +39,4 @@ npm start
 npm run render
 ```
 
-`src/timing.json` awal adalah placeholder; jalankan prepare sebelum preview/render. Narasi dan musik dihasilkan ke `public/` saat build dan tidak disimpan dalam Git. URL audio berjangka di `voice.json` mungkin perlu diperbarui untuk render ulang di masa depan.
+`src/timing.json` awal adalah placeholder; jalankan prepare sebelum preview/render. Setelah render pertama, workflow menyimpan MP4 dan preview di `renders/`, audio di `public/`, serta timing yang sudah diselaraskan. URL unduh sementara dibersihkan dari versi terbaru `voice.json`. Render berikutnya memakai narasi yang sudah tersimpan. Untuk mengganti naskah, ganti narasi beserta audio yang sesuai.

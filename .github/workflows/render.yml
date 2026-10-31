@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths: ['src/**', 'scripts/**', 'story.json', 'voice.json', 'package.json', 'tsconfig.json', '.github/workflows/render.yml']
 permissions:
-  contents: read
+  contents: write
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -20,6 +20,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install FFmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
       - run: npm install --no-audit --no-fund
       - run: pip install faster-whisper==1.2.1
       - name: Download narration and synchronize approved subtitles
@@ -45,6 +47,26 @@ jobs:
           name: bandar-lampung-sejarah-2d
           path: out/
           if-no-files-found: error
+      - name: Save downloadable MP4 and reusable audio to repository
+        run: |
+          mkdir -p renders
+          cp out/bandar-lampung.mp4 renders/bandar-lampung-sejarah.mp4
+          cp out/preview-*.png renders/
+          cp out/bandar-lampung.srt renders/
+          cp out/media-info.json renders/
+          python - <<'PY'
+          import json
+          p='voice.json'
+          voice=json.load(open(p))
+          voice['url']=''
+          voice['note']='Narration is stored in public/narration.mp3. Refresh via vidIQ job only if replacing the audio.'
+          open(p,'w').write(json.dumps(voice,indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f public/narration.mp3 public/music.wav src/timing.json voice.json renders/
+          git diff --cached --quiet || git commit -m 'Save rendered history video, previews, and reusable narration'
+          git push origin HEAD:main
       - uses: actions/upload-artifact@v4
         if: failure()
         with:

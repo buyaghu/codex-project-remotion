@@ -17,10 +17,11 @@ OUT = ROOT / 'out'
 OUT.mkdir(exist_ok=True)
 story = json.loads((ROOT / 'story.json').read_text())
 voice = json.loads((ROOT / 'voice.json').read_text())
-request = urllib.request.Request(voice['url'], headers={'User-Agent': 'Remotion-History-Project/1.0'})
-with urllib.request.urlopen(request, timeout=90) as response:
-    (PUBLIC / 'narration-original.mp3').write_bytes(response.read())
-subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', str(PUBLIC/'narration-original.mp3'), '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '44100', str(PUBLIC/'narration.mp3')], check=True)
+if not (PUBLIC/'narration.mp3').exists():
+    request = urllib.request.Request(voice['url'], headers={'User-Agent': 'Remotion-History-Project/1.0'})
+    with urllib.request.urlopen(request, timeout=90) as response:
+        (PUBLIC / 'narration-original.mp3').write_bytes(response.read())
+    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', str(PUBLIC/'narration-original.mp3'), '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '44100', str(PUBLIC/'narration.mp3')], check=True)
 duration = float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(PUBLIC/'narration.mp3')]))
 model = WhisperModel('base', device='cpu', compute_type='int8', cpu_threads=4)
 segments, _ = model.transcribe(str(PUBLIC/'narration.mp3'), language='id', word_timestamps=True, beam_size=5, vad_filter=True)
