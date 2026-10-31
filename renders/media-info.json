@@ -1,0 +1,23 @@
+{
+    "programs": [
+
+    ],
+    "streams": [
+        {
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "side_data_list": [
+                {
+
+                }
+            ]
+        },
+        {
+            "codec_type": "audio"
+        }
+    ],
+    "format": {
+        "duration": "90.389333"
+    }
+}

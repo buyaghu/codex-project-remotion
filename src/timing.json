@@ -1,1 +1,920 @@
-{"durationInFrames": 2400, "scenes": [{"from": 0, "duration": 300}, {"from": 300, "duration": 300}, {"from": 600, "duration": 300}, {"from": 900, "duration": 300}, {"from": 1200, "duration": 300}, {"from": 1500, "duration": 300}, {"from": 1800, "duration": 300}, {"from": 2100, "duration": 300}], "words": []}
+{
+  "durationInFrames": 2710,
+  "alignmentCoverage": 0.6079545454545454,
+  "scenes": [
+    {
+      "from": 0,
+      "duration": 299
+    },
+    {
+      "from": 299,
+      "duration": 243
+    },
+    {
+      "from": 542,
+      "duration": 428
+    },
+    {
+      "from": 970,
+      "duration": 309
+    },
+    {
+      "from": 1279,
+      "duration": 258
+    },
+    {
+      "from": 1537,
+      "duration": 448
+    },
+    {
+      "from": 1985,
+      "duration": 331
+    },
+    {
+      "from": 2316,
+      "duration": 394
+    }
+  ],
+  "words": [
+    {
+      "text": "Bandar",
+      "start": 0.28,
+      "end": 0.56
+    },
+    {
+      "text": "Lampung",
+      "start": 0.56,
+      "end": 0.84
+    },
+    {
+      "text": "punya",
+      "start": 0.84,
+      "end": 1.12
+    },
+    {
+      "text": "hari",
+      "start": 1.12,
+      "end": 1.38
+    },
+    {
+      "text": "jadi",
+      "start": 1.38,
+      "end": 1.72
+    },
+    {
+      "text": "tahun",
+      "start": 1.72,
+      "end": 2.209
+    },
+    {
+      "text": "seribu",
+      "start": 2.209,
+      "end": 2.697
+    },
+    {
+      "text": "enam",
+      "start": 2.697,
+      "end": 3.186
+    },
+    {
+      "text": "ratus",
+      "start": 3.186,
+      "end": 3.674
+    },
+    {
+      "text": "delapan",
+      "start": 3.674,
+      "end": 4.163
+    },
+    {
+      "text": "puluh",
+      "start": 4.163,
+      "end": 4.651
+    },
+    {
+      "text": "dua.",
+      "start": 4.651,
+      "end": 5.14
+    },
+    {
+      "text": "Tapi",
+      "start": 5.14,
+      "end": 5.48
+    },
+    {
+      "text": "namanya",
+      "start": 5.48,
+      "end": 5.9
+    },
+    {
+      "text": "baru",
+      "start": 5.9,
+      "end": 6.1
+    },
+    {
+      "text": "resmi",
+      "start": 6.1,
+      "end": 6.5
+    },
+    {
+      "text": "tiga",
+      "start": 6.5,
+      "end": 6.9
+    },
+    {
+      "text": "abad",
+      "start": 6.9,
+      "end": 7.2
+    },
+    {
+      "text": "kemudian.",
+      "start": 7.2,
+      "end": 8.28
+    },
+    {
+      "text": "Kok",
+      "start": 8.28,
+      "end": 8.5
+    },
+    {
+      "text": "bisa?",
+      "start": 8.5,
+      "end": 9.98
+    },
+    {
+      "text": "Kisahnya",
+      "start": 9.98,
+      "end": 10.44
+    },
+    {
+      "text": "bermula",
+      "start": 10.44,
+      "end": 10.84
+    },
+    {
+      "text": "dari",
+      "start": 10.84,
+      "end": 11.32
+    },
+    {
+      "text": "Telukbetung,",
+      "start": 11.32,
+      "end": 11.8
+    },
+    {
+      "text": "di",
+      "start": 11.8,
+      "end": 12.36
+    },
+    {
+      "text": "pesisir",
+      "start": 12.36,
+      "end": 12.9
+    },
+    {
+      "text": "selatan",
+      "start": 12.9,
+      "end": 13.32
+    },
+    {
+      "text": "Sumatra.",
+      "start": 13.32,
+      "end": 14.96
+    },
+    {
+      "text": "Kita",
+      "start": 14.96,
+      "end": 15.3
+    },
+    {
+      "text": "mundur",
+      "start": 15.3,
+      "end": 15.64
+    },
+    {
+      "text": "dulu",
+      "start": 15.64,
+      "end": 15.88
+    },
+    {
+      "text": "ke",
+      "start": 15.88,
+      "end": 16.1
+    },
+    {
+      "text": "abad",
+      "start": 16.1,
+      "end": 16.753
+    },
+    {
+      "text": "ketujuh",
+      "start": 16.753,
+      "end": 17.407
+    },
+    {
+      "text": "belas.",
+      "start": 17.407,
+      "end": 18.06
+    },
+    {
+      "text": "Menurut",
+      "start": 18.06,
+      "end": 18.51
+    },
+    {
+      "text": "riwayat",
+      "start": 18.51,
+      "end": 18.96
+    },
+    {
+      "text": "resmi",
+      "start": 18.96,
+      "end": 19.28
+    },
+    {
+      "text": "pemerintah",
+      "start": 19.28,
+      "end": 19.82
+    },
+    {
+      "text": "kota,",
+      "start": 19.82,
+      "end": 20.54
+    },
+    {
+      "text": "catatan",
+      "start": 20.54,
+      "end": 21.26
+    },
+    {
+      "text": "bertanggal",
+      "start": 21.26,
+      "end": 21.553
+    },
+    {
+      "text": "tujuh",
+      "start": 21.553,
+      "end": 21.847
+    },
+    {
+      "text": "belas",
+      "start": 21.847,
+      "end": 22.14
+    },
+    {
+      "text": "Juni",
+      "start": 22.14,
+      "end": 22.609
+    },
+    {
+      "text": "seribu",
+      "start": 22.609,
+      "end": 23.078
+    },
+    {
+      "text": "enam",
+      "start": 23.078,
+      "end": 23.547
+    },
+    {
+      "text": "ratus",
+      "start": 23.547,
+      "end": 24.016
+    },
+    {
+      "text": "delapan",
+      "start": 24.016,
+      "end": 24.484
+    },
+    {
+      "text": "puluh",
+      "start": 24.484,
+      "end": 24.953
+    },
+    {
+      "text": "dua",
+      "start": 24.953,
+      "end": 25.422
+    },
+    {
+      "text": "menyebut",
+      "start": 25.422,
+      "end": 25.891
+    },
+    {
+      "text": "Telukbetung",
+      "start": 25.891,
+      "end": 26.36
+    },
+    {
+      "text": "sebagai",
+      "start": 26.36,
+      "end": 26.68
+    },
+    {
+      "text": "tempat",
+      "start": 26.68,
+      "end": 27.12
+    },
+    {
+      "text": "kedudukan",
+      "start": 27.12,
+      "end": 27.64
+    },
+    {
+      "text": "seorang",
+      "start": 27.64,
+      "end": 28.08
+    },
+    {
+      "text": "penguasa",
+      "start": 28.08,
+      "end": 28.62
+    },
+    {
+      "text": "bernama",
+      "start": 28.62,
+      "end": 29.54
+    },
+    {
+      "text": "Dipati",
+      "start": 29.54,
+      "end": 30.24
+    },
+    {
+      "text": "Temenggung",
+      "start": 30.24,
+      "end": 30.92
+    },
+    {
+      "text": "Nata",
+      "start": 30.92,
+      "end": 31.34
+    },
+    {
+      "text": "Negara.",
+      "start": 31.34,
+      "end": 32.35
+    },
+    {
+      "text": "Catatan",
+      "start": 32.35,
+      "end": 33.36
+    },
+    {
+      "text": "itu",
+      "start": 33.36,
+      "end": 33.7
+    },
+    {
+      "text": "kemudian",
+      "start": 33.7,
+      "end": 34.14
+    },
+    {
+      "text": "menjadi",
+      "start": 34.14,
+      "end": 34.48
+    },
+    {
+      "text": "dasar",
+      "start": 34.48,
+      "end": 34.98
+    },
+    {
+      "text": "penetapan",
+      "start": 34.98,
+      "end": 35.42
+    },
+    {
+      "text": "hari",
+      "start": 35.42,
+      "end": 35.86
+    },
+    {
+      "text": "jadi",
+      "start": 35.86,
+      "end": 36.14
+    },
+    {
+      "text": "kota.",
+      "start": 36.14,
+      "end": 37.46
+    },
+    {
+      "text": "Jadi,",
+      "start": 37.46,
+      "end": 38.32
+    },
+    {
+      "text": "tanggal",
+      "start": 38.32,
+      "end": 38.66
+    },
+    {
+      "text": "sejarahnya",
+      "start": 38.66,
+      "end": 39.28
+    },
+    {
+      "text": "berbeda",
+      "start": 39.28,
+      "end": 39.7
+    },
+    {
+      "text": "dengan",
+      "start": 39.7,
+      "end": 39.96
+    },
+    {
+      "text": "lahirnya",
+      "start": 39.96,
+      "end": 40.56
+    },
+    {
+      "text": "nama",
+      "start": 40.56,
+      "end": 41.253
+    },
+    {
+      "text": "Bandar",
+      "start": 41.253,
+      "end": 41.947
+    },
+    {
+      "text": "Lampung.",
+      "start": 41.947,
+      "end": 42.64
+    },
+    {
+      "text": "Dalam",
+      "start": 42.64,
+      "end": 43.1
+    },
+    {
+      "text": "perjalanan",
+      "start": 43.1,
+      "end": 43.62
+    },
+    {
+      "text": "berikutnya,",
+      "start": 43.62,
+      "end": 44.78
+    },
+    {
+      "text": "kota",
+      "start": 44.78,
+      "end": 44.96
+    },
+    {
+      "text": "ini",
+      "start": 44.96,
+      "end": 45.18
+    },
+    {
+      "text": "dikenal",
+      "start": 45.18,
+      "end": 45.58
+    },
+    {
+      "text": "sebagai",
+      "start": 45.58,
+      "end": 46.315
+    },
+    {
+      "text": "Tanjungkarang",
+      "start": 46.315,
+      "end": 47.05
+    },
+    {
+      "text": "Telukbetung.",
+      "start": 47.05,
+      "end": 47.785
+    },
+    {
+      "text": "Dua",
+      "start": 47.785,
+      "end": 48.52
+    },
+    {
+      "text": "nama",
+      "start": 48.52,
+      "end": 48.82
+    },
+    {
+      "text": "lama",
+      "start": 48.82,
+      "end": 49.1
+    },
+    {
+      "text": "yang",
+      "start": 49.1,
+      "end": 49.3
+    },
+    {
+      "text": "masih",
+      "start": 49.3,
+      "end": 49.71
+    },
+    {
+      "text": "akrab",
+      "start": 49.71,
+      "end": 50.12
+    },
+    {
+      "text": "sampai",
+      "start": 50.12,
+      "end": 50.34
+    },
+    {
+      "text": "sekarang.",
+      "start": 50.34,
+      "end": 51.22
+    },
+    {
+      "text": "Barulah",
+      "start": 51.22,
+      "end": 52.1
+    },
+    {
+      "text": "pada",
+      "start": 52.1,
+      "end": 52.273
+    },
+    {
+      "text": "tujuh",
+      "start": 52.273,
+      "end": 52.447
+    },
+    {
+      "text": "belas",
+      "start": 52.447,
+      "end": 52.62
+    },
+    {
+      "text": "Juni",
+      "start": 52.62,
+      "end": 53.074
+    },
+    {
+      "text": "seribu",
+      "start": 53.074,
+      "end": 53.529
+    },
+    {
+      "text": "sembilan",
+      "start": 53.529,
+      "end": 53.983
+    },
+    {
+      "text": "ratus",
+      "start": 53.983,
+      "end": 54.437
+    },
+    {
+      "text": "delapan",
+      "start": 54.437,
+      "end": 54.891
+    },
+    {
+      "text": "puluh",
+      "start": 54.891,
+      "end": 55.346
+    },
+    {
+      "text": "tiga,",
+      "start": 55.346,
+      "end": 55.8
+    },
+    {
+      "text": "namanya",
+      "start": 55.8,
+      "end": 56.98
+    },
+    {
+      "text": "resmi",
+      "start": 56.98,
+      "end": 57.4
+    },
+    {
+      "text": "menjadi",
+      "start": 57.4,
+      "end": 58.06
+    },
+    {
+      "text": "Bandar",
+      "start": 58.06,
+      "end": 58.72
+    },
+    {
+      "text": "Lampung,",
+      "start": 58.72,
+      "end": 59.38
+    },
+    {
+      "text": "lewat",
+      "start": 59.38,
+      "end": 59.8
+    },
+    {
+      "text": "Peraturan",
+      "start": 59.8,
+      "end": 60.24
+    },
+    {
+      "text": "Pemerintah",
+      "start": 60.24,
+      "end": 60.88
+    },
+    {
+      "text": "nomor",
+      "start": 60.88,
+      "end": 61.165
+    },
+    {
+      "text": "dua",
+      "start": 61.165,
+      "end": 61.45
+    },
+    {
+      "text": "puluh",
+      "start": 61.45,
+      "end": 61.735
+    },
+    {
+      "text": "empat",
+      "start": 61.735,
+      "end": 62.02
+    },
+    {
+      "text": "tahun",
+      "start": 62.02,
+      "end": 62.61
+    },
+    {
+      "text": "seribu",
+      "start": 62.61,
+      "end": 63.2
+    },
+    {
+      "text": "sembilan",
+      "start": 63.2,
+      "end": 63.79
+    },
+    {
+      "text": "ratus",
+      "start": 63.79,
+      "end": 64.38
+    },
+    {
+      "text": "delapan",
+      "start": 64.38,
+      "end": 64.97
+    },
+    {
+      "text": "puluh",
+      "start": 64.97,
+      "end": 65.56
+    },
+    {
+      "text": "tiga.",
+      "start": 65.56,
+      "end": 66.15
+    },
+    {
+      "text": "Jadi,",
+      "start": 66.15,
+      "end": 67.12
+    },
+    {
+      "text": "ingat",
+      "start": 67.12,
+      "end": 67.43
+    },
+    {
+      "text": "dua",
+      "start": 67.43,
+      "end": 67.74
+    },
+    {
+      "text": "penanda",
+      "start": 67.74,
+      "end": 68.04
+    },
+    {
+      "text": "ini.",
+      "start": 68.04,
+      "end": 68.483
+    },
+    {
+      "text": "Seribu",
+      "start": 68.483,
+      "end": 68.926
+    },
+    {
+      "text": "enam",
+      "start": 68.926,
+      "end": 69.369
+    },
+    {
+      "text": "ratus",
+      "start": 69.369,
+      "end": 69.811
+    },
+    {
+      "text": "delapan",
+      "start": 69.811,
+      "end": 70.254
+    },
+    {
+      "text": "puluh",
+      "start": 70.254,
+      "end": 70.697
+    },
+    {
+      "text": "dua",
+      "start": 70.697,
+      "end": 71.14
+    },
+    {
+      "text": "untuk",
+      "start": 71.14,
+      "end": 71.52
+    },
+    {
+      "text": "hari",
+      "start": 71.52,
+      "end": 71.8
+    },
+    {
+      "text": "jadi.",
+      "start": 71.8,
+      "end": 72.266
+    },
+    {
+      "text": "Seribu",
+      "start": 72.266,
+      "end": 72.731
+    },
+    {
+      "text": "sembilan",
+      "start": 72.731,
+      "end": 73.197
+    },
+    {
+      "text": "ratus",
+      "start": 73.197,
+      "end": 73.663
+    },
+    {
+      "text": "delapan",
+      "start": 73.663,
+      "end": 74.129
+    },
+    {
+      "text": "puluh",
+      "start": 74.129,
+      "end": 74.594
+    },
+    {
+      "text": "tiga",
+      "start": 74.594,
+      "end": 75.06
+    },
+    {
+      "text": "untuk",
+      "start": 75.06,
+      "end": 75.96
+    },
+    {
+      "text": "perubahan",
+      "start": 75.96,
+      "end": 76.46
+    },
+    {
+      "text": "nama.",
+      "start": 76.46,
+      "end": 77.193
+    },
+    {
+      "text": "Bandar",
+      "start": 77.193,
+      "end": 77.927
+    },
+    {
+      "text": "Lampung",
+      "start": 77.927,
+      "end": 78.66
+    },
+    {
+      "text": "tumbuh",
+      "start": 78.66,
+      "end": 79.14
+    },
+    {
+      "text": "lewat",
+      "start": 79.14,
+      "end": 79.38
+    },
+    {
+      "text": "perjalanan",
+      "start": 79.38,
+      "end": 79.9
+    },
+    {
+      "text": "panjang.",
+      "start": 79.9,
+      "end": 81.02
+    },
+    {
+      "text": "Bukan",
+      "start": 81.02,
+      "end": 81.3
+    },
+    {
+      "text": "muncul",
+      "start": 81.3,
+      "end": 81.68
+    },
+    {
+      "text": "dalam",
+      "start": 81.68,
+      "end": 81.92
+    },
+    {
+      "text": "satu",
+      "start": 81.92,
+      "end": 82.24
+    },
+    {
+      "text": "malam.",
+      "start": 82.24,
+      "end": 83.38
+    },
+    {
+      "text": "Dari",
+      "start": 83.38,
+      "end": 83.813
+    },
+    {
+      "text": "jejak",
+      "start": 83.813,
+      "end": 84.247
+    },
+    {
+      "text": "Telukbetung",
+      "start": 84.247,
+      "end": 84.68
+    },
+    {
+      "text": "dan",
+      "start": 84.68,
+      "end": 85.41
+    },
+    {
+      "text": "Tanjungkarang,",
+      "start": 85.41,
+      "end": 86.14
+    },
+    {
+      "text": "lahirlah",
+      "start": 86.14,
+      "end": 86.64
+    },
+    {
+      "text": "identitas",
+      "start": 86.64,
+      "end": 87.22
+    },
+    {
+      "text": "kota",
+      "start": 87.22,
+      "end": 87.54
+    },
+    {
+      "text": "yang",
+      "start": 87.54,
+      "end": 87.7
+    },
+    {
+      "text": "kita",
+      "start": 87.7,
+      "end": 87.94
+    },
+    {
+      "text": "kenal",
+      "start": 87.94,
+      "end": 88.24
+    },
+    {
+      "text": "hari",
+      "start": 88.24,
+      "end": 88.42
+    },
+    {
+      "text": "ini.",
+      "start": 88.42,
+      "end": 88.921
+    }
+  ]
+}
