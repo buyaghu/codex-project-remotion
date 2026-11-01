@@ -1,0 +1,26 @@
+{
+  "title": "Capek menjelaskan gaya brand berulang kali?",
+  "narration": [
+    "Capek menjelaskan gaya brand ke Codex berulang kali? Warna sudah disebut, bahasa sudah diatur, besok ngetik lagi.",
+    "Coba simpan panduan proyek dalam file bernama agents titik em di. Tulis namanya dengan huruf kapital, seperti di layar.",
+    "Di folder utama proyek, isi aturan yang sering dipakai: siapa audiensmu, gaya bahasa, warna, dan format konten.",
+    "Contohnya: kreator pemula, bahasa santai, latar krem, aksen merah, dan video vertikal. Buat aturannya singkat dan jelas.",
+    "Saat bekerja di proyek itu, Codex membaca panduan yang berlaku sebelum mulai mengerjakan tugas.",
+    "Untuk episode baru, kamu tinggal beri topik dan brief khususnya. Panduan umum tetap tersedia di proyek.",
+    "Tapi ini bukan ingatan otomatis di semua chat. Panduannya ikut folder atau repo tempat file itu disimpan.",
+    "Mulai dari satu file sederhana. Simpan gaya brand, lalu pakai lagi. Biar waktumu habis buat berkarya, bukan mengulang instruksi."
+  ],
+  "targetSeconds": 58,
+  "sources": [
+    {
+      "title": "OpenAI: Custom instructions with AGENTS.md",
+      "url": "https://developers.openai.com/codex/guides/agents-md/"
+    }
+  ],
+  "notes": [
+    "Project-scope introduction; global and nested override configuration is outside this episode's scope.",
+    "Exact filename is AGENTS.md, uppercase AGENTS and lowercase extension.",
+    "Demonstrations are illustrations, not recordings or a promise of perfect adherence.",
+    "Kodey is the same original mascot used in episode 01."
+  ]
+}
