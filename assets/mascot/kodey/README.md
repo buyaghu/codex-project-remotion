@@ -13,7 +13,7 @@ Disetujui pengguna pada 1 November 2026. Gambar acuan: [reference.jpg](reference
 1. Gambar utuh: untuk kartu pembuka/penutup, poster, dan gerak seluruh karakter seperti geser, zoom atau melayang.
 2. Versi dengan bagian terpisah: tubuh, mata/kelopak, mulut, tangan dan kaki untuk berkedip, berbicara, melambai dan menunjuk di Remotion. Pertahankan tampilan 3D pada asetnya.
 
-Gambar acuan asli telah disimpan. Aset transparan, bagian terpisah, ekspresi dan pose animasi belum dibuat; siapkan saat pekerjaan produksi maskot dimulai. Jangan mengklaim gambar utuh sudah memiliki rig atau dapat menggerakkan bagian tubuh secara independen.
+Gambar acuan asli telah disimpan. Versi gambar utuh transparan sudah tersedia di `public/mascot/kodey-main.png` dan dipakai pada episode 03. Lihat [catatan versi transparan](cutout-notes.md). Aset bagian terpisah, rig, ekspresi dan pose tambahan belum dibuat. Jangan mengklaim gambar utuh sudah memiliki rig atau dapat menggerakkan bagian tubuh secara independen.
 
 ## Penerapan
 Desain video (palet, tipografi, latar, komposisi dan transisi) boleh berubah sesuai brief; identitas maskot tetap konsisten. Dua episode pertama telah diterima pengguna dan tetap sebagai versi yang sudah disetujui. Tidak perlu merender ulang episode lama hanya karena keputusan maskot baru.
