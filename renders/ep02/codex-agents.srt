@@ -1,0 +1,111 @@
+1
+00:00:00,170 --> 00:00:01,500
+Capek menjelaskan gaya brand ke
+
+2
+00:00:01,500 --> 00:00:03,340
+Codex berulang kali? Warna sudah
+
+3
+00:00:03,340 --> 00:00:05,920
+disebut, bahasa sudah diatur, besok
+
+4
+00:00:05,920 --> 00:00:07,860
+ngetik lagi. Coba simpan panduan
+
+5
+00:00:07,860 --> 00:00:09,800
+proyek dalam file bernama agents
+
+6
+00:00:09,800 --> 00:00:11,900
+titik em di. Tulis namanya
+
+7
+00:00:11,900 --> 00:00:13,500
+dengan huruf kapital, seperti di
+
+8
+00:00:13,500 --> 00:00:15,780
+layar. Di folder utama proyek,
+
+9
+00:00:15,780 --> 00:00:17,740
+isi aturan yang sering dipakai:
+
+10
+00:00:17,740 --> 00:00:20,660
+siapa audiensmu, gaya bahasa, warna,
+
+11
+00:00:20,660 --> 00:00:23,280
+dan format konten. Contohnya: kreator
+
+12
+00:00:23,280 --> 00:00:25,920
+pemula, bahasa santai, latar krem,
+
+13
+00:00:25,920 --> 00:00:27,920
+aksen merah, dan video vertikal.
+
+14
+00:00:27,920 --> 00:00:30,740
+Buat aturannya singkat dan jelas.
+
+15
+00:00:30,740 --> 00:00:32,200
+Saat bekerja di proyek itu,
+
+16
+00:00:32,200 --> 00:00:34,040
+Codex membaca panduan yang berlaku
+
+17
+00:00:34,040 --> 00:00:36,410
+sebelum mulai mengerjakan tugas. Untuk
+
+18
+00:00:36,410 --> 00:00:38,067
+episode baru, kamu tinggal beri
+
+19
+00:00:38,067 --> 00:00:40,040
+topik dan brief khususnya. Panduan
+
+20
+00:00:40,040 --> 00:00:42,040
+umum tetap tersedia di proyek.
+
+21
+00:00:42,040 --> 00:00:43,880
+Tapi ini bukan ingatan otomatis
+
+22
+00:00:43,880 --> 00:00:45,800
+di semua chat. Panduannya ikut
+
+23
+00:00:45,800 --> 00:00:47,640
+folder atau repo tempat file
+
+24
+00:00:47,640 --> 00:00:49,700
+itu disimpan. Mulai dari satu
+
+25
+00:00:49,700 --> 00:00:52,080
+file sederhana. Simpan gaya brand,
+
+26
+00:00:52,080 --> 00:00:54,000
+lalu pakai lagi. Biar waktumu
+
+27
+00:00:54,000 --> 00:00:55,820
+habis buat berkarya, bukan mengulang
+
+28
+00:00:55,820 --> 00:00:56,633
+instruksi.
