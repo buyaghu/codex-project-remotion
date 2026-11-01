@@ -92,3 +92,47 @@ for n in range(math.ceil(length*sample_rate)):
 with wave.open(str(PUBLIC/'music.wav'),'w') as w:
     w.setnchannels(1);w.setsampwidth(2);w.setframerate(sample_rate);w.writeframes(pcm.tobytes())
 (OUT/'sources.json').write_text(json.dumps(story['sources'],ensure_ascii=False,indent=2))
+
+# Analyze the real, normalized narration: one energy/viseme sample per video frame.
+# The mouth is audio-gated; vowel shapes use approved word timing and Indonesian
+# letter cues. This is a stylized 2D facial rig, not a phoneme-perfect 3D solver.
+import struct
+pcm_data = subprocess.check_output(['ffmpeg','-v','error','-i',str(PUBLIC/'narration.mp3'),'-f','s16le','-ac','1','-ar','16000','-'])
+samples = array.array('h')
+samples.frombytes(pcm_data)
+if __import__('sys').byteorder != 'little':
+    samples.byteswap()
+rms = []
+for frame in range(total_frames):
+    a=round(frame*16000/30)
+    b=round((frame+1)*16000/30)
+    chunk=samples[a:b]
+    rms.append(math.sqrt(sum(v*v for v in chunk)/len(chunk))/32768 if chunk else 0)
+nonzero=sorted(v for v in rms if v>.002)
+reference=nonzero[int(len(nonzero)*.80)] if nonzero else .1
+mouth=[]
+wi=0
+for frame,volume in enumerate(rms):
+    seconds=frame/30
+    while wi+1<len(words) and words[wi]['end']<=seconds:
+        wi+=1
+    w=words[wi]
+    letters=re.sub(r'[^a-z]', '', w['text'].lower()) or 'a'
+    relative=max(0,min(.999,(seconds-w['start'])/max(.02,w['end']-w['start'])))
+    char=letters[min(len(letters)-1,int(relative*len(letters)))]
+    shape='A' if char=='a' else 'E' if char=='e' else 'I' if char=='i' else 'O' if char=='o' else 'U' if char=='u' else 'closed' if char in 'mpb' else 'E' if char in 'fv' else 'A'
+    energy=max(0,min(1,(volume-.006)/max(.01,reference-.006)))**.65
+    # Keep true pauses closed, including the ending after the narration.
+    if volume<.008 or seconds>=duration:
+        energy=0
+        shape='rest'
+    elif shape=='closed':
+        energy=0
+    mouth.append({'shape':shape,'open':round(energy,3)})
+active_frames=sum(x['open']>.15 for x in mouth)
+assert active_frames>total_frames*.15, 'Mouth motion analysis has no meaningful speech activity'
+assert len({x['shape'] for x in mouth if x['open']>.15})>=4
+motion={'fps':30,'mouth':mouth,'qa':{'source':'actual narration waveform + aligned word/vowel cues','activeFrames':active_frames,'frameCount':total_frames,'blinkCenters':[75,167,281,376,493,605,724,849,971,1093,1217,1340,1471,1608,1620]}}
+(ROOT/'host-motion.json').write_text(json.dumps(motion,indent=2))
+(OUT/'host-motion.json').write_text(json.dumps(motion,indent=2))
+print('Facial rig verified:',active_frames,'active speech frames;',len(mouth),'total frames')

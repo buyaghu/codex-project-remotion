@@ -29,6 +29,10 @@ jobs:
       - run: npx tsc --project episodes/03-skills/tsconfig.json
       - run: npx remotion browser ensure
       - run: node episodes/03-skills/scripts/previews.mjs
+      - name: Render facial rig proof frames
+        run: node episodes/03-skills/scripts/host-previews.mjs
+      - name: Render host close-up clip
+        run: npx remotion render episodes/03-skills/index.ts KodeyHostDemo out/ep03/kodey-host-demo.mp4 --codec=h264 --concurrency=2
       - name: Render MP4
         run: npx remotion render episodes/03-skills/index.ts CodexSkills out/ep03/codex-skills.mp4 --codec=h264 --concurrency=2
       - name: Verify video and audio
@@ -65,7 +69,7 @@ jobs:
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -f public/episodes/03-skills/narration.mp3 public/episodes/03-skills/music.wav episodes/03-skills/timing.json episodes/03-skills/voice.json renders/ep03/
+          git add -f public/episodes/03-skills/narration.mp3 public/episodes/03-skills/music.wav episodes/03-skills/timing.json episodes/03-skills/host-motion.json episodes/03-skills/voice.json renders/ep03/
           git diff --cached --quiet || git commit -m 'Save Codex creator episode 03 video and reusable media'
           git push origin HEAD:main
       - uses: actions/upload-artifact@v4

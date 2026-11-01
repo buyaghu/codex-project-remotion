@@ -20,6 +20,6 @@
   "design": {
     "reference": "User video attached 2026-11-01: white graph-paper background, vertical blue timeline, floating cards, boxed active words, workflow diagrams.",
     "mascot": "Approved black 3D Kodey with white limbs; transparent whole-image variant.",
-    "animation": "Whole-character transforms, diagram paths, sliding cards and highlighted words; no claim of separately rigged limbs or synchronized lip motion."
+    "animation": "Separate 2D eye/eyelid and multi-shape mouth rig over approved 3D body plate. Mouth gated by actual narration energy and word/vowel cues. Scheduled blinks, closed during speech pauses. Not phoneme-perfect 3D facial capture; arms/legs not independently rigged."
   }
 }
