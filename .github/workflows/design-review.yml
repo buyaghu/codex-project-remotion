@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['design-review/**', '.github/workflows/design-review.yml']
+    paths: ['design-review/v1/render.mjs', 'design-review/v1/fonts.py']
 permissions:
   contents: write
 jobs:

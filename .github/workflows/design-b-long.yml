@@ -1,0 +1,38 @@
+name: Render Longer Design B Demo
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['design-review/v1/Review.tsx', 'design-review/v1/index.tsx', '.github/workflows/design-b-long.yml']
+permissions:
+  contents: write
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - run: python3 design-review/v1/fonts.py
+      - run: npx tsc --project design-review/v1/tsconfig.json
+      - run: npx remotion browser ensure
+      - run: mkdir -p out/design-b
+      - run: npx remotion render design-review/v1/index.tsx MotionBLong out/design-b/design-B-20s.mp4 --codec=h264 --concurrency=2
+      - run: npx remotion still design-review/v1/index.tsx MotionBLong out/design-b/design-B-long-preview.png --frame=400
+      - uses: actions/upload-artifact@v4
+        with:
+          name: design-B-20-seconds
+          path: out/design-b/
+      - name: Save demo files
+        run: |
+          mkdir -p renders/design-review
+          cp out/design-b/* renders/design-review/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f renders/design-review/
+          git diff --cached --quiet || git commit -m 'Save extended 20-second design B demo'
+          git pull --rebase origin main
+          git push origin HEAD:main
