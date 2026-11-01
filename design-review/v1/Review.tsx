@@ -12,7 +12,7 @@ const styles=[
 const terms=['Baca brief','Storyboard','Animasi','Periksa','Ekspor'];
 const Fonts=()=>{
  const [handle]=useState(()=>delayRender('Load review typography'));
- useEffect(()=>{let live=true;Promise.all([['ReviewInter','Inter.ttf'],['ReviewJakarta','Jakarta.ttf'],['ReviewManrope','Manrope.ttf']].map(async([name,file])=>{const face=new FontFace(name,`url(${staticFile('fonts/review/'+file)})`,{weight:'100 900'});const loaded=await face.load();document.fonts.add(loaded);})).then(()=>{if(live)continueRender(handle);}).catch(e=>cancelRender(e));return()=>{live=false;};},[handle]);
+ useEffect(()=>{let live=true;Promise.all([['ReviewInter','Inter.ttf'],['ReviewJakarta','Jakarta.ttf'],['ReviewManrope','Manrope.ttf']].map(async([name,file])=>{const face=new FontFace(name,`url(${staticFile('fonts/review/'+file)})`,{weight:'100 900'});const loaded=await face.load();(document.fonts as FontFaceSet & {add:(face:FontFace)=>void}).add(loaded);})).then(()=>{if(live)continueRender(handle);}).catch(e=>cancelRender(e));return()=>{live=false;};},[handle]);
  return null;
 };
 const Glyph=({i,color,size=56}:{i:number;color:string;size?:number})=><svg width={size} height={size} viewBox="0 0 64 64" fill="none" stroke={color} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">{i===0?<><path d="M15 7H41L51 17V57H15Z"/><path d="M41 7V18H51M24 29H42M24 39H42M24 49H35"/></>:i===1?<>{[0,1,2,3].map(k=><rect key={k} x={9+k%2*26} y={9+Math.floor(k/2)*26} width="20" height="20" rx="4"/>)}</>:i===2?<><rect x="7" y="11" width="50" height="42" rx="9"/><path d="M26 22 43 32 26 42Z"/></>:i===3?<><circle cx="32" cy="32" r="24"/><path d="M19 32 28 41 45 24"/></>:<><path d="M32 6V40M20 28 32 40 44 28M10 43V56H54V43"/></>}</svg>;
