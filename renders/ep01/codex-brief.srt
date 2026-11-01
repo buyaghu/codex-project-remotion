@@ -1,0 +1,91 @@
+1
+00:00:00,000 --> 00:00:02,080
+Hasil Codex masih generik? Coba
+
+2
+00:00:02,080 --> 00:00:03,520
+cek brief kamu. Kamu cuma
+
+3
+00:00:03,520 --> 00:00:05,820
+bilang, bikinin konten yang bagus?
+
+4
+00:00:05,820 --> 00:00:07,420
+Bagus buat siapa? Untuk platform
+
+5
+00:00:07,420 --> 00:00:10,120
+apa? Kalau arahnya samar, hasilnya
+
+6
+00:00:10,120 --> 00:00:12,380
+juga bisa meleset. Sebelum mulai,
+
+7
+00:00:12,380 --> 00:00:15,240
+kasih lima hal: tujuan, audiens,
+
+8
+00:00:15,240 --> 00:00:18,580
+format, referensi, dan batasan. Contohnya:
+
+9
+00:00:18,580 --> 00:00:20,540
+buat storyboard Reels edukasi untuk
+
+10
+00:00:20,540 --> 00:00:23,300
+kreator pemula. Tujuannya mengajarkan cara
+
+11
+00:00:23,300 --> 00:00:25,320
+menulis brief ke Codex. Durasinya
+
+12
+00:00:25,320 --> 00:00:27,700
+lima puluh detik. Pakai maskot,
+
+13
+00:00:27,700 --> 00:00:29,680
+ilustrasi sederhana, dan gaya bahasa
+
+14
+00:00:29,680 --> 00:00:32,120
+santai. Referensinya video yang aku
+
+15
+00:00:32,120 --> 00:00:35,260
+lampirkan. Batasannya: satu pesan utama,
+
+16
+00:00:35,260 --> 00:00:36,980
+tanpa jargon, dan akhiri dengan
+
+17
+00:00:36,980 --> 00:00:38,840
+contoh brief yang bisa dicoba.
+
+18
+00:00:38,840 --> 00:00:40,720
+Lalu minta Codex merangkum brief
+
+19
+00:00:40,720 --> 00:00:42,820
+sebelum mengerjakan. Jadi kamu bisa
+
+20
+00:00:42,820 --> 00:00:45,060
+cek apakah arahnya sudah sesuai.
+
+21
+00:00:45,060 --> 00:00:48,460
+Simpan rumusnya: tujuan, audiens, format,
+
+22
+00:00:48,460 --> 00:00:50,700
+referensi, batasan. Coba pakai di
+
+23
+00:00:50,700 --> 00:00:51,618
+proyek berikutnya!

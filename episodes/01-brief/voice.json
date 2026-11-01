@@ -1,8 +1,9 @@
 {
-  "url": "https://storage.googleapis.com/xi-backend/database/workspace/f94d1e6ca7cb462295c1c0b0cdd97511/content_generation/TxVspCzqXh5gYRUFqXWJ/mnvEj4pgXQ4LdYamDz71/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261101%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261101T013607Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=1bd17c166ee5904bea668cb59d8399847f6eabd78b9c68f4de267fbad4919258477b1f576f95d2892256cb2bd75b06d97864f82151104d511ac51f50c0132d231058607675b41af9361ab42d0431ea4d042919e89754bc09c4e2370fa4f687a64d240542a67c340d02c4419bb7e590d54dd7138041b9c05d55ddaa9eb592cfc66d9d3b39a5b06de275d326e3ff73260ee13ec5d7e5d238e4249bb513342274daa46dc655e34eb0b7daeadb08737a5a4394c44062b9c6b695a3ba4e5032afa51ad88593d1d90d8a00317a4e7def14369a947fb2859864a02e5669327b3bff27c913ff3030f53d7926fc4f3a994b76b3cac77c3b36e5eeaddd0283362e366ee5db",
+  "url": "",
   "provider": "ElevenLabs",
   "model": "eleven_v4",
   "voice": "Andi",
   "generationId": "mnvEj4pgXQ4LdYamDz71",
-  "flowId": "ldN1x8Tvw1XEJ9yWozy3"
+  "flowId": "ldN1x8Tvw1XEJ9yWozy3",
+  "note": "Reusable narration is in public/episodes/01-brief/narration.mp3."
 }

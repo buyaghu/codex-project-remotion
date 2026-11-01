@@ -1,0 +1,600 @@
+{
+  "durationInFrames": 1591,
+  "alignmentCoverage": 0.8571428571428571,
+  "scenes": [
+    {
+      "from": 0,
+      "duration": 175
+    },
+    {
+      "from": 175,
+      "duration": 169
+    },
+    {
+      "from": 344,
+      "duration": 189
+    },
+    {
+      "from": 533,
+      "duration": 218
+    },
+    {
+      "from": 751,
+      "duration": 241
+    },
+    {
+      "from": 992,
+      "duration": 173
+    },
+    {
+      "from": 1165,
+      "duration": 187
+    },
+    {
+      "from": 1352,
+      "duration": 239
+    }
+  ],
+  "words": [
+    {
+      "text": "Hasil",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "text": "Codex",
+      "start": 0.3,
+      "end": 0.72
+    },
+    {
+      "text": "masih",
+      "start": 0.72,
+      "end": 1.26
+    },
+    {
+      "text": "generik?",
+      "start": 1.26,
+      "end": 1.8
+    },
+    {
+      "text": "Coba",
+      "start": 1.8,
+      "end": 2.08
+    },
+    {
+      "text": "cek",
+      "start": 2.08,
+      "end": 2.28
+    },
+    {
+      "text": "brief",
+      "start": 2.28,
+      "end": 2.48
+    },
+    {
+      "text": "kamu.",
+      "start": 2.48,
+      "end": 3.2
+    },
+    {
+      "text": "Kamu",
+      "start": 3.2,
+      "end": 3.38
+    },
+    {
+      "text": "cuma",
+      "start": 3.38,
+      "end": 3.52
+    },
+    {
+      "text": "bilang,",
+      "start": 3.52,
+      "end": 3.88
+    },
+    {
+      "text": "bikinin",
+      "start": 3.88,
+      "end": 4.6
+    },
+    {
+      "text": "konten",
+      "start": 4.6,
+      "end": 4.84
+    },
+    {
+      "text": "yang",
+      "start": 4.84,
+      "end": 4.94
+    },
+    {
+      "text": "bagus?",
+      "start": 4.94,
+      "end": 5.82
+    },
+    {
+      "text": "Bagus",
+      "start": 5.82,
+      "end": 5.98
+    },
+    {
+      "text": "buat",
+      "start": 5.98,
+      "end": 6.18
+    },
+    {
+      "text": "siapa?",
+      "start": 6.18,
+      "end": 7.0
+    },
+    {
+      "text": "Untuk",
+      "start": 7.0,
+      "end": 7.14
+    },
+    {
+      "text": "platform",
+      "start": 7.14,
+      "end": 7.42
+    },
+    {
+      "text": "apa?",
+      "start": 7.42,
+      "end": 8.38
+    },
+    {
+      "text": "Kalau",
+      "start": 8.38,
+      "end": 8.767
+    },
+    {
+      "text": "arahnya",
+      "start": 8.767,
+      "end": 9.153
+    },
+    {
+      "text": "samar,",
+      "start": 9.153,
+      "end": 9.54
+    },
+    {
+      "text": "hasilnya",
+      "start": 9.54,
+      "end": 10.12
+    },
+    {
+      "text": "juga",
+      "start": 10.12,
+      "end": 10.3
+    },
+    {
+      "text": "bisa",
+      "start": 10.3,
+      "end": 10.89
+    },
+    {
+      "text": "meleset.",
+      "start": 10.89,
+      "end": 11.48
+    },
+    {
+      "text": "Sebelum",
+      "start": 11.48,
+      "end": 11.78
+    },
+    {
+      "text": "mulai,",
+      "start": 11.78,
+      "end": 12.38
+    },
+    {
+      "text": "kasih",
+      "start": 12.38,
+      "end": 12.58
+    },
+    {
+      "text": "lima",
+      "start": 12.58,
+      "end": 12.86
+    },
+    {
+      "text": "hal:",
+      "start": 12.86,
+      "end": 13.58
+    },
+    {
+      "text": "tujuan,",
+      "start": 13.58,
+      "end": 14.41
+    },
+    {
+      "text": "audiens,",
+      "start": 14.41,
+      "end": 15.24
+    },
+    {
+      "text": "format,",
+      "start": 15.24,
+      "end": 15.92
+    },
+    {
+      "text": "referensi,",
+      "start": 15.92,
+      "end": 16.68
+    },
+    {
+      "text": "dan",
+      "start": 16.68,
+      "end": 16.78
+    },
+    {
+      "text": "batasan.",
+      "start": 16.78,
+      "end": 17.76
+    },
+    {
+      "text": "Contohnya:",
+      "start": 17.76,
+      "end": 18.58
+    },
+    {
+      "text": "buat",
+      "start": 18.58,
+      "end": 18.86
+    },
+    {
+      "text": "storyboard",
+      "start": 18.86,
+      "end": 19.31
+    },
+    {
+      "text": "Reels",
+      "start": 19.31,
+      "end": 19.76
+    },
+    {
+      "text": "edukasi",
+      "start": 19.76,
+      "end": 20.24
+    },
+    {
+      "text": "untuk",
+      "start": 20.24,
+      "end": 20.54
+    },
+    {
+      "text": "kreator",
+      "start": 20.54,
+      "end": 20.88
+    },
+    {
+      "text": "pemula.",
+      "start": 20.88,
+      "end": 21.8
+    },
+    {
+      "text": "Tujuannya",
+      "start": 21.8,
+      "end": 22.38
+    },
+    {
+      "text": "mengajarkan",
+      "start": 22.38,
+      "end": 22.96
+    },
+    {
+      "text": "cara",
+      "start": 22.96,
+      "end": 23.3
+    },
+    {
+      "text": "menulis",
+      "start": 23.3,
+      "end": 23.65
+    },
+    {
+      "text": "brief",
+      "start": 23.65,
+      "end": 24.0
+    },
+    {
+      "text": "ke",
+      "start": 24.0,
+      "end": 24.1
+    },
+    {
+      "text": "Codex.",
+      "start": 24.1,
+      "end": 25.02
+    },
+    {
+      "text": "Durasinya",
+      "start": 25.02,
+      "end": 25.32
+    },
+    {
+      "text": "lima",
+      "start": 25.32,
+      "end": 25.62
+    },
+    {
+      "text": "puluh",
+      "start": 25.62,
+      "end": 25.92
+    },
+    {
+      "text": "detik.",
+      "start": 25.92,
+      "end": 26.44
+    },
+    {
+      "text": "Pakai",
+      "start": 26.44,
+      "end": 27.07
+    },
+    {
+      "text": "maskot,",
+      "start": 27.07,
+      "end": 27.7
+    },
+    {
+      "text": "ilustrasi",
+      "start": 27.7,
+      "end": 28.16
+    },
+    {
+      "text": "sederhana,",
+      "start": 28.16,
+      "end": 28.94
+    },
+    {
+      "text": "dan",
+      "start": 28.94,
+      "end": 28.98
+    },
+    {
+      "text": "gaya",
+      "start": 28.98,
+      "end": 29.32
+    },
+    {
+      "text": "bahasa",
+      "start": 29.32,
+      "end": 29.68
+    },
+    {
+      "text": "santai.",
+      "start": 29.68,
+      "end": 30.66
+    },
+    {
+      "text": "Referensinya",
+      "start": 30.66,
+      "end": 31.22
+    },
+    {
+      "text": "video",
+      "start": 31.22,
+      "end": 31.62
+    },
+    {
+      "text": "yang",
+      "start": 31.62,
+      "end": 31.9
+    },
+    {
+      "text": "aku",
+      "start": 31.9,
+      "end": 32.12
+    },
+    {
+      "text": "lampirkan.",
+      "start": 32.12,
+      "end": 33.06
+    },
+    {
+      "text": "Batasannya:",
+      "start": 33.06,
+      "end": 33.98
+    },
+    {
+      "text": "satu",
+      "start": 33.98,
+      "end": 34.26
+    },
+    {
+      "text": "pesan",
+      "start": 34.26,
+      "end": 34.5
+    },
+    {
+      "text": "utama,",
+      "start": 34.5,
+      "end": 35.26
+    },
+    {
+      "text": "tanpa",
+      "start": 35.26,
+      "end": 35.52
+    },
+    {
+      "text": "jargon,",
+      "start": 35.52,
+      "end": 36.22
+    },
+    {
+      "text": "dan",
+      "start": 36.22,
+      "end": 36.48
+    },
+    {
+      "text": "akhiri",
+      "start": 36.48,
+      "end": 36.74
+    },
+    {
+      "text": "dengan",
+      "start": 36.74,
+      "end": 36.98
+    },
+    {
+      "text": "contoh",
+      "start": 36.98,
+      "end": 37.31
+    },
+    {
+      "text": "brief",
+      "start": 37.31,
+      "end": 37.64
+    },
+    {
+      "text": "yang",
+      "start": 37.64,
+      "end": 37.76
+    },
+    {
+      "text": "bisa",
+      "start": 37.76,
+      "end": 38.04
+    },
+    {
+      "text": "dicoba.",
+      "start": 38.04,
+      "end": 38.84
+    },
+    {
+      "text": "Lalu",
+      "start": 38.84,
+      "end": 39.4
+    },
+    {
+      "text": "minta",
+      "start": 39.4,
+      "end": 39.6
+    },
+    {
+      "text": "Codex",
+      "start": 39.6,
+      "end": 39.98
+    },
+    {
+      "text": "merangkum",
+      "start": 39.98,
+      "end": 40.35
+    },
+    {
+      "text": "brief",
+      "start": 40.35,
+      "end": 40.72
+    },
+    {
+      "text": "sebelum",
+      "start": 40.72,
+      "end": 41.08
+    },
+    {
+      "text": "mengerjakan.",
+      "start": 41.08,
+      "end": 42.06
+    },
+    {
+      "text": "Jadi",
+      "start": 42.06,
+      "end": 42.44
+    },
+    {
+      "text": "kamu",
+      "start": 42.44,
+      "end": 42.6
+    },
+    {
+      "text": "bisa",
+      "start": 42.6,
+      "end": 42.82
+    },
+    {
+      "text": "cek",
+      "start": 42.82,
+      "end": 43.16
+    },
+    {
+      "text": "apakah",
+      "start": 43.16,
+      "end": 43.51
+    },
+    {
+      "text": "arahnya",
+      "start": 43.51,
+      "end": 43.86
+    },
+    {
+      "text": "sudah",
+      "start": 43.86,
+      "end": 44.12
+    },
+    {
+      "text": "sesuai.",
+      "start": 44.12,
+      "end": 45.06
+    },
+    {
+      "text": "Simpan",
+      "start": 45.06,
+      "end": 45.3
+    },
+    {
+      "text": "rumusnya:",
+      "start": 45.3,
+      "end": 46.18
+    },
+    {
+      "text": "tujuan,",
+      "start": 46.18,
+      "end": 47.0
+    },
+    {
+      "text": "audiens,",
+      "start": 47.0,
+      "end": 47.82
+    },
+    {
+      "text": "format,",
+      "start": 47.82,
+      "end": 48.46
+    },
+    {
+      "text": "referensi,",
+      "start": 48.46,
+      "end": 49.28
+    },
+    {
+      "text": "batasan.",
+      "start": 49.28,
+      "end": 50.08
+    },
+    {
+      "text": "Coba",
+      "start": 50.08,
+      "end": 50.26
+    },
+    {
+      "text": "pakai",
+      "start": 50.26,
+      "end": 50.54
+    },
+    {
+      "text": "di",
+      "start": 50.54,
+      "end": 50.7
+    },
+    {
+      "text": "proyek",
+      "start": 50.7,
+      "end": 50.96
+    },
+    {
+      "text": "berikutnya!",
+      "start": 50.96,
+      "end": 51.618
+    }
+  ]
+}
