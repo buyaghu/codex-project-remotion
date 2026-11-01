@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:01,700
+Kerjaan kontenmu selalu mengulang langkah
+
+2
+00:00:01,700 --> 00:00:03,900
+yang sama? Bikin brief, susun
+
+3
+00:00:03,900 --> 00:00:06,020
+adegan, cek subtitle, lalu render
+
+4
+00:00:06,020 --> 00:00:08,580
+lagi. Kalau prosesnya berulang, coba
+
+5
+00:00:08,580 --> 00:00:10,340
+kemas jadi skill. Anggap saja
+
+6
+00:00:10,340 --> 00:00:11,980
+resep kerja yang bisa dipakai
+
+7
+00:00:11,980 --> 00:00:15,080
+lagi. Contohnya, skill produksi Reels:
+
+8
+00:00:15,080 --> 00:00:17,160
+baca brief, susun storyboard, buat
+
+9
+00:00:17,160 --> 00:00:19,660
+animasi, periksa hasil, lalu ekspor
+
+10
+00:00:19,660 --> 00:00:22,040
+video. Di Codex, skill punya
+
+11
+00:00:22,040 --> 00:00:24,024
+folder dengan file bernama skill
+
+12
+00:00:24,024 --> 00:00:26,720
+titik em di. Isinya nama,
+
+13
+00:00:26,720 --> 00:00:29,080
+deskripsi, dan petunjuk kerja. Tulis
+
+14
+00:00:29,080 --> 00:00:30,780
+kapan skill dipakai, bahan yang
+
+15
+00:00:30,780 --> 00:00:33,380
+dibutuhkan, langkah pengerjaan, dan hasil
+
+16
+00:00:33,380 --> 00:00:35,100
+yang harus dibuat. Untuk proyek
+
+17
+00:00:35,100 --> 00:00:37,060
+bersama, simpan di folder skill
+
+18
+00:00:37,060 --> 00:00:39,360
+proyek seperti di layar. Jadi
+
+19
+00:00:39,360 --> 00:00:41,540
+alurnya ikut tersimpan dalam repo.
+
+20
+00:00:41,540 --> 00:00:43,400
+Berikutnya, beri topik baru dan
+
+21
+00:00:43,400 --> 00:00:45,520
+minta Codex memakai skill itu.
+
+22
+00:00:45,520 --> 00:00:47,040
+Kamu tinggal menyesuaikan brief tiap
+
+23
+00:00:47,040 --> 00:00:49,620
+episode. Tetap periksa hasilnya. Skill
+
+24
+00:00:49,620 --> 00:00:51,980
+membantu mengulang proses, bukan menjamin
+
+25
+00:00:51,980 --> 00:00:54,340
+hasil selalu sempurna. Simpan alur
+
+26
+00:00:54,340 --> 00:00:55,940
+yang sudah terbukti, lalu pakai
+
+27
+00:00:55,940 --> 00:00:56,633
+lagi!
