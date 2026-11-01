@@ -1,0 +1,8 @@
+{
+  "url": "https://storage.googleapis.com/xi-backend/database/workspace/f94d1e6ca7cb462295c1c0b0cdd97511/content_generation/vs7T08jgkcENiJM0dXtn/9Ln5p5IaDkM4mEMVLWF4/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261101%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261101T023825Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=4126119ebb57dcdfe0354825c0fb70674b47045799b24807b8ae2742226175da6c38bfa7dc731ea03b9f29afc4915ddf8d525e84100f792272dd09fcfe9c831828adc6d78effbdb31eeb6ca9e0b644ec7e1bd96ed4b48877c020f555fd202e779833862a3957e35dbc7acc26e7ab6f34ddd597e5b45cc033f64294cd52608d669e8d86fffbe977c16013c1bdef63ce00c8d9bcfc6fae6e9daad960d24ac164aecd3a6156ad3d3a2b65ae469a998d85ce98933f3b541ba560602e4f5d72125ebc63b4938ddfcedc2f82f07c97eda3b339c9dcc1f0db94a9ef8fbfc91361d6b0b4b55340cdc76d6e829f9e813945c32a00b89ffea968620073884c52fd40fb7701",
+  "provider": "ElevenLabs",
+  "model": "eleven_v4",
+  "voice": "Andi",
+  "generationId": "9Ln5p5IaDkM4mEMVLWF4",
+  "flowId": "9cw8UH4yZlH8x3guj6hh"
+}

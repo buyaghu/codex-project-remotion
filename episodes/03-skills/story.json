@@ -1,0 +1,25 @@
+{
+  "title": "Kerjaan berulang? Jadikan skill!",
+  "narration": [
+    "Kerjaan kontenmu selalu mengulang langkah yang sama? Bikin brief, susun adegan, cek subtitle, lalu render lagi.",
+    "Kalau prosesnya berulang, coba kemas jadi skill. Anggap saja resep kerja yang bisa dipakai lagi.",
+    "Contohnya, skill produksi Reels: baca brief, susun storyboard, buat animasi, periksa hasil, lalu ekspor video.",
+    "Di Codex, skill punya folder dengan file bernama skill titik em di. Isinya nama, deskripsi, dan petunjuk kerja.",
+    "Tulis kapan skill dipakai, bahan yang dibutuhkan, langkah pengerjaan, dan hasil yang harus dibuat.",
+    "Untuk proyek bersama, simpan di folder skill proyek seperti di layar. Jadi alurnya ikut tersimpan dalam repo.",
+    "Berikutnya, beri topik baru dan minta Codex memakai skill itu. Kamu tinggal menyesuaikan brief tiap episode.",
+    "Tetap periksa hasilnya. Skill membantu mengulang proses, bukan menjamin hasil selalu sempurna. Simpan alur yang sudah terbukti, lalu pakai lagi!"
+  ],
+  "sources": [
+    {
+      "title": "OpenAI: Build skills",
+      "url": "https://developers.openai.com/codex/skills/"
+    }
+  ],
+  "targetSeconds": 58,
+  "design": {
+    "reference": "User video attached 2026-11-01: white graph-paper background, vertical blue timeline, floating cards, boxed active words, workflow diagrams.",
+    "mascot": "Approved black 3D Kodey with white limbs; transparent whole-image variant.",
+    "animation": "Whole-character transforms, diagram paths, sliding cards and highlighted words; no claim of separately rigged limbs or synchronized lip motion."
+  }
+}
