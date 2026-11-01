@@ -46,7 +46,7 @@ const Scene=({index,duration}:{index:number;duration:number})=>{
  <div style={{position:'absolute',left:78,right:78,top:235,transform:`translateY(${(1-enter(f))*25}px)`}}><div style={{fontSize:89,lineHeight:1.07,fontWeight:900,letterSpacing:-3}}>{title[0]}<br/><span style={{color:P.red}}>{title[1]}</span></div></div>
  <Panel index={index} f={f}/>
  <svg viewBox="0 0 1080 1920" style={{position:'absolute',width:1080,height:1920}}><Kodey f={f} x={index===6?260:540} y={index===0?1320:index===2?1350:1380} s={index===0?1.22:index===2?.93:1} pose={index===0||index===1?1:index===7?2:0}/></svg>
- {index===7&&<div style={{position:'absolute',left:0,right:0,top:1690,textAlign:'center',fontSize:25,color:P.muted}}>KODEY · MASKOT KREASI KANAL</div>}
+ {index===7&&<div style={{position:'absolute',left:0,right:0,top:1120,textAlign:'center',fontSize:25,color:P.muted}}>KODEY · MASKOT KREASI KANAL</div>}
  </AbsoluteFill>;
 };
 export const BriefFilm=()=>{
