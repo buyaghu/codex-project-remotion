@@ -15,15 +15,15 @@ adegan, cek subtitle, lalu render
 lagi. Kalau prosesnya berulang, coba
 
 5
-00:00:08,580 --> 00:00:10,340
+00:00:08,580 --> 00:00:10,540
 kemas jadi skill. Anggap saja
 
 6
-00:00:10,340 --> 00:00:11,980
+00:00:10,540 --> 00:00:11,960
 resep kerja yang bisa dipakai
 
 7
-00:00:11,980 --> 00:00:15,080
+00:00:11,960 --> 00:00:15,080
 lagi. Contohnya, skill produksi Reels:
 
 8
@@ -35,19 +35,19 @@ baca brief, susun storyboard, buat
 animasi, periksa hasil, lalu ekspor
 
 10
-00:00:19,660 --> 00:00:22,040
+00:00:19,660 --> 00:00:22,060
 video. Di Codex, skill punya
 
 11
-00:00:22,040 --> 00:00:24,024
+00:00:22,060 --> 00:00:23,985
 folder dengan file bernama skill
 
 12
-00:00:24,024 --> 00:00:26,720
+00:00:23,985 --> 00:00:26,700
 titik em di. Isinya nama,
 
 13
-00:00:26,720 --> 00:00:29,080
+00:00:26,700 --> 00:00:29,080
 deskripsi, dan petunjuk kerja. Tulis
 
 14
@@ -59,15 +59,15 @@ kapan skill dipakai, bahan yang
 dibutuhkan, langkah pengerjaan, dan hasil
 
 16
-00:00:33,380 --> 00:00:35,100
+00:00:33,380 --> 00:00:35,140
 yang harus dibuat. Untuk proyek
 
 17
-00:00:35,100 --> 00:00:37,060
+00:00:35,140 --> 00:00:37,040
 bersama, simpan di folder skill
 
 18
-00:00:37,060 --> 00:00:39,360
+00:00:37,040 --> 00:00:39,360
 proyek seperti di layar. Jadi
 
 19
