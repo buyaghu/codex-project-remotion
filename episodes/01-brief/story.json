@@ -1,0 +1,26 @@
+{
+  "title": "Kenapa hasil Codex masih generik?",
+  "narration": [
+    "Hasil Codex masih generik? Coba cek brief kamu. Kamu cuma bilang, bikinin konten yang bagus?",
+    "Bagus buat siapa? Untuk platform apa? Kalau arahnya samar, hasilnya juga bisa meleset.",
+    "Sebelum mulai, kasih lima hal: tujuan, audiens, format, referensi, dan batasan.",
+    "Contohnya: buat storyboard Reels edukasi untuk kreator pemula. Tujuannya mengajarkan cara menulis brief ke Codex.",
+    "Durasinya lima puluh detik. Pakai maskot, ilustrasi sederhana, dan gaya bahasa santai. Referensinya video yang aku lampirkan.",
+    "Batasannya: satu pesan utama, tanpa jargon, dan akhiri dengan contoh brief yang bisa dicoba.",
+    "Lalu minta Codex merangkum brief sebelum mengerjakan. Jadi kamu bisa cek apakah arahnya sudah sesuai.",
+    "Simpan rumusnya: tujuan, audiens, format, referensi, batasan. Coba pakai di proyek berikutnya!"
+  ],
+  "sources": [
+    {
+      "title": "OpenAI — Codex prompting",
+      "url": "https://learn.chatgpt.com/docs/prompting"
+    }
+  ],
+  "targetSeconds": 53,
+  "format": "1080x1920, 30fps",
+  "notes": [
+    "Demonstrations are illustrations, not screen recordings or claims of a real UI.",
+    "Five-part brief is an editorial framework, not a mandatory Codex API schema.",
+    "Kodey is an original knot-inspired character, not an official OpenAI mascot."
+  ]
+}

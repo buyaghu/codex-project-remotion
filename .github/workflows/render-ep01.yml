@@ -1,0 +1,76 @@
+name: Render Codex Creator Episode 01
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['episodes/01-brief/**', '.github/workflows/render-ep01.yml']
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install media dependencies
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - run: npm install --no-audit --no-fund
+      - run: pip install faster-whisper==1.2.1
+      - name: Prepare narration and synchronized captions
+        run: python episodes/01-brief/scripts/prepare.py
+      - run: npx tsc --project episodes/01-brief/tsconfig.json
+      - run: npx remotion browser ensure
+      - run: node episodes/01-brief/scripts/previews.mjs
+      - name: Render MP4
+        run: npx remotion render episodes/01-brief/index.ts CodexBrief out/ep01/codex-brief.mp4 --codec=h264 --concurrency=2
+      - name: Verify video and audio
+        run: |
+          ffprobe -v error -show_entries format=duration -show_entries stream=codec_type,width,height -of json out/ep01/codex-brief.mp4 > out/ep01/media-info.json
+          python - <<'PY'
+          import json
+          x=json.load(open('out/ep01/media-info.json'))
+          duration=float(x['format']['duration'])
+          assert 45 <= duration <= 60, duration
+          assert any(s.get('codec_type')=='audio' for s in x['streams'])
+          assert any(s.get('width')==1080 and s.get('height')==1920 for s in x['streams'])
+          t=json.load(open('episodes/01-brief/timing.json'))
+          assert abs(duration-t['durationInFrames']/30)<.2
+          assert len(t['scenes'])==8
+          print('Verified', duration, 'seconds; alignment', t['alignmentCoverage'])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codex-creator-ep01
+          path: out/ep01/
+          if-no-files-found: error
+      - name: Save downloadable deliverables
+        run: |
+          mkdir -p renders/ep01
+          cp out/ep01/* renders/ep01/
+          python - <<'PY'
+          import json
+          p='episodes/01-brief/voice.json'
+          x=json.load(open(p))
+          x['url']=''
+          x['note']='Reusable narration is in public/episodes/01-brief/narration.mp3.'
+          open(p,'w').write(json.dumps(x,indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f public/episodes/01-brief/narration.mp3 public/episodes/01-brief/music.wav episodes/01-brief/timing.json episodes/01-brief/voice.json renders/ep01/
+          git diff --cached --quiet || git commit -m 'Save Codex creator episode 01 video and reusable media'
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: ep01-diagnostics
+          path: out/ep01/
+          if-no-files-found: ignore
