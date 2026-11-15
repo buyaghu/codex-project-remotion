@@ -3,3 +3,10 @@ out/
 public/*.mp3
 public/*.wav
 __pycache__/
+
+# Local content creation tool caches and generated output
+content-studio/node_modules/
+content-studio/.cache/
+content-studio/libraries/lemo-opuscar/.venv/
+content-studio/verification/
+
