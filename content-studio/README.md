@@ -1,53 +1,40 @@
 # Studio konten
 
-Empat paket yang diminta sudah dipasang secara lokal di workspace ini. Instalasi berisi 16 skill, panduan, skrip, dan aset pendukung dari repo aslinya.
+Empat paket skill berikut tersimpan di repo `buyaghu/codex-project-remotion`, lengkap dengan panduan, skrip, aset pendukung, dan lisensi sumber.
 
-| Paket | Isi | Lokasi awal |
+| Paket | Isi | Panduan awal |
 | --- | --- | --- |
-| HyperFrames | HTML menjadi video; enam skill inti | `.agents/skills/hyperframes/SKILL.md` |
-| Animate | Animasi canvas; tujuh gaya bawaan | `.agents/skills/animate/SKILL.md` |
-| Lemo-Opuscar | 99 gaya film, ditambah template gaya | `.agents/skills/lemo-opuscar/SKILL.md` |
-| GSAP resmi | Delapan skill untuk gerakan, timeline, plugin, framework dan performa | `.agents/skills/gsap-core/SKILL.md` |
+| HyperFrames | HTML menjadi video; enam skill inti | [.agents/skills/hyperframes/SKILL.md](.agents/skills/hyperframes/SKILL.md) |
+| Animate | Animasi canvas; tujuh gaya bawaan | [.agents/skills/animate/SKILL.md](.agents/skills/animate/SKILL.md) |
+| Lemo-Opuscar | 99 gaya film, ditambah template gaya | [.agents/skills/lemo-opuscar/SKILL.md](.agents/skills/lemo-opuscar/SKILL.md) |
+| GSAP resmi | Delapan skill untuk gerakan, timeline, plugin, framework dan performa | [.agents/skills/gsap-core/SKILL.md](.agents/skills/gsap-core/SKILL.md) |
 
-Repo Lemo-Opuscar yang benar adalah https://github.com/lemomo-ai/lemo-opuscar. Versi yang dipasang sudah memiliki 99 gaya, lebih banyak daripada 66 pada gambar referensi.
+## Memakai di sesi baru
 
-## Pakai lewat percakapan
+Pilih repo ini ketika membuka task atau sesi Codex dan gunakan `main` terbaru setelah PR pemasangan digabungkan. Skill tersedia dari checkout repo; chat yang tidak memuat repo ini tidak otomatis menerima file-file tersebut.
 
-Cukup sebut hasil yang diinginkan, contohnya:
+Folder `.agents/skills/` pada root repo menautkan 16 skill ke sumber di folder ini. `AGENTS.md` pada root repo menjelaskan kapan setiap skill dipakai dan mempertahankan workflow Remotion serta identitas maskot yang sudah ada.
 
-> Buat konten Reels 30 detik berbahasa Indonesia tentang [topik], format 9:16, dengan Animate gaya cut paper.
+Contoh permintaan:
 
-> Buat video promosi produk [nama] menggunakan HyperFrames dan animasi GSAP.
+> Em, buat konten Reels 30 detik berbahasa Indonesia tentang [topik], format 9:16, menggunakan Animate gaya cut paper.
 
-> Buat video edukasi 45 detik memakai gaya Whiteboard Explainer dari Lemo-Opuscar.
+> Em, buat video promosi produk [nama] menggunakan HyperFrames dan animasi GSAP.
 
-`/workspace/AGENTS.md` mengarahkan agen ke skill yang sesuai untuk permintaan berikutnya. Ini merupakan pemasangan lokal proyek; daftar plugin akun ChatGPT tidak berubah. Folder skill bawaan `/workspace/.agents` dan `/workspace/.codex` hanya bisa dibaca pada lingkungan ini, sehingga instalasi memakai folder `.agents/skills` di proyek ini.
+> Em, buat video edukasi memakai gaya Whiteboard Explainer dari Lemo-Opuscar.
 
-## Alat lokal
+## Alat render
 
-Node, Python dan FFmpeg tersedia. HyperFrames CLI, Playwright, browser headless, serta dependensi inti Lemo-Opuscar sudah dipasang. Aktifkan jalur alat dan cache sebelum menjalankan perintah:
+Panduan setup berada di [REPO-SETUP.md](REPO-SETUP.md). Skill dapat dibaca dari repo tanpa instalasi ulang. Untuk merender, periksa Node, Python, FFmpeg, paket npm, dan browser pada environment baru; dependensi, cache dan hasil render tidak disimpan di Git.
 
-```bash
-cd /workspace/content-studio
-. ./env.sh
-hyperframes --version
-sh .agents/skills/lemo-opuscar/scripts/setup.sh
-```
-
-Dependensi suara dan musik tambahan Lemo-Opuscar dipasang saat diperlukan:
-
-```bash
-sh .agents/skills/lemo-opuscar/scripts/setup.sh deps voice music
-```
-
-Voice-over eksternal, model berbayar, dan fitur HyperFrames Pro mengikuti akun dan layanan yang dipilih saat membuat konten. Pemasangan skill ini tidak membuat akun atau langganan baru.
-
-Pada sandbox sesi ini, proses browser membutuhkan izin jaringan di alat eksekusi, termasuk saat membaca halaman lokal, karena sandbox tanpa jaringan menolak operasi socket browser.
+`env.sh` menemukan lokasinya sendiri sehingga checkout tidak harus berada di `/workspace/content-studio`. Dependensi suara dan musik tambahan Lemo-Opuscar dipasang saat diperlukan. Layanan berbayar dan fitur Pro mengikuti akun serta layanan yang dipilih ketika membuat konten.
 
 ## Sumber dan pemeriksaan
 
-`install-manifest.json` mencatat repo, commit, jalur dan hash Git setiap file. Semua 841 file unduhan sudah diperiksa hash-nya, dan lisensi sumber disertakan. Berkas asli skill tidak diubah. Dependensi npm dikunci pada lockfile.
+`install-manifest.json` mencatat commit, jalur dan hash 841 file upstream. Semua file ini sudah dicocokkan dengan sumbernya. Lisensi disertakan di folder `licenses/` dan perpustakaan terkait. Repo Lemo-Opuscar yang benar adalah https://github.com/lemomo-ai/lemo-opuscar.
 
-Uji instalasi membangun demo matematika bawaan Animate dan mengambil satu frame melalui browser. Ini pemeriksaan teknis instalasi, bukan video konten baru. Hasilnya berada di `verification/`.
+Pemeriksaan awal juga membangun demo matematika bawaan Animate dan mengambil frame melalui browser. Skrip pemulihan telah diuji pada lokasi checkout berbeda, dan seluruh tautan skill diperiksa.
 
-Untuk memulihkan berkas sumber dari commit yang sama, jalankan `python scripts/install-skills.py` dengan akses jaringan. Skrip ini mengembalikan berkas yang berubah ke versi upstream yang tercatat; jangan jalankan untuk menyimpan modifikasi lokal skill.
+Untuk memulihkan berkas sumber dari commit yang sama, jalankan `python scripts/install-skills.py` dengan akses jaringan. Skrip mengembalikan berkas sumber yang berubah ke versi upstream yang tercatat; simpan modifikasi lokal sebelum menjalankannya.
+
+Panduan pemindahan lewat ZIP, jika diperlukan, ada di [PINDAH-SESI.md](PINDAH-SESI.md).
