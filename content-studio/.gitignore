@@ -1,0 +1,5 @@
+node_modules/
+.cache/
+libraries/lemo-opuscar/node_modules/
+libraries/lemo-opuscar/.venv/
+verification/

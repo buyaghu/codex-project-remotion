@@ -1,0 +1,10 @@
+{
+  "name": "content-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local content creation workspace with HyperFrames, Animate, Lemo-Opuscar and GSAP skills",
+  "dependencies": {
+    "hyperframes": "0.9.52",
+    "playwright": "1.65.1"
+  }
+}

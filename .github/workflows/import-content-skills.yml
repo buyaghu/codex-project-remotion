@@ -1,0 +1,58 @@
+name: Import pinned content skills
+on:
+  push:
+    branches:
+      - codex/install-content-skills-20261115
+    paths:
+      - .github/workflows/import-content-skills.yml
+      - content-studio/install-manifest.json
+      - content-studio/scripts/install-skills.py
+permissions:
+  contents: write
+concurrency:
+  group: import-content-skills
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Download and verify pinned sources
+        run: python3 content-studio/scripts/install-skills.py
+      - name: Link skills and commit verified sources
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib, subprocess
+          root = pathlib.Path.cwd()
+          skills = root / 'content-studio/.agents/skills'
+          links = []
+          for skill in sorted(skills.iterdir()):
+              if not (skill / 'SKILL.md').is_file():
+                  continue
+              link = root / '.agents/skills' / skill.name
+              expected = '../../content-studio/.agents/skills/' + skill.name
+              link.parent.mkdir(parents=True, exist_ok=True)
+              if link.is_symlink():
+                  assert link.readlink().as_posix() == expected, str(link)
+              elif link.exists():
+                  raise RuntimeError('Refusing to replace existing skill: ' + str(link))
+              else:
+                  link.symlink_to(expected, target_is_directory=True)
+              assert (link / 'SKILL.md').is_file(), str(link)
+              links.append(str(link.relative_to(root)))
+          assert len(links) == 16, len(links)
+          link = root / 'content-studio/libraries/lemo-opuscar/plugin/skills/lemo-opuscar'
+          link.parent.mkdir(parents=True, exist_ok=True)
+          if not link.is_symlink() and not link.exists():
+              link.symlink_to('../../../../.agents/skills/lemo-opuscar', target_is_directory=True)
+          assert (link / 'scripts/setup.sh').is_file()
+          subprocess.run(['git', 'add', '--', 'content-studio', *links], check=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m "Vendor pinned content creation skills and support files"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
