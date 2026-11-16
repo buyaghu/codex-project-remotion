@@ -30,3 +30,10 @@ Four project-local skills are also installed and discoverable through `.agents/s
 - `claude-drawing`: procedural drawing and draw-on animations with Python, NumPy and Pillow.
 
 Read the selected skill's `SKILL.md` before use. Keep the existing Remotion framework and approved mascot when working on existing productions. Sources, commit pins, file hashes and omitted gallery media are recorded in `content-studio/creative-skills-manifest.json`. Upstream workflow bodies and licenses are retained; skill names and descriptions are adapted for Codex discovery. Cuttr AI is not included because no verified skill source was supplied.
+
+## Free local Vox explainer
+
+- `vox-explainer`: code-driven editorial paper-collage explainers, with no required paid generation API. Read `content-studio/.agents/skills/vox-explainer/SKILL.md`.
+- `brand-intake`: companion for brand and motion setup. Read `content-studio/.agents/skills/brand-intake/SKILL.md`.
+
+These skills are bundled in `content-studio/.agents/skills/` and linked from root `.agents/skills/`. Prefer `vox-explainer` when the user requests free local Vox-style animation; `vox-director` is a separate API-based workflow. Use the existing bundled HyperFrames tools for local rendering. External narration such as ElevenLabs is optional and follows the user's account quota and authorization; it is not included in the free local skill.
