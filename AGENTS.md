@@ -19,3 +19,14 @@ Read the relevant skill before using it. Follow the user's requested framework a
 
 For fresh environments and render dependency setup, read [content-studio/REPO-SETUP.md](content-studio/REPO-SETUP.md). The skills are available when this repository is loaded; opening an unrelated chat does not copy this repository automatically. Keep new content projects out of the bundled skill and library source folders.
 
+
+## Additional creative skills
+
+Four project-local skills are also installed and discoverable through `.agents/skills/`:
+
+- `bang-motion`: cinematic browser motion graphics, openers and explainers.
+- `vox-director`: Vox-style collage videos. Requires your own `ATLASCLOUD_API_KEY` for its generation pipeline; installation does not run paid generation.
+- `huashu-art-motion`: code-driven art animations and explainer clips; requires uv, FFmpeg and Playwright Chromium when rendering.
+- `claude-drawing`: procedural drawing and draw-on animations with Python, NumPy and Pillow.
+
+Read the selected skill's `SKILL.md` before use. Keep the existing Remotion framework and approved mascot when working on existing productions. Sources, commit pins, file hashes and omitted gallery media are recorded in `content-studio/creative-skills-manifest.json`. Upstream workflow bodies and licenses are retained; skill names and descriptions are adapted for Codex discovery. Cuttr AI is not included because no verified skill source was supplied.

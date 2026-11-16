@@ -1,0 +1,3335 @@
+{
+  "skills": [
+    {
+      "name": "bang-motion",
+      "repository": "https://github.com/bangtutorial/bang-motion",
+      "commit": "c1aa65e921c970d858705fcb4a53a8294d1a4131",
+      "adaptation": "Shortened SKILL.md frontmatter for Codex; original frontmatter saved alongside it. Workflow body unchanged.",
+      "files": [
+        {
+          "path": ".claude-plugin/marketplace.json",
+          "sha256": "3eb2b9b9f44d9abe7b4ef6462db5d3263571ce50ec3ddf5ea1f2830c7b3ed51a"
+        },
+        {
+          "path": ".claude-plugin/plugin.json",
+          "sha256": "037f68251bfbb3ea5779b6d2c35b3db0b61537a0cc2ed360b0ba8b7e68a2be3b"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "f3bb8114a913aaa923898f63e3cf151311362388f4cc7ec0197a324b9b77f635"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "5baa6f2a531baa97eb2d3dea7778990fb244d5c6627025b5c2a5bdebd8d1bf5c"
+        },
+        {
+          "path": "README.md",
+          "sha256": "054755a1c507b6a6ca0ac74992c49a6ecd808af4be32ae32a8f00ca57b5d4de7"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "c4782d6002ed2fda3d4dd0acf82a925f7aaf78a11bbb9c6e981763c587cd36de"
+        },
+        {
+          "path": "assets/starter-explainer-jurnalisme.html",
+          "sha256": "6ce2fbbce85f532a30ba7c0ff217857c0481b44827b889ed13adbcca9a6bd16b"
+        },
+        {
+          "path": "assets/starter-explainer-kartun.html",
+          "sha256": "edd457165a8d0ab5b3bf4b5a46fde2681dc99503402b0b1ebf7030b123e8cd53"
+        },
+        {
+          "path": "assets/starter-explainer-katalog.html",
+          "sha256": "75803f02b0837919cd3ca44fc4af4cdd4db5cdc1ef4ccdb4714485a0bfe40b64"
+        },
+        {
+          "path": "assets/starter-explainer-panggung.html",
+          "sha256": "cb623389cb50eab7a8d3e64905eb82b844986f649585aef5dd494e917f13af92"
+        },
+        {
+          "path": "assets/starter-explainer-sketsa.html",
+          "sha256": "e6d06197b2f3ee217e6e0b9b99f58a05e23a1f28967b1cc2182478d4b53412bd"
+        },
+        {
+          "path": "assets/starter-explainer.html",
+          "sha256": "ca7837f0a8c2aabc60aece8a15b92893137c60add84b3206f8fafc45a0c9fd51"
+        },
+        {
+          "path": "assets/starter-opener.html",
+          "sha256": "bbe560bb885032b9f20e4e2618d47bbbf2617061a3bf670485eebecb4e1b618e"
+        },
+        {
+          "path": "icon.png",
+          "sha256": "ad8149e7ab007bdd115c0a360a9e330e1097feecb0dda8fa3bcf053872ba9eec"
+        },
+        {
+          "path": "icon.svg",
+          "sha256": "46097f48d006dce3e2e63d246903b832af3821e2210ee60d56da5babfd6af0ee"
+        },
+        {
+          "path": "references/ae-bridge-higgsfield.md",
+          "sha256": "a193d67e36490b1ed8eaa083e53288dba6926aab75edbcdd4c789db1a80de127"
+        },
+        {
+          "path": "references/anti-ppt.md",
+          "sha256": "343b6b4a36434a319059cfaa19562eee7804227b2e4c24efb918b0676ce43b82"
+        },
+        {
+          "path": "references/architecture.md",
+          "sha256": "84d65d29ce499dee656995fc31c5ed68b1e9891f4811d8013c600149863fd4ce"
+        },
+        {
+          "path": "references/explainer.md",
+          "sha256": "6470b6c70e588fd8debb48765eb825f5d0784c82fa0c5861ad5be801639bf19f"
+        },
+        {
+          "path": "references/kartun-panggung.md",
+          "sha256": "9cbbfdf8dfaf6fd51532198f123d9ee1c66f4822b381b26875aa3c150506d8b1"
+        },
+        {
+          "path": "references/opener-konsep.md",
+          "sha256": "a9818da8561d43b168188abb6a0f8642e0e9296a7b0be5728df1e15fddf3ce3c"
+        },
+        {
+          "path": "references/roadmap.md",
+          "sha256": "89ed5e1d4e142f979ff5e79f70267076a895b52a8b80c11e85c78ae67634a029"
+        },
+        {
+          "path": "references/techniques.md",
+          "sha256": "9a0c7a9716fea74421aa02a48f4e63edd837b7b308bfd425d5c3578e5e0144fc"
+        },
+        {
+          "path": "scripts/ae/bridge/aset-svg.py",
+          "sha256": "4af1264276a331b9bbe2e8fdc020f3a403ebc64af2f61c52a079f4eb7717812b"
+        },
+        {
+          "path": "scripts/ae/bridge/package.json",
+          "sha256": "bd551e1d4a3cdcb5ccc04a4cf306ac0f7185335291aac3fc1fd5acf127c6c202"
+        },
+        {
+          "path": "scripts/ae/bridge/rig-tokoh.py",
+          "sha256": "22bafcd415ab8045f1aad286a8181d79fbbb4eb425d3b9003c21ab3dc0baa72d"
+        },
+        {
+          "path": "scripts/ae/bridge/svg2png.cjs",
+          "sha256": "d7df25657a0757702a299af09d633059d816f77a515990860ad56c450c99c29d"
+        },
+        {
+          "path": "scripts/export-frames.mjs",
+          "sha256": "b71506aa35794d34dcba9a83e1807eedf2a3c22ca15254ef6bc02d4fd694ea64"
+        },
+        {
+          "path": "scripts/kepala-ekspresi.py",
+          "sha256": "5a2c4edd6be40e4580b76805e3762c769d333f821875b871f0b9428d806a30c7"
+        },
+        {
+          "path": "scripts/serve.py",
+          "sha256": "918a0fce3ccb6e1242b0e3d9ed0a02f95e3a795ad88102fb27eecb8760d1032f"
+        },
+        {
+          "path": "scripts/snap.mjs",
+          "sha256": "c2e434e8052ccb9a827a9fc0721ee238afce3b05d24c8d6d33e21df57bab76a1"
+        },
+        {
+          "path": "scripts/vo-pauses.html",
+          "sha256": "9e70ccacb2d0476b21a98be51102220cfc6cd882ce5486f9ba0299a5017344d3"
+        }
+      ],
+      "omitted_gallery_files": [
+        "docs/gallery/01-grainy-gradient.jpg",
+        "docs/gallery/02-kinetic-colorblock.jpg",
+        "docs/gallery/03-saas-ui-tour.jpg",
+        "docs/gallery/04-flat-vector.jpg",
+        "docs/gallery/05-continuous-action.jpg",
+        "docs/gallery/06-cartoon-stage.jpg",
+        "docs/gallery/07-flat-pop-photo.jpg",
+        "docs/gallery/08-white-catalog.jpg",
+        "docs/gallery/09-visual-journalism.jpg",
+        "docs/gallery/10-vintage-sketch.jpg",
+        "docs/gallery/11-cartoon-collage.jpg",
+        "docs/gallery/12-more-combinations.jpg",
+        "docs/gallery/hero.jpg"
+      ]
+    },
+    {
+      "name": "vox-director",
+      "repository": "https://github.com/Alisa0808/vox-director",
+      "commit": "6a85a7c341610442a6a5b1885e6e0217ab82a11f",
+      "adaptation": "Shortened SKILL.md frontmatter for Codex; original frontmatter saved alongside it. Workflow body unchanged.",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "4dca63f17af3ab691ca63dbae1e32f9ad8e199104234af0430ae8ac762da2db8"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "a9915c2109b9693c3685c9f5238c38caad85aee48ad02b2b3ca2bc6d0ee60375"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "5adab6ad9cdc7f1a3b972704cfbd751bafef6fb36f08f9739c9c7a4005666e3b"
+        },
+        {
+          "path": "README.md",
+          "sha256": "0de60ae3b9126d650be88a7d6f03a56ca0717c0c799e537f197d3f5bbe65872c"
+        },
+        {
+          "path": "README.zh.md",
+          "sha256": "6a2637a87141ecbf1ca741c6ff40db11b36dad003ef6f07664593a9e33b30339"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "ece06bfc996bd929b681c26a9359c37f05de96bde2f660b8d23afce72d9405eb"
+        },
+        {
+          "path": "SKILL.zh.md",
+          "sha256": "0a79705e08da898748cfaf1ee66c9e2f5a7b9cfd2085c32b8c254061653e30dc"
+        },
+        {
+          "path": "examples/cr7-act.elements_spec.json",
+          "sha256": "49eb3b9b5170bb9ac4beeb26f8a9cb1ff93ab24f8889a957dc4506ec98e78a61"
+        },
+        {
+          "path": "examples/money-15s.beats.json",
+          "sha256": "e319b265b48c6eee77bb60c89fe9c2ceb9c4df44d99fddc5173e7d5507cb754e"
+        },
+        {
+          "path": "examples/money-60s-9x16-english.beats.json",
+          "sha256": "c5c897453c258b754f1281e84f22171a1e947036bff6d6fd6976fabafc46b6eb"
+        },
+        {
+          "path": "examples/ronaldo-9x16-kling.beats.json",
+          "sha256": "5166276097085b128b4162bbe79b7315064b515d51615ae2627cf9efb32d1797"
+        },
+        {
+          "path": "examples/tang-30s.beats.json",
+          "sha256": "a78c70137c99e66cde9f7a3f91965ae5847192580b6106a10ae3984a0bade8a4"
+        },
+        {
+          "path": "llms.txt",
+          "sha256": "b81721f9976d3c02529939ab757a39fbc1a273020d623d05e7378a83f4123afa"
+        },
+        {
+          "path": "package.json",
+          "sha256": "a1c42d600f6393b34d8ece8bba555fd93986538e72795249511e8c0463d03760"
+        },
+        {
+          "path": "references/beat-layer.md",
+          "sha256": "dc73a2ca8b43a02003673e7aa4871530e13f182ff6b6824fba20f1c31700bbc8"
+        },
+        {
+          "path": "references/host-mode.md",
+          "sha256": "dec872d25eb7c6d18c1d32386758325b1169dbe3a223d78813b867c9311b2d66"
+        },
+        {
+          "path": "references/local-engine.md",
+          "sha256": "9b256bcdaf8cbd58f63b9410cff6ffdf6d0f71cb739edb6fbab4cd18398b94f7"
+        },
+        {
+          "path": "references/models-and-gotchas.md",
+          "sha256": "66c07273c557b052cee5c041c49bf8a292a781aa89129d373e12b6cab49b91dd"
+        },
+        {
+          "path": "references/prompt-guide.md",
+          "sha256": "3767a53cf32c7676c5d81a232b971ec9f6495286485eed756f4693c72f5f6186"
+        },
+        {
+          "path": "references/voices.md",
+          "sha256": "d4adbeb9aa3fb13b59ee9430b6aedac0fff4426b663426e34b5efed6de7759aa"
+        },
+        {
+          "path": "scripts/aroll_assemble.py",
+          "sha256": "340d4e5937199cca28c06de969e855e020d46b13749ea35978687d40c55e92d3"
+        },
+        {
+          "path": "scripts/aroll_clips.py",
+          "sha256": "1aa1daea939f12e64d31c4bcdc1ba261ec00d33d6489fc17bed20d2015cd4587"
+        },
+        {
+          "path": "scripts/asr_beats.py",
+          "sha256": "0d28e5ac284d5957666561839ed931718f661d85998d671a045f40ea33fc3b27"
+        },
+        {
+          "path": "scripts/assemble.py",
+          "sha256": "dad12281e69edfa75bf28625cd8f412df01b9963acef4a4ab5ee167571e41d9d"
+        },
+        {
+          "path": "scripts/atlas_cloud.py",
+          "sha256": "0f36fe023b1e5626c8d27d8e83b7158270867f698f85d7fbbf6179ee52a6b225"
+        },
+        {
+          "path": "scripts/audio.py",
+          "sha256": "7378f19f5cbd37e8c197d3905907a8a1548bd943bff0ff00d7c19a771e393fd6"
+        },
+        {
+          "path": "scripts/clips.py",
+          "sha256": "fe948595595bb7218a5adbce53e7208ec3e804767d5337e929c9ebc94741428e"
+        },
+        {
+          "path": "scripts/confetti.py",
+          "sha256": "13866761df06173d21f566b81121ae6f14c4b5fed88826d3594b0496e3fd43b0"
+        },
+        {
+          "path": "scripts/croll_keyframes.py",
+          "sha256": "b11d17148cec16f5a1888440217402dce6d26cdacbc09126cf1495698e1bd0d2"
+        },
+        {
+          "path": "scripts/extract_elements.py",
+          "sha256": "2b9d33529b48c87bb97b16645d2af7b6a73ab7111bdf10b62459fd58984b0029"
+        },
+        {
+          "path": "scripts/host.py",
+          "sha256": "393b7635639840db89d7755cd02d4f6201f6da0034029b0fc49a527361326154"
+        },
+        {
+          "path": "scripts/host_clips.py",
+          "sha256": "541bc83b57825a57f3273b8a2cd04d17bf1b54dd8bbaaa590467026a753402b3"
+        },
+        {
+          "path": "scripts/host_plates.py",
+          "sha256": "4b2ac8baf4a7b2c09242419be7643813383bf89ab145feef38d3f7462aa46e2b"
+        },
+        {
+          "path": "scripts/kenburns.py",
+          "sha256": "1d96a3663a302270907f9d17f9e73395dcafe72ce01f66954cd0bc4f4cd25ace"
+        },
+        {
+          "path": "scripts/keyframes.py",
+          "sha256": "afa78ffa3fa42a5cb2551a0cf9e967f165c5b7bbf2abe7cf5f4d1a5850cd73b7"
+        },
+        {
+          "path": "scripts/lipsync_score.py",
+          "sha256": "4f697e7e6c48da198da79205d0716314db652de311812e092c2859f57c60c22c"
+        },
+        {
+          "path": "scripts/mg_scrapbook.py",
+          "sha256": "035493e5978d5559aedfa6bfdafc00a987a36b54db5a6ac082b40e7921aa8198"
+        },
+        {
+          "path": "scripts/motion.py",
+          "sha256": "b8094136d273ec944a549313ab7c92cf762eaf87a7bde162f6a729795343d8e8"
+        },
+        {
+          "path": "scripts/provider.py",
+          "sha256": "3b4108710745b9f12ff980d2a8e369f6ea0165f62b49a97641f87a2e8bad787b"
+        },
+        {
+          "path": "scripts/style_bakeoff.py",
+          "sha256": "0e773d664d62aba842d4022f9eebb428a5d5ea07802c962893a171c64d5bb59c"
+        },
+        {
+          "path": "scripts/styles.py",
+          "sha256": "5dc4c560dc9433486281e18d6144359d2569eb3047bd4918d4eb6dd7fe51b17e"
+        },
+        {
+          "path": "scripts/text_overlay.py",
+          "sha256": "ce43794f9d8d04ba89ae906cbdd57f5aebeb4de356d2882145fe0054e74a5b8d"
+        }
+      ],
+      "omitted_gallery_files": [
+        "assets/showcase-football.mp4",
+        "assets/showcase-money.mp4",
+        "assets/showcase-silicon-valley.mp4",
+        "assets/showcase-tang.mp4",
+        "assets/thumbs/football.jpg",
+        "assets/thumbs/mexican.jpg",
+        "assets/thumbs/money.jpg",
+        "assets/thumbs/silicon-valley.jpg",
+        "assets/thumbs/tang.jpg",
+        "vox-director.skill"
+      ]
+    },
+    {
+      "name": "huashu-art-motion",
+      "repository": "https://github.com/alchaincyf/huashu-art-motion",
+      "commit": "b7c34521c61bb9359590193c9d1ec95de607a4d1",
+      "adaptation": "Shortened SKILL.md frontmatter for Codex; original frontmatter saved alongside it. Workflow body unchanged.",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "28b7c75378a153807b8127362ba5e627b91870edf5170b7b3847fb19acf3d8a9"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "bbc7c909f0d67d8bf8ab7731d7817afbe87acb5bd6525b78ecbbed5517be0544"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "7613c2d12d2e74179959e68c5beb169f8c2cce9e7c8b42df7d679af8cef4a8f9"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96"
+        },
+        {
+          "path": "README.en.md",
+          "sha256": "1e8469f9df9e9676edd0a5193b177430c23b3483265035fd10b163ce9c0321e4"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c20ffc9dc918f3b565fe1fd22a806b0b75e3a38f366a86a33b3a75f3fe42cd1e"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "6742107724e234436c39b690eae2f54cf986825634de2b69053f419e99faa48d"
+        },
+        {
+          "path": "assets/角色/花叔形象_对比.jpg",
+          "sha256": "e2dd1082f5a6d6c66182b27b16a71ad9b6426e567ff4b406e4ebec007e044615"
+        },
+        {
+          "path": "defaults/media.json",
+          "sha256": "8e1c98a9b5b8195f66c4060e05e5dded9bb95b797164a8b9c587bdfa5df4e0b4"
+        },
+        {
+          "path": "references/01-拆解.md",
+          "sha256": "83dd492d5b1f616a6e45302b630a7fbcaa65a16120a8df443185df2ee615cb32"
+        },
+        {
+          "path": "references/02-机制.md",
+          "sha256": "8b5a7c248bd5d816d2408a4f79fc6dbe866e8f03104c7a71b9d2fa2c8a696cdc"
+        },
+        {
+          "path": "references/03-一帧先行四条路线.md",
+          "sha256": "cfc167ff5c13ed29f03fa967be4e775494e2f2d0a1879dfb8473cf2ea432c2d7"
+        },
+        {
+          "path": "references/04-纯代码绘制.md",
+          "sha256": "7d234b7fb904626cc99af0cb687d3bb7104263c089b3ee2cda59408dc5dfc0eb"
+        },
+        {
+          "path": "references/05-节奏与配乐.md",
+          "sha256": "1086c15ea216548777d2fa5552cd5c874ff89df2da84f9ffa160737930e3d98f"
+        },
+        {
+          "path": "references/06-口播驱动的艺术短片.md",
+          "sha256": "9275abd6451831515ed9aed24724062bf47dda5e5d2d804baa8313c137236bc8"
+        },
+        {
+          "path": "references/07-正面经验.md",
+          "sha256": "b151c1cc6932a3cbc66b03d847e8a1b547073dc5a28d836a05da5ae9a11cb79b"
+        },
+        {
+          "path": "references/08-风格作者规范.md",
+          "sha256": "b7db67c8418410dec8313b7212e2aa52f9db8d8395b26cc0b72c19ab1a376728"
+        },
+        {
+          "path": "references/09-视频动画语法.md",
+          "sha256": "2a2e3256fc5dd2ba1e0c96312e0fa63299ff3a5f0bb9d1bcf84539af902a26e1"
+        },
+        {
+          "path": "references/10-角色.md",
+          "sha256": "8fe37c83597892c42c8f292c00f302804fcc4a362ef47998abea038d96aa6166"
+        },
+        {
+          "path": "references/11-长卷穿越片.md",
+          "sha256": "42f2e441687116c8d2dd789b187ada572390e242976996727a209959163a6ad6"
+        },
+        {
+          "path": "references/12-口播整片与经验回流.md",
+          "sha256": "b85f6e8b665c13a5d98ea461c10af340679a6949101ee31dd64eee7e88aed415"
+        },
+        {
+          "path": "references/13-口播与语音复刻.md",
+          "sha256": "cb12d2002f9c7a8a41b9abd711bd44a99f9929bcd66351015232cea2eda024a6"
+        },
+        {
+          "path": "references/15-跨场景风格提炼.md",
+          "sha256": "377920a1eb20da5d90bfd7af3f31fc2183b193cac2558d3f828afbf6bc5ad645"
+        },
+        {
+          "path": "references/16-风格演示95分协议.md",
+          "sha256": "bfb400c87ec844fb04450b453c502c47455c5b4b90cf9e2800283886d7ee61ea"
+        },
+        {
+          "path": "references/18-媒介层与角色入画.md",
+          "sha256": "b0f0411c33d506ce8a932295150e49204c20cc5bfb36163fd0122beb093bff4d"
+        },
+        {
+          "path": "references/about-author.md",
+          "sha256": "f53cdc9ca43881fd95f75b16b9176190708117b138c3d4ff2560e78b9ca2b945"
+        },
+        {
+          "path": "references/capabilities.md",
+          "sha256": "8d0577a8128d661711a3ca26f1b60a1e3d06cc5b6191b7007326dccd0e35d2ed"
+        },
+        {
+          "path": "references/compatibility.md",
+          "sha256": "c5665580fab722a3ed784a71f5cca725fc56cebf8c8c3ad66219b24b6b97bb0e"
+        },
+        {
+          "path": "references/images.md",
+          "sha256": "313bee677064eb46ee13c88c74effeecdb536579d7e8a25e23ddf9a2a06357e3"
+        },
+        {
+          "path": "references/voice-model-review.md",
+          "sha256": "e8559c64b39ca361909d8a9ba4e31bcad4c273213aa075000908f1cbeaf8e790"
+        },
+        {
+          "path": "references/动画语法/t1_3b1b.md",
+          "sha256": "23fc11ea77a5f14b34768398f61240787e459debeac8f3fd5109f6ea5e43d827"
+        },
+        {
+          "path": "references/动画语法/t2_keynote_ui.md",
+          "sha256": "0e2779a2e755f0513a8ac025482e542a4d873b02f0b00f0e908216e26d5a9625"
+        },
+        {
+          "path": "references/动画语法/t3_finance_chart.md",
+          "sha256": "ea1e21c49b50653ad48d0bd4ab0d1b1e88a698ccfbfd8e257c7e8f767adf2c20"
+        },
+        {
+          "path": "references/动画语法/y1_kurzgesagt.md",
+          "sha256": "a859f871f717c0017b4e4520f4c2760a7719784b54d92de37afb12e1967717a8"
+        },
+        {
+          "path": "references/动画语法/y2_vox.md",
+          "sha256": "adb0491d000cd2205b37c4739b7885c817737ff11dd73331f8c99d5c5a8871d3"
+        },
+        {
+          "path": "references/动画语法/y3_whiteboard.md",
+          "sha256": "f2fda7768034d94928982193965f225a3c85a850eaf28f3f28459e85dbe0773d"
+        },
+        {
+          "path": "references/动画语法/y4_storytime.md",
+          "sha256": "b3c7ed7af47734bc5ca8465082ef3aa1e55d0d64c225d21cca34180e0dd000ae"
+        },
+        {
+          "path": "references/动画语法/y5_kinetic_type.md",
+          "sha256": "97b200e68231d71cd10cf3f1027b4db36e99ce9a06004891d644994883bb15e2"
+        },
+        {
+          "path": "references/动画语法/y6_presenter_explainer.md",
+          "sha256": "405318fc5aac9ce03cbc374af9633ec7d652dc8206ad3810919abdb174eff273"
+        },
+        {
+          "path": "references/口播API.md",
+          "sha256": "a9d2775fc97bf92f46cf0a6531f1921ccdcf195dd79475c575bf8f188ca5801e"
+        },
+        {
+          "path": "references/色板.md",
+          "sha256": "3a1588ded19aba078131423b22f97fb8835f1656c1c5643afbba505ff8f6f8ae"
+        },
+        {
+          "path": "references/角色精细度.md",
+          "sha256": "15d1607771c5553942cba89edd22a8e8af0f8dfdb16977fd180b7babe5a2dbb6"
+        },
+        {
+          "path": "references/镜头表模板.md",
+          "sha256": "aef6aae50eaae318f1090a8135640bebb36974f6bbc537bc34253959d3523cae"
+        },
+        {
+          "path": "references/镜头语言.md",
+          "sha256": "7afbf9266b4e530a183e7c682ffb55166645a3cd9e628f1b5ace4ebb22d8d2eb"
+        },
+        {
+          "path": "references/风格配方/01_cave.md",
+          "sha256": "ebdb5fc8f9a57d947ef3a325bfdaf275cbd906e36010945e05c7d2e7ef1f4d2c"
+        },
+        {
+          "path": "references/风格配方/02_egypt.md",
+          "sha256": "a3097d1936d0e482a56a9745e31f3ba9a508aa2db50fbbefba4d97cc4d481ebb"
+        },
+        {
+          "path": "references/风格配方/03_greek.md",
+          "sha256": "0caa761151cd76d1a31390f602dc6bc131dba745c6244a2b12ba037697077b50"
+        },
+        {
+          "path": "references/风格配方/04_roman.md",
+          "sha256": "4066fc1b3edfaa7ad4494646df5c6bef0a79d77cb0326d7487b2f833fbb2a81d"
+        },
+        {
+          "path": "references/风格配方/05_gothic.md",
+          "sha256": "2c33750ee754673f87828f1755c14d4c893cd0483e96ceb02fe8f0f33c3a440b"
+        },
+        {
+          "path": "references/风格配方/06_renaissance.md",
+          "sha256": "2fd2589f538747b7c2a178def2441e432a3ecc7bc5aee8e3a1f82c7a79792cc6"
+        },
+        {
+          "path": "references/风格配方/08_impressionism.md",
+          "sha256": "dd353d6e2ff550c3601a20bd529c8908118b4453d12b009e1e82761aa1822b65"
+        },
+        {
+          "path": "references/风格配方/09_postimp.md",
+          "sha256": "20aebeaf193cb1ac960c73e70a289e52f6a939949ce558ec06f7d816311fdd0a"
+        },
+        {
+          "path": "references/风格配方/10_nouveau.md",
+          "sha256": "ed5a38a201c7d4c69473a662d2e17b8a7081d09cdd2fcbeb57575da7bef3cc64"
+        },
+        {
+          "path": "references/风格配方/11_cubism.md",
+          "sha256": "0ab951ff470aa6bf6a001fe4bdd51d02367f03754a94f0dc443d27351a9aa6ba"
+        },
+        {
+          "path": "references/风格配方/12_bauhaus.md",
+          "sha256": "729623cbc414f11d1c1629dcae0d1e64452acd7fdfc5c07bd41f44149f13c59d"
+        },
+        {
+          "path": "references/风格配方/13_pop.md",
+          "sha256": "01e334a4b76ebfd0c71fa6997acafc6d02929498998f99e4544689bd5fb43913"
+        },
+        {
+          "path": "references/风格配方/14_8bit.md",
+          "sha256": "fa237f81d76cea3dae16929093814b92399829e33175aae3d26bd4cec39b6569"
+        },
+        {
+          "path": "references/风格配方/15_raytrace.md",
+          "sha256": "44498145e8b99156b2ee36446444424322f0ed6ee2e0384f34ff242fe89f68b1"
+        },
+        {
+          "path": "references/风格配方/16_2026.md",
+          "sha256": "4dfc199bdb1ed0b1fdc3ed9108bd5eb2e8078fdbb4de0e0bb5d00c6ba73f31f1"
+        },
+        {
+          "path": "references/风格配方/17_ink.md",
+          "sha256": "67f396530a9032b523151f649d0d8398562ff9f6acede3ef4aab85c831d2c032"
+        },
+        {
+          "path": "references/风格配方/18_klimt.md",
+          "sha256": "c4e96a0f531b8157e05592379a152a85a41acf2718f77883ce872e04865dfef9"
+        },
+        {
+          "path": "references/风格配方/19_munch.md",
+          "sha256": "8c629e8bd02fb82c3355c37fe040c863f067827fde269d91ac7ab97bc118939e"
+        },
+        {
+          "path": "references/风格配方/20_dunhuang.md",
+          "sha256": "3a5911346899c0f19cc5bee74bc4e8b4b1ffc9ae1c603a8a48b8277596057568"
+        },
+        {
+          "path": "references/风格配方/21_kusama.md",
+          "sha256": "f39173eb8e80dba26fcdf822a60bb5cd0da2678d8efa4a8b2d19cbb2e1468a4a"
+        },
+        {
+          "path": "references/风格配方/22_constructivism.md",
+          "sha256": "ff4adc806f0bf39d86136d805ef8e2cc48026fbcec3731fae22477fdafac846d"
+        },
+        {
+          "path": "references/风格配方/23_dali.md",
+          "sha256": "facf3f033d5dbe42ab663860490a32920423fc5950ddcabf5f44bf81b49b3f2f"
+        },
+        {
+          "path": "references/风格配方/24_hopper.md",
+          "sha256": "fd19a530f9e0544d74e7eee40a88c01fa7f675ae94d9cacf2e5af4e214c64c63"
+        },
+        {
+          "path": "references/风格配方/25_ghibli.md",
+          "sha256": "d094be1b497fd9635ef802f1997878696db98cfbc07ff81dd7bbc50442bf0a17"
+        },
+        {
+          "path": "references/风格配方/26_vaporwave.md",
+          "sha256": "30cf8e825125ff74f02bff93b975a74c96ceae9df09fae06fd7ef887fb64ec44"
+        },
+        {
+          "path": "references/风格配方/27_kirby.md",
+          "sha256": "e64b8a69ce706311b1e81aa7d0756c7d7390b2b3f84a17f18b67c3193bce2408"
+        },
+        {
+          "path": "references/风格配方/28_monet.md",
+          "sha256": "61b2bf9da6044e44ea0fa4758b3c380be8e60cfb72e2907e5afbbaa0c00d3513"
+        },
+        {
+          "path": "references/风格配方/29_seurat.md",
+          "sha256": "2c50cfb11d3bcb83b50b946126e1c0ba76f9fc3b94eab055023eea2880440f84"
+        },
+        {
+          "path": "references/风格配方/30_matisse.md",
+          "sha256": "4da4fb6d6828fa529e2827d20bf0c4e45822427348db42b7016ca4bdc336c60b"
+        },
+        {
+          "path": "references/风格配方/31_haring.md",
+          "sha256": "adcf02ce8c7dd9446e79e3393f61c411335c6f1734d584f3389f64283c5ab30b"
+        },
+        {
+          "path": "references/风格配方/32_rembrandt.md",
+          "sha256": "383f5953f5b61249c5735fef4e31f0ed05148a7ec038f580bf39ddf7dc6ba7f7"
+        },
+        {
+          "path": "references/风格配方/33_rubberhose.md",
+          "sha256": "c99886da03aa74351d78695641b403c92f5f9ab4b242feb2be45d8b8a7da9617"
+        },
+        {
+          "path": "references/风格配方/34_shadowpuppet.md",
+          "sha256": "6cd4f9a090bff6d325695e8e4656ad041871f2ff0418b4eab1a46d51bd7d7609"
+        },
+        {
+          "path": "references/风格配方/35_shinkai.md",
+          "sha256": "b327bf36ef2edc246576cbfb8f1f1857c52600691adbd651efbb1eeb75e7a554"
+        },
+        {
+          "path": "references/风格配方/36_picasso_blue.md",
+          "sha256": "7578a99b0dc416414eb2cfd5c6aa9055ded387531bfde65fd5c1f17f22e4404a"
+        },
+        {
+          "path": "references/风格配方/37_rick_morty.md",
+          "sha256": "321e3009c33faf400cf3242d87377d1777544a2ab2f59c9de8da11a141c3aed7"
+        },
+        {
+          "path": "references/风格配方/38_giotto.md",
+          "sha256": "591e4412ba5c0ef7568f1ccec0400c32bda1f7e31fda693d2397cb46b946ca2b"
+        },
+        {
+          "path": "references/风格配方/39_piero.md",
+          "sha256": "a722bd0b3ba3168620d3d0bd13d1b6b576fe3a38c48995ad98d0155651a6ef14"
+        },
+        {
+          "path": "references/风格配方/40_raphael.md",
+          "sha256": "fcd0352a413ccbe7a7baf9fceb7153fc70807fbdff534ac0bcb55e2129e82db9"
+        },
+        {
+          "path": "references/风格配方/41_michelangelo.md",
+          "sha256": "d902c85020ac27b74e94ff4658529bd4fb32e5092a1d723234fa4f39eee33645"
+        },
+        {
+          "path": "references/风格配方/42_guardi.md",
+          "sha256": "2ebe3d12fa81b0a84367f49ac955590d8a9b1daf78675ddab9badac15e44aa9a"
+        },
+        {
+          "path": "references/风格配方/43_lorenzetti.md",
+          "sha256": "d3e42f457027a2670b6e7d10798d55fa9fc42536e5cf68f90442a2c3b7405bbe"
+        },
+        {
+          "path": "references/风格配方/44_cortona.md",
+          "sha256": "9fb3935cd7d853ca9c0da0c18e6c5dbbe591e1ab54f5259b59b6f79654f75819"
+        },
+        {
+          "path": "references/风格配方/45_renoir.md",
+          "sha256": "b85f06fc351343902929c1ee6bfaad936d36b3fdafae0f1af95e66dbd36b14d3"
+        },
+        {
+          "path": "references/风格配方/46_pissarro.md",
+          "sha256": "9cd428ac8276c9b7134c04b9ecd49530c3c9989b7e6cc087de312f1d2faa372c"
+        },
+        {
+          "path": "references/风格配方/47_sisley.md",
+          "sha256": "787eb8a787b01e810ca369032ba8524fc425087c0c2fa2c36b09b7e290e0a576"
+        },
+        {
+          "path": "references/风格配方/48_gauguin.md",
+          "sha256": "5e785b76ff0e1d4b976ff7b80559d3faf9ad84a3bcb97de4d0148d45f118b37b"
+        },
+        {
+          "path": "references/风格配方/49_chagall.md",
+          "sha256": "2fca334d05347c1dcfbaaf7bfdd525c749ec175c076c5657bca9faa61f3bcde8"
+        },
+        {
+          "path": "references/风格配方/50_ma_yuan.md",
+          "sha256": "962b0d5b23727646cd36e3083f2b263be0b589ae1186da7856760cf232ec2ed5"
+        },
+        {
+          "path": "references/风格配方/51_persian_miniature.md",
+          "sha256": "619741242ba640ca931d5dda6bbb8d1b9d5a456e056dc7db956a1051090a818b"
+        },
+        {
+          "path": "references/风格配方/52_south_park.md",
+          "sha256": "639b0b2e5fb0894dc3b44a4da67cac3ed986dc043ded886153abd2fec75ea9d8"
+        },
+        {
+          "path": "references/风格配方/53_pixar.md",
+          "sha256": "c6b0eea92294aa08e53ed71a6068f96a6cccd29e679aa2bcf0df9478ef100aa2"
+        },
+        {
+          "path": "references/风格配方/55_dunhuang.md",
+          "sha256": "ebf193ac4995dff6f146cf54ff62def57da5f8794ab2bdb8e7d0f18714af35f6"
+        },
+        {
+          "path": "references/风格配方/INDEX.md",
+          "sha256": "3a79ab6eed9ddc93c08ecdd529103d9a7ade77c1d23aa36eb236215ad0ef9cea"
+        },
+        {
+          "path": "references/风格配方/_转场_迁移测试.md",
+          "sha256": "16e901fb8c6bb2b9ff6596bec30209471227b74440dc9d5f3ba7931c99238677"
+        },
+        {
+          "path": "references/风格配方/_重做进度.md",
+          "sha256": "2f83dabb5b810ce2b95b5012e15321d6dc2565a3bfff77f35a679683ea0bc82a"
+        },
+        {
+          "path": "references/风格配方/_音轨_艺术史速通.md",
+          "sha256": "f9c360503ec366bf0833687fd00eb2a276f1c8dc5e02ab93651e676195d10d60"
+        },
+        {
+          "path": "release-manifest.json",
+          "sha256": "6e0ef373e2b43331f5d615a746501a497c230d2210938af10357ae2e31f6e7b5"
+        },
+        {
+          "path": "schemas/media.schema.json",
+          "sha256": "4b7d93ebb7edf5fa6219891f28325f68fc51f090eee756bc4cc3a3c746d48bda"
+        },
+        {
+          "path": "scripts/analyze/breakdown.py",
+          "sha256": "5badcd4e3f5694f5b8c5a6d7d353f830e972ae5c8a6f24ed75af634411eb75f3"
+        },
+        {
+          "path": "scripts/analyze/fetch_reference.py",
+          "sha256": "97c63efc636d38c7a4e341478bed9e3e575cd539249f878648ed42d777d393cc"
+        },
+        {
+          "path": "scripts/analyze/regress_clips.py",
+          "sha256": "a54b50d424ab2be6398ce2b0ad799cf7d6d621c0214be81c961e1e54672b3b67"
+        },
+        {
+          "path": "scripts/analyze/side_by_side.py",
+          "sha256": "7d809f5ced7167e03ed2ed65fab7ff6a2ad0d2d237c8aacf55cf91ab58b54ee0"
+        },
+        {
+          "path": "scripts/analyze/stress_clip.py",
+          "sha256": "8c9e32f3ba45dc86ca4b2617cafdd974fdfa42b338e811fb6ce2e860dbfa091d"
+        },
+        {
+          "path": "scripts/audio/synth_艺术史速通.py",
+          "sha256": "6476605af684b477d47b7f47c3c987059277de36b97bff5d77d167c27efdb40d"
+        },
+        {
+          "path": "scripts/capabilities.py",
+          "sha256": "fe688fd612841824e126b8ddaea1eea4bc8c31111f15422a3c60d98a9463ad83"
+        },
+        {
+          "path": "scripts/check_release.py",
+          "sha256": "508388bdcfe87d97d486de7d76fec87b893469779af14cc75e4b72b4c17ecc60"
+        },
+        {
+          "path": "scripts/clip_lint.py",
+          "sha256": "b17bdb832a82826e27c379c24e673538439c80b88371b15b67a43731d3a4393b"
+        },
+        {
+          "path": "scripts/deliver.py",
+          "sha256": "dbd1cd2495816b09257cec544e1b43bb2fa2530639ff11cff64526e065e178ae"
+        },
+        {
+          "path": "scripts/engine/audit_clip.py",
+          "sha256": "aaa925c5fbfeff284be6e4a4d21516497780052b84807ef0db8abd4522adb042"
+        },
+        {
+          "path": "scripts/engine/clip.html",
+          "sha256": "c6e1860492f6d5937c39573136d8c82cc1779ed608ac8ed6bd67cd1ce46bcf14"
+        },
+        {
+          "path": "scripts/engine/clip.js",
+          "sha256": "4be7a02d636b1e6ebf864822fec54c8e925ce415be2e2f1be1098ffb7a7b8799"
+        },
+        {
+          "path": "scripts/engine/clip_schema.json",
+          "sha256": "7f0a41e9c257901c6905c3c8d3ca9ff12058400f8738bf116c0d22638cad3898"
+        },
+        {
+          "path": "scripts/engine/clips/t1_3b1b.js",
+          "sha256": "84ed102301a066410aca1b0d06ba0459f7d5da09ae4831edf58a27f2152a6e7a"
+        },
+        {
+          "path": "scripts/engine/clips/t2_keynote_ui.js",
+          "sha256": "31c59a08e39f5799e1f59017fafa0c7d07f40a360e27737fcdefa69b2fae5e56"
+        },
+        {
+          "path": "scripts/engine/clips/t3_finance_chart.js",
+          "sha256": "f175d45ea92e0a680fea9e08ce9270a59a63a5b4bb3d00db5a894848e2407b36"
+        },
+        {
+          "path": "scripts/engine/clips/y1_kurzgesagt.js",
+          "sha256": "5f507ef90222f335048cb167535f910fda789d7cd2fba1fc8695c0c4a1f4c6b6"
+        },
+        {
+          "path": "scripts/engine/clips/y2_vox.js",
+          "sha256": "6c00ac3e587595b94732750a191827674a818c5f143d2ecfd328c9e4059bc589"
+        },
+        {
+          "path": "scripts/engine/clips/y3_whiteboard.js",
+          "sha256": "1536d7a276580edd44fab6199b69671aecbae30b39b5f89921d08e43a738ff2d"
+        },
+        {
+          "path": "scripts/engine/clips/y4_storytime.js",
+          "sha256": "2ba8c7a05296c489b948c1b2f050a479dcef5a7a19bb1550aca07478f97e25d6"
+        },
+        {
+          "path": "scripts/engine/clips/y5_kinetic_type.js",
+          "sha256": "2f46bd3710920d1f3496b6496680116cca8188987c5d82643da9eb1a0c45bbd9"
+        },
+        {
+          "path": "scripts/engine/compare.py",
+          "sha256": "7bf1d5ae2926de09f69431435e93ffa4c5357532b543217cd66bdc57e00256aa"
+        },
+        {
+          "path": "scripts/engine/demos/_shared/hero.js",
+          "sha256": "96e9e520d1139aa617be7ad01901f6a9b6c31c7948f73b33ddd8d646c6cdf967"
+        },
+        {
+          "path": "scripts/engine/demos/_shared/hero/c1_0.png",
+          "sha256": "827032c6aa741f9895895224a67f81538d70ef970b10da6c3ee93e8deece3018"
+        },
+        {
+          "path": "scripts/engine/demos/_shared/hero/c1_1.png",
+          "sha256": "9ab883b0af1460fae56970739ee82bdb8f59717ae2d3f11b56ca0b5088876c5e"
+        },
+        {
+          "path": "scripts/engine/demos/_shared/hero/c1_2.png",
+          "sha256": "94882c9cbb1cc7ea82afb736412d388bfb06e30b08ffec861192443b9fb1c28c"
+        },
+        {
+          "path": "scripts/engine/demos/_shared/hero/c3_line.png",
+          "sha256": "b98528a02ccdfc1c7570e7a907990421d53d14e7f77068a31ba9ccfeb397a0da"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/eras.js",
+          "sha256": "4c35e6e800f7d01a11f796fe052c11ca957c6c46665fd2b23927a8390357f617"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/01.png",
+          "sha256": "74d6834868571bd257bffa91022aa649f0a80802d5b678ff59590539c99f7cf0"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/02.png",
+          "sha256": "19806884da80aba0b271556b529934359587b7e4a69bd6da7b57ccfd69bbeba6"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/03.png",
+          "sha256": "598557fa4ba263ecd000398614e552f2afe04a148f957ef020bd05d32cccf2f3"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/04.png",
+          "sha256": "fa08801ea3d6b79acafaa451ac697a060b059747ffd89c0375e6ee1b0901dbb3"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/05.png",
+          "sha256": "469a75afeab1a7c9602f27a7f5f9fe74ae4c88227f22ba8977c1a72cb2beaab0"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/06.png",
+          "sha256": "1d26ed214328655a20233ec2b09e6181f431e1a4b40a2f308e4a03a8ac02f1b7"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/07.png",
+          "sha256": "867c900356062c27187298641969dfce81a1fbebed7808692759fba3fa74c4cb"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/08.png",
+          "sha256": "ae74efabbd91cca2570d51c141672d991f6e895796dc01e81dc62099568d2f74"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_act/meta.json",
+          "sha256": "80dbaba87b9237958c392562338ac324687c50220ddb0c1572a8371f92131ff8"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/01.png",
+          "sha256": "422152e3831b1df4fd5e2889b413ca6c84d1646b84dca704a9f7312cc4da6bf0"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/02.png",
+          "sha256": "b5bcf6a167397e8b3c06a0f8570b2abccc55d5498390d9439b3a9f5f4c792ec4"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/03.png",
+          "sha256": "2d3670bc129660ef46836ec9091ec08162119e7925825734821f3aed8f470700"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/04.png",
+          "sha256": "fed712a2565ddde80c82f829bd6eeddc96eaa53193b0bfd21398460f21cb558a"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/05.png",
+          "sha256": "b5a663297f578133699fa6d345b9c2d36634722ecb1bc5e3a642be5b85cf6b24"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/06.png",
+          "sha256": "5ae2393b76809bb3dbc929d3def67802fd2889ab12799faaceb68077e471c3d2"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/07.png",
+          "sha256": "69a61db4c6910896790bf93b4d661a4860928cdb52cdccbfd4d5a94055f9b81e"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/08.png",
+          "sha256": "62afb8496eebe9c0f58790d85835ebc9a0502a341c2a5c92fc81a90ee4cde0a6"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/8bit_walk/meta.json",
+          "sha256": "3391931eb00392c13c9d6d555292c5c6ed62ee1761a74160bc0b791669784891"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/01.png",
+          "sha256": "298d124a5201b9a6c2d2957471163ab9ead605690f14e1d0737f566a37d5ff0b"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/02.png",
+          "sha256": "d7849492606178176783bebb932a593a8b84fa1d68e1669c1fd801e1f9646426"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/03.png",
+          "sha256": "282257c1b3f10db6813428e19e2cd118ad1367dd2ee119edd103908930a8bfe0"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/04.png",
+          "sha256": "277517af7b758bb9ffc2d45267de6cdf5a405bb80aee1aa5569298248414a0b1"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/05.png",
+          "sha256": "d3dbc34b29655a57cb26ea7886067b1539d97f317aef3cc29ab9c88e8018ee71"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/06.png",
+          "sha256": "0a50ce8323e4adb48c06ea493d5c6ee471a80c2028670b82b6266b5bd8451fa8"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/07.png",
+          "sha256": "114f1aaaf3c157d0aa6ea6437261888e40b224cf3a4b9bff47a4b8e19e382177"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/08.png",
+          "sha256": "1716833fa180c6d3aac3ffd4b884a8fe0029438f676619cd5194a820d9ed083e"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_dodge/meta.json",
+          "sha256": "7706f4d79fa8c336e31d7c2570b47d29d3b90b2e11ac9905323df1912493e8b5"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/01.png",
+          "sha256": "7500fb8df1c49afde25c8f7ff0d082de925373f4548679ab6a9788b405aa17a4"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/02.png",
+          "sha256": "7e9b5b0f6b6c78a6f4562f0c753663e909e7a0b8324fd17cb4bf0ff4d151f90a"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/03.png",
+          "sha256": "a0cfc27ca9b366ee07af25bfdcb2b030702945bd7ad039f9d0333d77cc3998a8"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/04.png",
+          "sha256": "234955761a0485643b4310d646ab23d02c0afda2f9cae98f1e83c5384eea7ab4"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/05.png",
+          "sha256": "977c7a00b05e1394391d17e74a9aa312f5a8d1f524f3b938ec1373948099e4df"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/06.png",
+          "sha256": "c09db144378ffc255e2ec1b3d8bdf1936e7e18f4f2496cad61d4138d5d5b7304"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/07.png",
+          "sha256": "1e6286142b4457fbd35014b813742da0bd42771524823067142186cc280a1725"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/08.png",
+          "sha256": "46dccbe4ede8a6c0620ad0ca96b4413ded56d7033cbbeffb8985588257c2d842"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/egypt_walk8/meta.json",
+          "sha256": "9df61edb22b06ad111462082881fca88427909c0540f33aeef71ccbd44dff3d6"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/01.png",
+          "sha256": "6777d07ffceee31b1f0a2da4e9b68f74f74bf648282dae517fe4b2aecd244553"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/02.png",
+          "sha256": "f594484eeaa48fe388986f78e940ecaf896a3fb3a21b2fd9cf05449dca04e923"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/03.png",
+          "sha256": "2490009faffca1452c7b2cecd5d4525b8f2921b60d46dd85b18dd50c0ffd7433"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/04.png",
+          "sha256": "150ef0221b74b27fcf7a9873df41df4a11a3ab2bfec21b7fd3964a596427481c"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/05.png",
+          "sha256": "5aabc6f6164b99063eb8a8bd27cbc77de062f415179ec14fc8c44bb264e380af"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/06.png",
+          "sha256": "175c1ee674743544b28dd2e04ad8dd26ea89a1f664cd31706c7270442a68368d"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/07.png",
+          "sha256": "adb52ccb864ded668d02c17aa9d21acabc4c6c695561f5c7e221fee8fd8d711f"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/08.png",
+          "sha256": "a5befb97ddc1c17962011fd1b366c6c087c2fdc5ea4104f00f01ad0fb83a7fe8"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_throw/meta.json",
+          "sha256": "01db607f2fa4e10998628a4f2b1c1ba184915d76070be2b9e92051527cd2d5cc"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/01.png",
+          "sha256": "0e58b3f88bddb5d2488f59846a844f4bcf62f94e860eea7598e4e011de6ab9d9"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/02.png",
+          "sha256": "30ee4cf8e6e594115a8e13dca65728936d70fefdc189fec970bdd96c3635c618"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/03.png",
+          "sha256": "cff12f6a7fca6a001c995ea01d1fc194318856de38c97464dcd4a1b216d32986"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/04.png",
+          "sha256": "588a7a28307b1684522ecd3d7e39a3ab4d8ea42dfc0c8596236286a084f883c0"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/05.png",
+          "sha256": "7f0828088ba1dfde2821c3cd6d4b3c2f3435cc3176c3713b683ea1a4004d29b9"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/06.png",
+          "sha256": "d66fac1d04408e301dd9cf65eff68e0e7c6d3147103e9f775a413854ae0afeeb"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/07.png",
+          "sha256": "75f1e003de49fa658f0b74f7d0e916503993ae838d02cb99f0b04d0286821477"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/08.png",
+          "sha256": "4924bafb390350414c100c52043942b6ca7e2978dd9e20446b2ae65ca0d37392"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/frames/monet_walk/meta.json",
+          "sha256": "fef96b1af712cb3f09b9ee3f987b6e97ae24bac2366e78878796045dd60856e8"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/lib/acts.js",
+          "sha256": "db003703801f1ecead3552e38c7083d646aac1f669d907832e48173865095e02"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/lib/crossing.js",
+          "sha256": "18853b65e3fbc8badc1cc8100d577241faab340d4d2e685a10667fdda78cd802"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/lib/world.js",
+          "sha256": "ba39f30231bcd510947c9dc32a1801f9e2cd0ba68a41a6aafccf2e8fb9bfa642"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/lib/xing2_ding.js",
+          "sha256": "685a341d785f211b999cfd493d41cdb2b84df99f7b640b19b3f1e09848cab21e"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/lib/xing2_jia.js",
+          "sha256": "d58e9e8a23152eb95854861ae35f871267820e20407a6e01eccdb2f9239278b5"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/lib/xing2_yi.js",
+          "sha256": "7913d931861847aac8028ce47ff003d8fde9b60638ecfa08e6a9159fd808e412"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/segments/02_egypt.js",
+          "sha256": "85d22b9c9dee0a0772a85ca2d3437fbe2c7af073be6ff2cb79a62763d11c3646"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/segments/14_8bit.js",
+          "sha256": "cd1d348d8096b0bcf28ca946c75f3a64759f1158ce634571baf2024a97752b87"
+        },
+        {
+          "path": "scripts/engine/demos/long_scroll/segments/28_monet.js",
+          "sha256": "c7e7542792a36695f07e60e90e118e566cde9b55c007fe42162e27ff25b1023b"
+        },
+        {
+          "path": "scripts/engine/demos/t1_3b1b/eras.js",
+          "sha256": "448e7293cf5a0e724b2cfa4cab1bc7148f8027ecc0ddfc6a04ade2817acb2216"
+        },
+        {
+          "path": "scripts/engine/demos/t1_3b1b/t1_s1.js",
+          "sha256": "10f1e0b82dae1c55f53f59ae6fbae8d976773d822c749171f924121214d47b3a"
+        },
+        {
+          "path": "scripts/engine/demos/t1_3b1b/t1_s2.js",
+          "sha256": "686b2c620be37ede852c92c3952f624dfbaf5724927328e9ab45d8bc7569922f"
+        },
+        {
+          "path": "scripts/engine/demos/t1_3b1b/t1_s3.js",
+          "sha256": "042794b3c2257cae2d8616955eabdb2ec2af761e43ec4d8604d937faeb693d7b"
+        },
+        {
+          "path": "scripts/engine/demos/t2_keynote_ui/eras.js",
+          "sha256": "dff467d0c0bb90bb864707192cb7ee0b5771c3793448f4a9ffe04b579818e23a"
+        },
+        {
+          "path": "scripts/engine/demos/t2_keynote_ui/t2_s1.js",
+          "sha256": "03ad91437ccad3d7da0135c0f85e5ea152a0f386061b003422f0d8ab2fb64118"
+        },
+        {
+          "path": "scripts/engine/demos/t2_keynote_ui/t2_s2.js",
+          "sha256": "58d26b8329b9596180447046b22742c290780dd75283de1b655fead0383cf3e5"
+        },
+        {
+          "path": "scripts/engine/demos/t2_keynote_ui/t2_s3.js",
+          "sha256": "9e2e574f158350de3d1d5da50d296ebe87fd1a18b12be3b53391895a0155220d"
+        },
+        {
+          "path": "scripts/engine/demos/t3_finance_chart/eras.js",
+          "sha256": "7d8bcb0c7f1aa6e13ec6e565925ab6689541e12e5643a555b037b8d611963ab6"
+        },
+        {
+          "path": "scripts/engine/demos/t3_finance_chart/t3_s1.js",
+          "sha256": "a1ba20f354638ff97df547d3f352416850d17370f8af41169ec1b6f902fd2936"
+        },
+        {
+          "path": "scripts/engine/demos/t3_finance_chart/t3_s2.js",
+          "sha256": "a50e8b705ade4b22515851c904c8035c8c8479d712594fb0a6c5e08688a871c2"
+        },
+        {
+          "path": "scripts/engine/demos/t3_finance_chart/t3_s3.js",
+          "sha256": "45d1cd1cb0e8edf0b4b07229f9ee0ff9e4c3b4b52ec3d5e980fd23cc897a5c3e"
+        },
+        {
+          "path": "scripts/engine/demos/y1_kurzgesagt/eras.js",
+          "sha256": "0ae30c83af4116e3a2b9cc74eef918638ff49f33f43e31e499def6ae66eed098"
+        },
+        {
+          "path": "scripts/engine/demos/y1_kurzgesagt/kurzgesagt.js",
+          "sha256": "4620f12ad924a865f7bdc74e72bbc87be4f5375ac8fa7ea415aabff9179b7630"
+        },
+        {
+          "path": "scripts/engine/demos/y2_vox/eras.js",
+          "sha256": "5ff129a2d4bcfefe6d1c7602bdff9faa55f408256c6429c755e37a63249c3bce"
+        },
+        {
+          "path": "scripts/engine/demos/y2_vox/vox.js",
+          "sha256": "d288cca5eee2aee08e803025ab41dd73096f44ab50845bdde2cc8ed7e9e07ec4"
+        },
+        {
+          "path": "scripts/engine/demos/y3_whiteboard/eras.js",
+          "sha256": "e073e6936000acc885e4ec8588e3ace496c25530dc6c03a4c5e2c1543b84278f"
+        },
+        {
+          "path": "scripts/engine/demos/y3_whiteboard/whiteboard.js",
+          "sha256": "24921e56f9b3d6c1c94d77e1102c907f36882f6e812dbdc1c01a2bac094fae5d"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/eras.js",
+          "sha256": "c3cf9816bb94b08d6065f1b5c67d71bf9ad23b1f6b398345e27ecb0f40af396c"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/s1_desk.js",
+          "sha256": "e687991b4127e99efd0c73339670a30a968708817a2ec32345b2931bf7105d45"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/s2_screen.js",
+          "sha256": "414ebc1df2fa078fea7b0cb2dcc633d20a84ce9eda1f9fd331190b0ecd42c0da"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/s3_react.js",
+          "sha256": "16ff4d5b624f57c84eac0f4bfca95d318635588fc362e89024b098483b7951bb"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/s4_wide.js",
+          "sha256": "a238d9accd8d789104be7f4d0984922698e371c38fb3780d457e907540c36602"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/s5_close.js",
+          "sha256": "62323752eaf8c997d700e92f5900c2a8d86365d528534338e7a0ca8bf392eb19"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/story.js",
+          "sha256": "945e7171975fbdfbd95c91cfca070e64f9c2a4f6ae8fc034468f1adcd9dec3e1"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/vo_env.js",
+          "sha256": "04739a58e5bbce262ef1f2d3c1f7988d85d2fe07139a64bee7fc2318d50bd98d"
+        },
+        {
+          "path": "scripts/engine/demos/y4_storytime/world.js",
+          "sha256": "36f387e9831723ad17249d0891e2c4974414d2061ee89bd696a87aa6c098b715"
+        },
+        {
+          "path": "scripts/engine/demos/y5_kinetic_type/eras.js",
+          "sha256": "540e671b8d6e7e85684332c68c079c88da674fab8ba80bc3773a27badb5c4d50"
+        },
+        {
+          "path": "scripts/engine/demos/y5_kinetic_type/k1_title.js",
+          "sha256": "b1c0d5ee07720e6f4df94dec9e6101bb5781a009e3bf7584d68dc48c413cd215"
+        },
+        {
+          "path": "scripts/engine/demos/y5_kinetic_type/k2_complete.js",
+          "sha256": "3f2d6a463508cecc5ca2327f0a6ae3f7e5b30e90d8ffe48638113244baa25be9"
+        },
+        {
+          "path": "scripts/engine/demos/y5_kinetic_type/k3_chat.js",
+          "sha256": "c810bb9c4462b7f60ff9e5eeeb8edd0e2a74d73fc42116c8a95a48210fb935a6"
+        },
+        {
+          "path": "scripts/engine/demos/y5_kinetic_type/k4_agent.js",
+          "sha256": "368d734da08e17beff2a267b2d664a99f48fc28dd911da637c2e81e295b36e90"
+        },
+        {
+          "path": "scripts/engine/demos/y5_kinetic_type/kinetic.js",
+          "sha256": "83b5ada7617db67f715203882eda22f54c846c7655418ab10744a373472a8c84"
+        },
+        {
+          "path": "scripts/engine/engine.js",
+          "sha256": "04b64953037ced7016ffb211cb12891dc4f1c840378a366e35572db8098fd3cd"
+        },
+        {
+          "path": "scripts/engine/eras.js",
+          "sha256": "2ccc90bed5e9ef337f8cf3444058705dc720743a78c9315a0e5ee814cd130fc9"
+        },
+        {
+          "path": "scripts/engine/eras_gallery.js",
+          "sha256": "6e97dfe281b8360d400a657098a68dd224a1a081299b28b3137a1b1db1a8222a"
+        },
+        {
+          "path": "scripts/engine/eras_style_studies.js",
+          "sha256": "bef942e77dfadd9e1d0a5de9e78339c9bb9a8958244dd22f839c2c833937aa2f"
+        },
+        {
+          "path": "scripts/engine/examples/assets/K线图_横屏.png",
+          "sha256": "04a61f9be80bc4895136cfb168ed102860d96af41edab1957e326d647993cb19"
+        },
+        {
+          "path": "scripts/engine/examples/assets/终端_for循环求和.png",
+          "sha256": "8871dce38e3ce0bc94a2aa22ab5479152df40837b67ced2b87de269a740badc3"
+        },
+        {
+          "path": "scripts/engine/examples/assets/终端_sum求和.png",
+          "sha256": "2af3cac8b7468c120163c0993d98c8666d75d4814c8f0fbeced8d21db07302bf"
+        },
+        {
+          "path": "scripts/engine/examples/assets/营收图_竖屏.png",
+          "sha256": "5c3c9207a8ea289347463408547fdd8f19c63e68e1cbcbcdbc5de77b556b1648"
+        },
+        {
+          "path": "scripts/engine/examples/assets/财经图表_横屏.png",
+          "sha256": "95c56c106f6eed633cf2c8b6bc46465ecf335aefe5abd9bb8e91563b48c572e1"
+        },
+        {
+          "path": "scripts/engine/examples/t1_3b1b.json",
+          "sha256": "28fa6f76f6849698f30d3fc69918a00ea0a9e99225614905bea5c505b82673c6"
+        },
+        {
+          "path": "scripts/engine/examples/t2_fullbleed_pulse.json",
+          "sha256": "97d2a492cd3253e4ea0c0b1c499204357254814ce1130e7910bcfd1aaa239f25"
+        },
+        {
+          "path": "scripts/engine/examples/t2_keynote_ui.json",
+          "sha256": "9643bed1dd75dd4891efb2d364719b80435d55d162859336dba513332c2d81f3"
+        },
+        {
+          "path": "scripts/engine/examples/t3_finance_chart.json",
+          "sha256": "7537ef8c696349daf9005820c2eb02bd34c48482052bc8e30d21ee476b264efe"
+        },
+        {
+          "path": "scripts/engine/examples/y1_kurzgesagt.json",
+          "sha256": "4a28c3ff55fdd4a2b327701b062ff6dd3b571036d2a73ec4426bc050d2ddf34b"
+        },
+        {
+          "path": "scripts/engine/examples/y2_vox.json",
+          "sha256": "965ca7fc646ddbb6e7b81e356e12246c10694cd797b991a5baac14312641feea"
+        },
+        {
+          "path": "scripts/engine/examples/y3_whiteboard.json",
+          "sha256": "9d5b0b6d4fa447a2e28c1db7447874aeafa26b915960a9beed154f9252e72a14"
+        },
+        {
+          "path": "scripts/engine/examples/y4_storytime.json",
+          "sha256": "16a334ee71e47504ec74ca992b26b7f663960298bfa8864c11edd275d23b1d7f"
+        },
+        {
+          "path": "scripts/engine/examples/y5_kinetic_type.json",
+          "sha256": "a17d1f008e68822616560acfaf022304581db2b0fcd0cbc5a6d9c2818b6a9fdb"
+        },
+        {
+          "path": "scripts/engine/index.html",
+          "sha256": "f6ee2edd1c5d881f2ed807ee6113d63e8c89c073b3ceb9df48a4349151de94d4"
+        },
+        {
+          "path": "scripts/engine/lib/THREE_LICENSE.txt",
+          "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+        },
+        {
+          "path": "scripts/engine/lib/brush.js",
+          "sha256": "e83db04e5fc9fef83237d984d2ceba3c1ec71c0c2a8f8a798ecc939fc8c3b2d4"
+        },
+        {
+          "path": "scripts/engine/lib/camera.js",
+          "sha256": "53ddc95e972900abfb49bfea704a2b77897b9237836ee653aeed966d39ceeec5"
+        },
+        {
+          "path": "scripts/engine/lib/chart.js",
+          "sha256": "93d3605cba7d7cf0bdda2c2dd8f9797734dd06c1f64fa18ef7a492f8755a8d27"
+        },
+        {
+          "path": "scripts/engine/lib/collage.js",
+          "sha256": "4dcd3d15f8895dc6e3d4f2e4d82766782a4e77876fb863ded9480320b8959d93"
+        },
+        {
+          "path": "scripts/engine/lib/diagram.js",
+          "sha256": "98b15ba5f883dd95eca2ff52ba1d768c10a5bea7862bd13aee6d84b875e2b8c5"
+        },
+        {
+          "path": "scripts/engine/lib/finish.js",
+          "sha256": "a391531aaac53edc5b435067a2210e5a473c955c429d1e11206bc0f8173d5e48"
+        },
+        {
+          "path": "scripts/engine/lib/fonts.js",
+          "sha256": "8d5ac65f41bd6df79a0f913adf7f425d46c847cc5d8ed831eccdc80b1c29531d"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/AlfaSlabOne-400.woff",
+          "sha256": "2f8b04d3eada32d7047255260a0e81ab74938fada1aad154f5653850a68aebe8"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Anton-400.woff",
+          "sha256": "791375bdbed00de4a3aad4811291220ead0e1405d6f8b5bdbf109798c8359ac5"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/ArchivoBlack-400.woff",
+          "sha256": "c029965cfbc3cbb79431babf56d0fee6bc185f366c4fc2a0957817137d374c95"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Bangers-400.woff",
+          "sha256": "62f0a30b1d48cc21bb35b084ae5d17ad22135df5dc4c18f3f591fc5443eddf39"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Caveat-600.woff",
+          "sha256": "7a101c766f28866c5aa36ebbce5cfedcea2601f2439d3b16694b9c8eee75e9dc"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Cinzel-400.woff",
+          "sha256": "39c4e70ca598e2c0d78d355cd5fbe37017353a5de3008787a03e0d30a2d715ad"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Cinzel-700.woff",
+          "sha256": "1bb7ec5b84ee97a9eae36528d5bae3bfeddf035c19842fc1740ce44c09fac4ad"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/CormorantGaramond-500.woff",
+          "sha256": "f25b87d41579955733df25af8319b168d704b5333d8ac53e991fac442e7a9844"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/CormorantGaramond-500i.woff",
+          "sha256": "0ab1e72da6037d218386d9a6e148d7f5b0357e1965abf743aef30d641a5e2874"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/CormorantGaramond-700.woff",
+          "sha256": "6417fd78440278f109d84cf00283fbf9b91b6d639fc5afd208a121ae7c636e61"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/EBGaramond-400.woff",
+          "sha256": "61ea4fa656e4ec2c6103483625f0d6a2e1571c2be57015063b73f23392b3ff98"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/EBGaramond-400i.woff",
+          "sha256": "413c5879fa73e5e168dcb59e8e692b24049756c5b961fcd8adee3db2e1624ef4"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/EBGaramond-600.woff",
+          "sha256": "d0ecbbe1d933b68d32ef2629e9a46673ae5eff5ce9c04cd7f4c012504da33a11"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Exo2-800i.woff",
+          "sha256": "8296afc88a371a81345e07d852a06e45ae401d5793866fd9a7f351daf523740a"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/GochiHand-400.woff",
+          "sha256": "152552ee5c95ec30b75edf3ba42f3406925462ea1a52d4c049d22f550f10167a"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/IMFellEnglish-400.woff",
+          "sha256": "b915ee6c7034491df57eed8153ec2a5c3ee1ba55788a96737465d4c3239bd2a0"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/IMFellEnglish-400i.woff",
+          "sha256": "7c6064b4e7ca80d131a01b9133ddaf11978d43bc954eb0d1c1dd1391371c56d6"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Inter-var.woff",
+          "sha256": "a54bc9f6ba847df43752bfb35f63aa1599ccc113b58c23bfa07c4dc88976647b"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/JosefinSans-700.woff",
+          "sha256": "1e9f0aab2caa768ead521a88be3ea118d47c29a3ae052f9b5d0c2af0d6a8eb8d"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Kalam-700.woff",
+          "sha256": "53b9c2a4260ba9a1320d2a92c6dbd532fa509bdeda0897580611a9f16f1a2bda"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/LICENSES.md",
+          "sha256": "00b5f86c4d5162e6fee6d600b527c052933eb2884a61a5fab0f89fa4d4656ecd"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/LXGWWenKai-500.woff",
+          "sha256": "734bd187392579417ac83effe31d37b9de43c7b290bcb400800456511ed79e8f"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/LibreBaskerville-400.woff",
+          "sha256": "e5134e031d30b4dcc76f3806701cafe92ff4ed5b8b6271d06d63ca3ee7af9bc4"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/LibreBaskerville-700.woff",
+          "sha256": "57b9986d47ab6d7ea1964d5693c56b5e5e97c889e31ba9546815de365d356dab"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/LilitaOne-400.woff",
+          "sha256": "8f4283865fad7cbb92e3b9e8ec6e48ab1225f7fb2eaa9c75741ff46d4f230456"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Marcellus-400.woff",
+          "sha256": "9893ac05a03ff1e80ecf97f73853bff1378edfdec633b6c3a67ae7c33d7018e7"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSansSC-500.woff",
+          "sha256": "928d841b1ec663ebce82593568cbc19749fe652f88b8ec960723b7d87b551512"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSansSC-700.woff",
+          "sha256": "dd0d39a9780eb995c499af0c20cca93b1dfdda865da70871a20890b3e406b968"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSansSC-800.woff",
+          "sha256": "b57f9c645b1a4967a3c8914ed41f24d109394a8175e36af08f93e40803e84664"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSansSC-900.woff",
+          "sha256": "d2d8a42438b18b65b6577434df4e41bb08c6b5051281757849af00ab743bb58f"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSansSC-sub.woff",
+          "sha256": "f29be895b3e7002432e6d94756a163936e9586843864740b1fc172b1859e462d"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSerifJP-600.woff",
+          "sha256": "dce02fcc08d8629226ef017472eef25b5bc152d1c32a742075fcda8f351f87d0"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSerifSC-sub.woff",
+          "sha256": "be59f4f630f0fac191dbc6e8d6945da681e5613df7602b2cef8ca7049fa19b66"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/OFL.txt",
+          "sha256": "67c5d5206b96f8340b95fabd02ae60701e0b20ce2594d976216f1065e5aa3822"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/PlayfairDisplay-400i.woff",
+          "sha256": "30cbe57e84bc719727dc54814f708eb9fa2d05a06f04d8c196b1466ecacb74d8"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/PlayfairDisplay-700.woff",
+          "sha256": "2644f0e3c7c8f79e9d0c56ad22d246294c7c2b21ea884a7a2b1a10261cb95469"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/PlayfairDisplay-700i.woff",
+          "sha256": "f263323db61a414618d9cafe489d0e18adf6682cd36baa45239ed804fe26fcf1"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Poppins-600.woff",
+          "sha256": "952d2591178ef0c2dea37fb2c14f01e18433c8d59db10f6365c9e1ca9e8efe2a"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Poppins-700.woff",
+          "sha256": "282b1ac42689074c38c62378b1412544f5ab11b91ba145ce56c54802496b7d86"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Poppins-800.woff",
+          "sha256": "4c2bd05974d03c8058b14a452b2d0d869420b1671a22c35d52da4d58864e46a6"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/PressStart2P-400.woff",
+          "sha256": "f831461d0239882019837f2b1cfea598743768f89c0b052102a1fd55050f5ca1"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Righteous-400.woff",
+          "sha256": "374317573c47429a8d87b5c862abc96572e90eef1a445439cc329d2768022121"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/RobotoCondensed-var.woff",
+          "sha256": "d149ef1478076ad3f201676de2f58d11de18257590d9faeee2318fa3bc4b90e6"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/Rye-400.woff",
+          "sha256": "2b6ae29cb40d75d69b547e7544f4ad540c5a641e7268df578a9bbc062376070e"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/UnifrakturMaguntia-400.woff",
+          "sha256": "af995e1259780861fd6b8bb3dada5cb1272fc2fd24dbb2ba5b7cc4411ffde566"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/cmunrm.woff",
+          "sha256": "32115abbbfb231586813333bfa5a234f4dc7f28b27df7260f42f81146ccd9097"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/cmunti.woff",
+          "sha256": "d9a02b7b67874c62f47f9c9a0914c115972ab77d43e82a163baf0888eb5d4a2d"
+        },
+        {
+          "path": "scripts/engine/lib/fonts/index.json",
+          "sha256": "a0870057845b502a11037acef99b6e9cbc3994fdb5149caf3aac036140dbfbb1"
+        },
+        {
+          "path": "scripts/engine/lib/kit.js",
+          "sha256": "a066c4d0d4dc7189dd9de7776938b4cbc6025a4bf4a38d2e181a6667744f3024"
+        },
+        {
+          "path": "scripts/engine/lib/media.js",
+          "sha256": "65a4d0a17ea194e799538d380d49ea59bc9b23d3118ee4a3bb3ba0c4ad8bac03"
+        },
+        {
+          "path": "scripts/engine/lib/medium.js",
+          "sha256": "da280d244f0d603236976767a8cfdc4a8d9c56c299fbd1eeb48cc3014c656984"
+        },
+        {
+          "path": "scripts/engine/lib/motion.js",
+          "sha256": "22762a3691464b7504da562b3761edc70f7c138721618639697df3a5a93c1b97"
+        },
+        {
+          "path": "scripts/engine/lib/paint.js",
+          "sha256": "95ccd1945a4a19b6e2d89a422d7ea7de96174acdbae1801090ca9ee48131f9a3"
+        },
+        {
+          "path": "scripts/engine/lib/palettes.js",
+          "sha256": "934acc426ebdada51f613d6e7b1cb693590d615a01d7a66d5461483bf79ff30a"
+        },
+        {
+          "path": "scripts/engine/lib/post.js",
+          "sha256": "e61702d4d969086f312f8b3f06f4c63bc68d3ef81b1046c86e7588f713ef7467"
+        },
+        {
+          "path": "scripts/engine/lib/render.js",
+          "sha256": "0ab16c56ff2726803994973ac6bd188d0922cfcf4631dcc8a7093914276f45e7"
+        },
+        {
+          "path": "scripts/engine/lib/rig.js",
+          "sha256": "62580706e14438c6b57289ce203d040c91d8a427e356f44084a65dfc53a13bbf"
+        },
+        {
+          "path": "scripts/engine/lib/rig_huashu.js",
+          "sha256": "6419306bb314f89848b0adf842db0c305c2f6bc931df34388eb5389f29c1d392"
+        },
+        {
+          "path": "scripts/engine/lib/three.min.js",
+          "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+        },
+        {
+          "path": "scripts/engine/lib/toon.js",
+          "sha256": "54778963a97767742257e5b68890e5b292f2b89ce3fd1a1f9711224573988d8b"
+        },
+        {
+          "path": "scripts/engine/lib/typo.js",
+          "sha256": "bfb53350a94bc77c20a5420b694b0ffb7ba913c4a2e3390d86b99cf3fa8c3976"
+        },
+        {
+          "path": "scripts/engine/lib/ui.js",
+          "sha256": "2608da0a38bfd429a9fe41c1a93a5d080d54c5fcccea80e7fea764e6ca3a97bf"
+        },
+        {
+          "path": "scripts/engine/lib/util.js",
+          "sha256": "a2092233bbca337a29b00ce261d81a5c7b6baa020c9e301916ebe4a997450b9d"
+        },
+        {
+          "path": "scripts/engine/reference_films/painted_room/README.md",
+          "sha256": "efd92ded42becb2fe04fc1377b7e2ae2f06ff1d70fdbe0650db72d0ba8fd3074"
+        },
+        {
+          "path": "scripts/engine/reference_films/painted_room/engine.js",
+          "sha256": "986f3b7dc41a448ca41ac2fa815368e127ddf8b7c6fb9d5e05a7a6b14fe64db8"
+        },
+        {
+          "path": "scripts/engine/reference_films/painted_room/film.html",
+          "sha256": "6f6d87d13988a2e71a979973e1826e661e2a98742694c21fe9a5323dd682218c"
+        },
+        {
+          "path": "scripts/engine/reference_films/painted_room/film.js",
+          "sha256": "22bccec32c7a5c81e14594f0e5649aa864f28b7f2514fe829e13690e8b0ed2fd"
+        },
+        {
+          "path": "scripts/engine/reference_films/painted_room/film2.js",
+          "sha256": "8552057d435e778b5fbcf4cf8e3f828aa150e3317b82b71cdea14c0ae3fdf689"
+        },
+        {
+          "path": "scripts/engine/reference_films/painted_room/render.py",
+          "sha256": "f8ff53dfae04df857d744c1efaca2d9f1e64a278e1142cfb0e3f165cb5a44ace"
+        },
+        {
+          "path": "scripts/engine/reference_films/painted_room/score.abc",
+          "sha256": "058802628cec0778f66fb895d4caa47c007a29f58c7ecaceb9297d60ba0d94f6"
+        },
+        {
+          "path": "scripts/engine/reference_films/rick_morty/index.html",
+          "sha256": "215c23f93303a180b3f2405454b8652b61032f8874a8ce5bfe0388e1d6b920a9"
+        },
+        {
+          "path": "scripts/engine/reference_films/rick_morty/render.py",
+          "sha256": "72d8726e94cbab93dda053b48e824b5ba3b89cad5b1d936bf3bf8b26c8819334"
+        },
+        {
+          "path": "scripts/engine/reference_films/rick_morty/room.js",
+          "sha256": "c314335e551b920f54b5b4e429cae7c1e7f8e8609164d4e2d28d944947d5cc24"
+        },
+        {
+          "path": "scripts/engine/reference_films/rick_morty/svg-kit.js",
+          "sha256": "921c63cce5dfd045e93f22cc3e2629ae5b3cd13bfca89658889b2da861c9d5d6"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/README.md",
+          "sha256": "dd19ad3495bc4e6733290af13732a57adafb039ae6a799f3054bd17b520dc353"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/eras_lin.js",
+          "sha256": "6605819d67486729d65a36c7cde3c7bd1b631bdf4384473180ac61e01a38c2cf"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/eras_spacex.js",
+          "sha256": "0061954a4399c0b13896d7f482777ea2cc813ef7415c5a68c3ee56ae4a903c98"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/eras_vox.js",
+          "sha256": "4099fdbba709a42848f2608b77fa8991b9cca43cbe98ef2bea4fe4a7acad2a84"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/eras_wbx.js",
+          "sha256": "039cb40eba4483ceb853ece6d23068e72ede0f8cabff38aca1da17127661b4b4"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/rockets.js",
+          "sha256": "c03146000da38e0999efcd06346956e84b72c0a5aaa2218b753f2558faf778ab"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s01.js",
+          "sha256": "237ce61de31f9de1bd59856eea4b1993c4cacef4965295d368f25078ad5dc560"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s02.js",
+          "sha256": "65c91538de70d4a7f15e80129a4af54a8ec37e6d8c01d67d5e74f52274e7e28d"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s03.js",
+          "sha256": "39004e9f201565a6940cd98ca4703bbb3b5b13629bb972357f6c63829891bdb5"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s04.js",
+          "sha256": "a59854fc3f5fcc5d97098cb77d266e28ff4dd8229d158576dba60a747465c64f"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s05.js",
+          "sha256": "33c4e30f049f7fdb3f495f500cc3cf8ffa32913b1268455cacd08364bfb10877"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s06.js",
+          "sha256": "7b751b39a2eb3bed6ea90119d713cebaebce149af1e2287386cef4072050a944"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s07.js",
+          "sha256": "42e8a3712d7211391e34b924a2e324db5a70cb28753535362992197ba59a5043"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s08.js",
+          "sha256": "23c788cc6367f1a5db8c59d2ee5a839a699fb84c4bfaf9c3b55768d6b78f0a19"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s09.js",
+          "sha256": "7a32c09799906726767e810f3a8ad441ba8fcf055d507a8327aaab28920d92ae"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s10.js",
+          "sha256": "98dada64b0641e5f284304743c9783261938e6466ab988fce52217f370cfcede"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s11.js",
+          "sha256": "a5611386f7703c3ecca95b90beddf8d14a746d58217a1719f0d3d2504ce43d2b"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/scenes/s12.js",
+          "sha256": "87cb530f65504bfeac1b6c07a96821a28022d7298135a63b34149e582630161c"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/timing.js",
+          "sha256": "00fa0e7dcaa4cd18c7f927ac457fbb8dcbb599dfec7e5dfbe9daf60732d4365b"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex/tm.js",
+          "sha256": "49d1198fcf58a4a44f48735c02ffc7443d6959c7938205bac513ddc24784bff9"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/common.js",
+          "sha256": "e0d25c4901c81e985cd591b130bb4b263fcae8da8b5ea8c61fbf46a541f11481"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/presenter_meta.js",
+          "sha256": "c4d839c0dcd1d370b8937c10c2f8cc48dd530d81e15c2b9513e624525e8a8a49"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s01.js",
+          "sha256": "1d8db35fca961be9c2ae8861d32c5e10aa0312c54bfa817c415c572000c1424c"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s02.js",
+          "sha256": "cb812430ad81e957b1efe1a0b990fc61e88f4e0138f34de6ce4ed79d6aede071"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s03.js",
+          "sha256": "e305844e95fba4000a728bfd84225d78fcf3163c973409a49bb820356a31374a"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s04.js",
+          "sha256": "8508c6d1df05bc8976249ef6538023a9d5b19e369c89cc612cc97bfb271c92a5"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s05.js",
+          "sha256": "b7eb5e8949b557ed70fbf28d4f77850c513c172aacddfe1a75acf55fd66b8c11"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s06.js",
+          "sha256": "7139a5b052c3c361cc750aeaffea972e43f4025481359d0d61ec6a38add8d243"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s07.js",
+          "sha256": "67f7f39a056e7edab0e89bf0a9829081e4a1f2916221cb214ac153394ffccd2b"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s08.js",
+          "sha256": "641497feea2324ab90bbde461851c5844bc6dd6b7d6febab8ebce60100be49b2"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s09.js",
+          "sha256": "bfa575443084ca857ec14060262071d72480a99e022e121eb72d3a5fbb55e453"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s10.js",
+          "sha256": "7b461f84ec85e1f08867462d5be134b9edc3a4df124753627d0d74d5d939aba2"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s11.js",
+          "sha256": "19737e5d99a2c6cfaed9307daa8520745110fc2ac68bfdcb5b6665ee3e653838"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/scenes/s12.js",
+          "sha256": "917705ac8d9b1ab0aa8c27f74c42eb26f554934ee37389328f6bf72c75054332"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_lin/tools/prep_presenter.py",
+          "sha256": "79bfe683a8311aa20b9a28e2e284eea7c0edfe7084128c3abf4584b6a73b46e4"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/common.js",
+          "sha256": "8a180bc158e658111c0dd76b13eca1f04f718773e016f4ac4fac2c88755cc280"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s01.js",
+          "sha256": "db79f6015d65b62187607f8d182d0a592c5fa84759f00ab0dbdb0a1e6fd5ebc8"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s02.js",
+          "sha256": "0f400ca0910c5a734aabcc7a5fb97e3b4ae0b6eb917e627203201f48d4c1b39e"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s03.js",
+          "sha256": "ca6c23aa451bdbd8305c075d8815c1e3d902be766f2e565ce9c7afdbacfb4d58"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s04.js",
+          "sha256": "528938e10fd97cb69e7028411a08bae21332ae9f5b07b56ecab0635f1f78c057"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s05.js",
+          "sha256": "b171c07b5e742765ef9e21ef262264a4d7d9dcf3713c941f43b0c4dbf28b49cf"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s06.js",
+          "sha256": "9968153847fb26f19c183df2ae0b1ceea12df4cc132208d99c9c32f897a1fe1d"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s07.js",
+          "sha256": "a5ac50564fe721d114dcb70e64ef932ed373c9167c7f128b8e17f52069ddc9a7"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s08.js",
+          "sha256": "9c12be241ac5bcfc95388d62832086cddff0b8e5cc5c7fdec75a76b959f361f2"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s09.js",
+          "sha256": "95f64afaa6f632ea86a77c38c112e007b2560182d0acace06f7c37757bf80ff8"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s10.js",
+          "sha256": "d186a59c8ccf38889c88baf25e3ac18efd54ac8f8b5e24f940fa2c6ab59f33bf"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s11.js",
+          "sha256": "642d7dd53f3a48ec8596be983739cb7a1e8c679e5fbb3a9595ff802699155cf2"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_vox/scenes/s12.js",
+          "sha256": "03804d0e8a0bbdfdddf7b36eab83c93ca7d5a0d7c464abfb3786080e74374b40"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/ARPHICPL.TXT",
+          "sha256": "5590533436c70f10f2f524ee61456238c290175c6662fbe1c700b5f038a6d328"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_1.png",
+          "sha256": "19761f892b70430e24b8e4780c547c0b1547f584d72b840d5a23fb06bb93c0c7"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_2.png",
+          "sha256": "f404f8d1f597cc4d97e91123e7e57d47c4514278ebf2b897498ba9483e4215c7"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/hand_3.png",
+          "sha256": "c16036d4a837b88cf977ff0a0910b08497eceef9c605eff80bfeab712e3ef10b"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/make_hand.py",
+          "sha256": "5b5cedc474960ffeeff1cfab407e2a926f036a8beab0e43147327957dadf83cb"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/assets/strokes.js",
+          "sha256": "7fd46e149eedf2c1e42becaa19e3279192d2889ea223c8dcbb696653b351a17c"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/common.js",
+          "sha256": "d416da124e3a7219de49f2d4fe7f9c6a81b01ca47c5d2a0bb4cc0f8d997188bd"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s01.js",
+          "sha256": "a9e1d970d0a4447ce375f8050cc7555c959d0c7be8cc3b0d26b864723973aac7"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s02.js",
+          "sha256": "949855e8c87174757d3d3ffadd7ac8bfe8cb80663555c3c0eb21b1c451fe86dc"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s03.js",
+          "sha256": "468e165e32d68ad46cbf3383b83b457341a200493388e6ebbfa25e202e560218"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s04.js",
+          "sha256": "bba86920a73a29be003fe1ade0f59ffa1e21a2bcd8dd5ad524904c67ce87f961"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s05.js",
+          "sha256": "057ac7bbd37ef79aafd43693def08f4225850ab094bab052557218118f430b59"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s06.js",
+          "sha256": "82c7edb955f010899acf33409ca1745d7b2c43bb9c0f9920d78384e13eae50d5"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s07.js",
+          "sha256": "6a1af8466ee815c8c6cbe28ba1baf35174feb5f42124dd9428c8dc7cab02dee9"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s08.js",
+          "sha256": "0c997e30d3904d7fc1e641c8171e1cb698f70d4090ae53e5cfbe81cc7f021e66"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s09.js",
+          "sha256": "e9a3b6fbbe19c2ffe3de94470e9d545e69822b19fa0de9d780f1dc314fee4c1b"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s10.js",
+          "sha256": "9fecdbc75264cd94173710b6d8b0b743cc9108e0cb39c1a207fb725882c4b19c"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s11.js",
+          "sha256": "080b86e5c76f091ba045d1a96ba875deb84639c0ef9a4e44aa42a58dfb0ab4e2"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/spacex_wb/scenes/s12.js",
+          "sha256": "7b24f80e83e2aa209aa77b14bf82f13856bc240d2124af393f5a0e90e181974e"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/transitions/cardFlip.js",
+          "sha256": "4044c78947d3e96afcd19c099fc3c3f06e54f6b2534fc842a570ce2d4286285b"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/transitions/deskPullOut.js",
+          "sha256": "b8d7d3c7c6eca5585f4cb02193b23fe05b88c7615f8d494352c78018387eaa55"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/transitions/kzBloom.js",
+          "sha256": "d16eeaa0aa5dad93df67af66d7116de260690294ab5d325938983643c97e2d2c"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/transitions/lin_page.js",
+          "sha256": "76006697fcca8b11ddd905a104ae9fdd0f2dedd3beedc39eb495feaa50f6addc"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/transitions/paperSlide.js",
+          "sha256": "14eb0b28a2e78a7feeaf158b81d3aef640f9776dd0bb578f21b7e6bfafe40e13"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/transitions/vox_pull.js",
+          "sha256": "79db9ef00e31a4a44872ef57f9ce9a5a89ed631c1a83d9b7e72129e4a7355959"
+        },
+        {
+          "path": "scripts/engine/reference_films/spacex/transitions/vox_slap.js",
+          "sha256": "78f8fa308a434a33d7007b776c4e006d711fea61d4f4dab9426baeebc6c3d573"
+        },
+        {
+          "path": "scripts/engine/render.py",
+          "sha256": "1519ab458d4f0461c3ea028a6d8c8d632a69a6e4cf517f291abbc008ec3056b6"
+        },
+        {
+          "path": "scripts/engine/scenes/01_cave.js",
+          "sha256": "06ff3360279ecf778d78ef5e56fa6d5cd6354a18033079eed32cba6af48dd781"
+        },
+        {
+          "path": "scripts/engine/scenes/02_egypt.js",
+          "sha256": "ce4acdce7f65f41686f7e5f04336fdf150bfd53a560a20f2a83a3db495a86353"
+        },
+        {
+          "path": "scripts/engine/scenes/03_greek.js",
+          "sha256": "58e259062257ebf15d2fb141e10441119df0691e0cc2bd212922a8cffb3be184"
+        },
+        {
+          "path": "scripts/engine/scenes/04_roman.js",
+          "sha256": "a5678635c8199b61700785915de9308fcb20abbff34f98a143b50ef740faeaf8"
+        },
+        {
+          "path": "scripts/engine/scenes/05_gothic.js",
+          "sha256": "a5b24f49d1dc01cc5d5eebba9404f6c6ebd6d6de1a61ef6c2eae36c1f591b327"
+        },
+        {
+          "path": "scripts/engine/scenes/06_renaissance.js",
+          "sha256": "ab7dca1e5f6f5911a55cb132eeea405ab3d0001f2f6ceed01cc624bacbf9279e"
+        },
+        {
+          "path": "scripts/engine/scenes/08_impressionism.js",
+          "sha256": "6d5e4ee5f4329d7551ef84edc7f15d4396effd7b80e7091074c20920dabc7d24"
+        },
+        {
+          "path": "scripts/engine/scenes/09_postimp.js",
+          "sha256": "a1806dd4dfbfe32ed9a18e70174750c0e932a2a2beca832be8dc25708c76277e"
+        },
+        {
+          "path": "scripts/engine/scenes/10_nouveau.js",
+          "sha256": "4a390aa2d70b4a6afe0b35862e502ef78f42c36ff960f3ef49482be67320ca39"
+        },
+        {
+          "path": "scripts/engine/scenes/11_cubism.js",
+          "sha256": "dbdd5cba2eb07ecd75445c534d04b40d6206bbb252c28e31ecefeb08a83ee249"
+        },
+        {
+          "path": "scripts/engine/scenes/12_bauhaus.js",
+          "sha256": "647e3d52272eda0630150d04ed3f299da095c4e8e564e3fa7c84330c2993efad"
+        },
+        {
+          "path": "scripts/engine/scenes/13_pop.js",
+          "sha256": "80a893a23dc2d0a6350323b0b63a0cf4929e48908391f796422c402aa272935c"
+        },
+        {
+          "path": "scripts/engine/scenes/14_8bit.js",
+          "sha256": "3351f505bd0f272a623061a8f49993b877339c619dceb2f5e08c05933397b71e"
+        },
+        {
+          "path": "scripts/engine/scenes/15_raytrace.js",
+          "sha256": "b77169305a158c5161c6a4f30ed8f00adf0128cbfe837b0c4f37ebbc120213b4"
+        },
+        {
+          "path": "scripts/engine/scenes/16_2026.js",
+          "sha256": "915ab9a19ee937027ec1f449b8c3d358422df29d21986d237ac7c73169a5e710"
+        },
+        {
+          "path": "scripts/engine/scenes/17_ink.js",
+          "sha256": "0d3360a701f23f6b5978686645b80d4ce69c15bec2be09f017c14e4646f05760"
+        },
+        {
+          "path": "scripts/engine/scenes/18_klimt.js",
+          "sha256": "dc03848dc98d567f15561f6af4fb709050bac729e61269297c910fc312604244"
+        },
+        {
+          "path": "scripts/engine/scenes/19_munch.js",
+          "sha256": "b415408930826beea0cd512bc5d1002f70478314b3f0357e7f88a40c01bcf0c0"
+        },
+        {
+          "path": "scripts/engine/scenes/20_dunhuang.js",
+          "sha256": "33ec1c2c6a062feac415893ba232d227c715107746fd16653a573ad63c7f8780"
+        },
+        {
+          "path": "scripts/engine/scenes/21_kusama.js",
+          "sha256": "1ae771a76fd4b8c128a667f3c87227c243a43c0673d1bf68b1f7a3eba7d6e56d"
+        },
+        {
+          "path": "scripts/engine/scenes/22_constructivism.js",
+          "sha256": "79e64e9e664886b4c6e70094d161b48e8346be318ab9c84c4859beff98a83ab5"
+        },
+        {
+          "path": "scripts/engine/scenes/23_dali.js",
+          "sha256": "5ff7dd1631b654aa0adc2d7bd27e8efffcbbd4d6f330e6002c60eb89e747fdfa"
+        },
+        {
+          "path": "scripts/engine/scenes/24_hopper.js",
+          "sha256": "672605310edebdc93c35e819bd1a2e97dba874e64b025952d24e9b81809000ed"
+        },
+        {
+          "path": "scripts/engine/scenes/25_ghibli.js",
+          "sha256": "bd0f6b22b6c8cd1ff4e18f207587f4995bc2ea949196b9a85296030c7dc5efd8"
+        },
+        {
+          "path": "scripts/engine/scenes/26_vaporwave.js",
+          "sha256": "f34aa1cc5ceb0b7cf60ac03adcf804ea7e39c7641446b88db9fb89b179daf02e"
+        },
+        {
+          "path": "scripts/engine/scenes/27_kirby.js",
+          "sha256": "d82e039d7d4ba45ca01114f9330b1dcad3ddd516efa8bda7d190e85606487028"
+        },
+        {
+          "path": "scripts/engine/scenes/28_monet.js",
+          "sha256": "1ea1f0a1c77f7ea14c153b46a62daaf5fe84d3c02e73b5cb2a4a7838c7e14930"
+        },
+        {
+          "path": "scripts/engine/scenes/29_seurat.js",
+          "sha256": "a026713b9205c6a00c805dece5068722b15071f9bbb691203697c9cd0a33be23"
+        },
+        {
+          "path": "scripts/engine/scenes/30_matisse.js",
+          "sha256": "09d97003c451d9dbe723a942ea3146213943b75cac3a92ab1648e58279358aa8"
+        },
+        {
+          "path": "scripts/engine/scenes/31_haring.js",
+          "sha256": "5113c0318ed36db84acc7eac6855ec0f0a44511f6cedd3f326b78ba4e921f1ca"
+        },
+        {
+          "path": "scripts/engine/scenes/32_rembrandt.js",
+          "sha256": "47883474a7ed9aa7c5bfe39b953748da5003c601c3dcf48e3a2e6e18fd03bf4a"
+        },
+        {
+          "path": "scripts/engine/scenes/33_rubberhose.js",
+          "sha256": "08a1340dd35de98830b81abd7026be6e2361f325215793e55369f5cd1fb50ad8"
+        },
+        {
+          "path": "scripts/engine/scenes/34_shadowpuppet.js",
+          "sha256": "08186a1764be2bdc2c27806850dea2fd86761936aeba1299e8ece9bf31f381a8"
+        },
+        {
+          "path": "scripts/engine/scenes/35_shinkai.js",
+          "sha256": "8e7f5753a0ce49291ae35bc4f471b5ca62448eb9532403459395d88bc524a736"
+        },
+        {
+          "path": "scripts/engine/scenes/36_picasso_blue.js",
+          "sha256": "10023147e1e31afc162e1cfe51356867ef83595b41bbd5cc824d55532297ce09"
+        },
+        {
+          "path": "scripts/engine/scenes/38_giotto.js",
+          "sha256": "0e89e9dd26f7a8bb5dfea53f81c96b0bcb68dabb754d37fdcc9e9570ddf830ae"
+        },
+        {
+          "path": "scripts/engine/scenes/39_piero.js",
+          "sha256": "eb1b11df1942916ec7123c4152c853ec58e75d892ff4e566af58b91ebceb6325"
+        },
+        {
+          "path": "scripts/engine/scenes/40_raphael.js",
+          "sha256": "43467fd90958b77f165141237bc0642de98da8e68dbc4bd6ee34ccf9df60020b"
+        },
+        {
+          "path": "scripts/engine/scenes/41_michelangelo.js",
+          "sha256": "315ccd5670d22340848ed2e7d89b2fd105d26d6b8dc9fd113032fc9e3b052350"
+        },
+        {
+          "path": "scripts/engine/scenes/42_guardi.js",
+          "sha256": "41157c0b2216b2d9c45c748fafc71ec1e394319641f51f9e9699a58cc40393c9"
+        },
+        {
+          "path": "scripts/engine/scenes/43_lorenzetti.js",
+          "sha256": "1be12a8e1a9c10f9617735b96093e7c1f427c252729170dc6a9747c7157f9153"
+        },
+        {
+          "path": "scripts/engine/scenes/44_cortona.js",
+          "sha256": "56b043573e024d89671f4219cfae67aa03660f9e64cde333903d130f156b5443"
+        },
+        {
+          "path": "scripts/engine/scenes/45_renoir.js",
+          "sha256": "272fe9812f243d52ed75630cbdb2a17839e35219b5384a6271d7b99305e60d72"
+        },
+        {
+          "path": "scripts/engine/scenes/46_pissarro.js",
+          "sha256": "092d137061f5a13b576a074bc120f6bd4703df54c2c7540c35a2489eba5042bc"
+        },
+        {
+          "path": "scripts/engine/scenes/47_sisley.js",
+          "sha256": "1ce1c3f6eed3387e8ee29692b66e8e787faabc0f4655bfa3f2b99b9869efb15c"
+        },
+        {
+          "path": "scripts/engine/scenes/48_gauguin.js",
+          "sha256": "e5483c4da9686ed0b7c594485c107627493ea876023923c6ad66ffb0a6f13a4a"
+        },
+        {
+          "path": "scripts/engine/scenes/49_chagall.js",
+          "sha256": "0cd89ba15d8909bfeff910c50366480c8b48c791d6ae6207698d133f2ca020cb"
+        },
+        {
+          "path": "scripts/engine/scenes/50_ma_yuan.js",
+          "sha256": "97838320cf9be562f915885048e50495d394068068835c9ec52fe0e50c3c969c"
+        },
+        {
+          "path": "scripts/engine/scenes/51_persian_miniature.js",
+          "sha256": "3be9436ef96b83471ee2882faafa015947d1714ccff0b47de1189907b17a68c4"
+        },
+        {
+          "path": "scripts/engine/scenes/52_south_park.js",
+          "sha256": "9dfeb48dede1d1d6bc9a28a67af1151649392efcbb03ccc1a8849e34d5cdb47c"
+        },
+        {
+          "path": "scripts/engine/scenes/53_pixar.js",
+          "sha256": "fc6c8343666445cd551daa923be28c94c01db3c3e25311076a729a8663bc4f5a"
+        },
+        {
+          "path": "scripts/engine/scenes/54_ghibli_lab.js",
+          "sha256": "063ae6a409ed8a8e970b3619b7806b9def84013537be2db29824519aba663aab"
+        },
+        {
+          "path": "scripts/engine/scenes/55_dunhuang.js",
+          "sha256": "1aa496ddc26a9bddfb0f5e6cb3e3d89f1f35d585acd12e2584d34a94a4781a0f"
+        },
+        {
+          "path": "scripts/engine/scenes/index.js",
+          "sha256": "22da1210908a8083658eb53289656eeb578026b6deabc666928014d01ddae23e"
+        },
+        {
+          "path": "scripts/engine/spec_assets.py",
+          "sha256": "d963a9fa80a7c71ed4ff20f4bf5ff692b17d53aa49e8b9b234c4a1a671f60d41"
+        },
+        {
+          "path": "scripts/engine/transitions.js",
+          "sha256": "92830ec34e10fc9eae1abe29fa50146435b42e67f0087ddadec219286ac0e48e"
+        },
+        {
+          "path": "scripts/engine/时代作者规范.md",
+          "sha256": "4e7661571b60fa0ed776fb5631462aff3a30235c5e6343aa06f9cd23973391fc"
+        },
+        {
+          "path": "scripts/film_gate.py",
+          "sha256": "2d375cc2bea291e7a1b837d5755b49fbda72f5f75515758c09bf7d83cd269e52"
+        },
+        {
+          "path": "scripts/font_subset.py",
+          "sha256": "ed826dffb4b370741602aa79caefd69157fcf6d7f9abd90a9078d4f7208896e0"
+        },
+        {
+          "path": "scripts/images.py",
+          "sha256": "a47a2663f251525bfbed5b46533e3d43415c9e10c8a2b8a9f754abf204529535"
+        },
+        {
+          "path": "scripts/key_green.py",
+          "sha256": "11ac28bb2508d6b4a240eb37a55b342a0f556943fe29a17962bbc0f93f90d303"
+        },
+        {
+          "path": "scripts/key_split.py",
+          "sha256": "889759cd6b5353b4d48d34faf3878682890e06ca79887c9ade9be401b7359f86"
+        },
+        {
+          "path": "scripts/koubo.py",
+          "sha256": "7837507e6bf02b20f8aa63efdc881c8de0d5de775b4bf31a1040bd3824348494"
+        },
+        {
+          "path": "scripts/qa.py",
+          "sha256": "b243900f0b91c246a297b81509b801c35b2b83c6f9a62b7adb68e3b217c34ee0"
+        },
+        {
+          "path": "scripts/storyboard_lint.py",
+          "sha256": "fadf90d645d45d9584f635a6bb908eddbfa55d5422d615f09efecddae3003d73"
+        },
+        {
+          "path": "scripts/subzone_gate.py",
+          "sha256": "8641a3b1b38ac28c1562e454a0e370f36a73d1a0c79cddf36175c7444a9c1598"
+        },
+        {
+          "path": "scripts/voice_review.py",
+          "sha256": "c7c546079ae4d25682a1f2794fda2fed08206ab2bd708875bfe480ac0b4098b2"
+        },
+        {
+          "path": "tests/fixtures/y4_storytime_test_frames.json",
+          "sha256": "97fe2a512d57afb456dfddd261eefba89731c25f7af0b38383ff70ad6adf8b61"
+        },
+        {
+          "path": "tests/test_capabilities.py",
+          "sha256": "04ce548d5a72a11a87a3bd85c46a98e13f1aabafb096e3c59a6fc7a20bfdf4ad"
+        },
+        {
+          "path": "tests/test_clip_theme.py",
+          "sha256": "efb0f2f6f5b7f180676af8d0929b2f19f4f94ef7af82e4b6f75d29fb8eeae9ad"
+        },
+        {
+          "path": "tests/test_clip_world.py",
+          "sha256": "95051d28d2c42c14007059211977822204f13210f6ee06c23b8a0b8a89077d1d"
+        },
+        {
+          "path": "tests/test_film_gate.py",
+          "sha256": "5a5a9945166ecea6daa5b58cff9bbacc4cd191f30a4032c3e5d6611987e78dac"
+        },
+        {
+          "path": "tests/test_film_gate_blank.py",
+          "sha256": "83a74e62484590ee31b0b68950b67c548e57a13c817da18dca8e708b6ab68528"
+        },
+        {
+          "path": "tests/test_film_gate_color.py",
+          "sha256": "ad00c79f123575746f6fdf44267394bcfe62f53a4385d921ebc86c6f40502848"
+        },
+        {
+          "path": "tests/test_images.py",
+          "sha256": "5fe7533ec25a2644e3685e1677186eaf1554ebbbcc390fcd56a45afbad872040"
+        },
+        {
+          "path": "tests/test_local_server.py",
+          "sha256": "b775a60c86c4a0914d67c4cfb7cb37256a447db700bfdba146a2db3704ea83ff"
+        },
+        {
+          "path": "tests/test_portrait_stage_centers.cjs",
+          "sha256": "17a63648a9fb9faa86f8607cbf242e1015e9a407c4b031656ad549f50c3cac4d"
+        },
+        {
+          "path": "tests/test_release.py",
+          "sha256": "a190d8825e23f6204263f3d00d6728bf709586bc178c980d53244a82ef198b41"
+        },
+        {
+          "path": "tests/test_storyboard_lint.py",
+          "sha256": "fa22b169d3766852171d3b401366797464e2dd5375bac486f5e1e824cc886096"
+        },
+        {
+          "path": "tests/test_voice_review.py",
+          "sha256": "044576ad2b4d73dd745cbc63336bc7780a08fe5df566dcf69ada2f4a4136db99"
+        }
+      ],
+      "omitted_gallery_files": [
+        ".github/workflows/tests.yml",
+        "assets/showcase/clawd-clips.md",
+        "assets/showcase/clawd-dawn.gif",
+        "assets/showcase/clawd-trex.gif",
+        "assets/showcase/clawd-vangogh.gif",
+        "assets/showcase/egypt.gif",
+        "assets/showcase/hero.png",
+        "assets/showcase/mario-claude.gif",
+        "assets/showcase/mario-clips.md",
+        "assets/showcase/mario-combo.gif",
+        "assets/showcase/mario-pipe.gif",
+        "assets/showcase/monet.gif",
+        "assets/showcase/pixel.gif",
+        "assets/全风格总览.jpg",
+        "assets/动画语法/t1_3b1b_总览.jpg",
+        "assets/动画语法/t2_keynote_ui_总览.jpg",
+        "assets/动画语法/t3_finance_chart_总览.jpg",
+        "assets/动画语法/y1_kurzgesagt_总览.jpg",
+        "assets/动画语法/y2_vox_总览.jpg",
+        "assets/动画语法/y3_whiteboard_总览.jpg",
+        "assets/动画语法/y4_storytime_总览.jpg",
+        "assets/动画语法/y5_kinetic_type_总览.jpg",
+        "assets/新风格v2_证据/38_giotto.jpg",
+        "assets/新风格v2_证据/40_raphael.jpg",
+        "assets/新风格v2_证据/41_michelangelo.jpg",
+        "assets/新风格v2_证据/43_lorenzetti.jpg",
+        "assets/新风格v2_证据/44_cortona.jpg",
+        "assets/新风格v2_证据/46_pissarro.jpg",
+        "assets/新风格v2_证据/47_sisley.jpg",
+        "assets/新风格v2_证据/48_gauguin.jpg",
+        "assets/新风格v2_证据/50_ma_yuan.jpg",
+        "assets/新风格v2_证据/51_persian_miniature.jpg",
+        "assets/新风格v2_证据/总览.jpg",
+        "assets/长卷穿越_总览.jpg"
+      ]
+    },
+    {
+      "name": "claude-drawing",
+      "repository": "https://github.com/cloveric/claude-drawing-skill",
+      "commit": "6af36dc717b63d6ddafb54d2eaa120cacd99ab4d",
+      "adaptation": "Shortened SKILL.md frontmatter for Codex; original frontmatter saved alongside it. Workflow body unchanged.",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "cc0bf909b531e1160011869c8a4867550172d13d4e89425d87b5dd2ce3f9bad1"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cf492d512a99a4a448596b0ee4f66c56896a3afa257a8e07465b8afbfae50c42"
+        },
+        {
+          "path": "README.md",
+          "sha256": "9097c69b942d349f49515e519a708c440eb2672454e80a7fbb2abaa31a368a94"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "728c6920a28e16b0ae52144b657572a1570020ce1f2bbe792ecea8cd22657da1"
+        },
+        {
+          "path": "docs/GALLERY.md",
+          "sha256": "31967c881485d20fef00957f0880cf8234b24a64f70209de706cd5a2f18f7d87"
+        },
+        {
+          "path": "docs/GIFS.md",
+          "sha256": "eeb1f1a89e4ceacde6e41238c35e433cf294684baecc9e7c386ec6102a3ff01e"
+        },
+        {
+          "path": "docs/PRINCIPLES.md",
+          "sha256": "e6a980e3a53d07b379607e291d83c6c54ba89cc994cd4fdb1c3befc623c1b75d"
+        },
+        {
+          "path": "docs/PRINCIPLES.zh.md",
+          "sha256": "f4dd94540022da27eaf4375f159ae10c1c54307b32c9ccdd2484378f6aeef419"
+        },
+        {
+          "path": "docs/STYLES.md",
+          "sha256": "1b3b63754c1129589e19a15da88b659594a24fa945ecc556c123d507321c122c"
+        },
+        {
+          "path": "docs/STYLES.zh.md",
+          "sha256": "cc0bf8413d02f3d5bbd834bb5f576052655652e4f58ba3dee76a37aef6a101af"
+        },
+        {
+          "path": "docs/USAGE.md",
+          "sha256": "4fc91e1ed29ad06c4065aecc16df34746d840ab3bf3a07bc13a9b89520f5e6b0"
+        },
+        {
+          "path": "examples/anime_summer.py",
+          "sha256": "9429f8331eb6b1c15aaea2d93233741c5037adb7f0917bcd6b4413adc4bc54ec"
+        },
+        {
+          "path": "examples/artdeco_express.py",
+          "sha256": "f40b3dce45e4ac95b4d4c5b8e976b074ed98e646269fe01bf2dd07366c918e9b"
+        },
+        {
+          "path": "examples/aurora_morning.py",
+          "sha256": "567bfa0f5b3f4cc3a94a011a788b44ee6ba0e2219a9012bfd1b5952d1e45baf2"
+        },
+        {
+          "path": "examples/ballpoint_board_game.py",
+          "sha256": "bdefa36db99e346ccbe8fbcf1a46c3fde18f1649467bc45cd94edb57c561f291"
+        },
+        {
+          "path": "examples/bauhaus_form_colour.py",
+          "sha256": "34e1f77992be69b270118768b7f15db15409904730606012924a5831c9d94142"
+        },
+        {
+          "path": "examples/bawansiqian.py",
+          "sha256": "669dabe86d8653d281487d5d25ae99a05edab03e38cff9370a7ec9387e8e969b"
+        },
+        {
+          "path": "examples/blackfigure_games.py",
+          "sha256": "e41410a60c740fe6edbe7130741a1b506ff712afa1cd5512b14c8674f60e5592"
+        },
+        {
+          "path": "examples/bluebook_shared_umbrella.py",
+          "sha256": "59b1ab6dadbd0ef699c278c28380dd5cb0efba1006b9a91ef7bfe4b38109f364"
+        },
+        {
+          "path": "examples/blueprint_lighthouse.py",
+          "sha256": "595b899fa120c3f068c031a5179041111f0d96707acbb3408432c8c140bc8c73"
+        },
+        {
+          "path": "examples/canvasboard_moving_plan.py",
+          "sha256": "1f28f52e5862d4b4c0c081b4e328fc6da133dbf6cd0d02ecc50785c5cd61ad6b"
+        },
+        {
+          "path": "examples/cartoon_toaster.py",
+          "sha256": "291aabfcc649589cf7e8f175d491dd8c65de7f01721d0e7fb787498c2467da1b"
+        },
+        {
+          "path": "examples/cave_hunt.py",
+          "sha256": "cc251bdb2315ee2fdb12a133515fd4e37d94336812b7fb6f92c418addbbeb01d"
+        },
+        {
+          "path": "examples/chalk_lesson.py",
+          "sha256": "3be7c750d4de8aa5b266fbfde7f2982e85bb860cabb3e8c6b9f58f7622a94ab6"
+        },
+        {
+          "path": "examples/clay_lighthouse.py",
+          "sha256": "266a5c0f4c0553067d3f46df26f99458b4776b3043bb341515fc4fb21f488412"
+        },
+        {
+          "path": "examples/codex_ornithopter.py",
+          "sha256": "64b3d2878d724a5a723afefe294f7db307d8fa20e1575cf68524c5c5d44896d3"
+        },
+        {
+          "path": "examples/colorpencil_dessert.py",
+          "sha256": "8267b90247561a06659817fbfdd420bd05101a5943b981b76a960c21852528ab"
+        },
+        {
+          "path": "examples/colortown_festival_steps.py",
+          "sha256": "75f21556fa93d479ee045f5ccb762c638deaddf87aacc3dc0c0b7ad5a88eabc7"
+        },
+        {
+          "path": "examples/comic_rocket.py",
+          "sha256": "c3975ccb9720de752f004a15957f513d9b72a2ff1ceabcc16ad3e78e2d1acf6d"
+        },
+        {
+          "path": "examples/constructivism_radio.py",
+          "sha256": "9dbdd8e3403643d90ad36cfd99dfd9463cff7593ae1c5c9d4680019d02476453"
+        },
+        {
+          "path": "examples/crayon_picnic.py",
+          "sha256": "5c36e3a1f0588ecca755fce15db809c42896e6b7fdd4720b7942177ef5261846"
+        },
+        {
+          "path": "examples/crt_weather.py",
+          "sha256": "0073d2abf0b3b8010c4da1fff8b167efed34062fc194fab43d100dbeecf58969"
+        },
+        {
+          "path": "examples/cyanotype_botanicals.py",
+          "sha256": "7341056de49d60f8a4da907782645d4be6167e04bdb10ff90ad42478fcd488e1"
+        },
+        {
+          "path": "examples/cyberpunk_neon_street.py",
+          "sha256": "81d4ac54ef2ac15e7fa9eccf065537da4f922ca266c54b282575fba533126a93"
+        },
+        {
+          "path": "examples/delft_canal.py",
+          "sha256": "08f98caad2b314d6cb8b19c2fb848a702b504f058ae7fdf71d8a5dfffa9d02c0"
+        },
+        {
+          "path": "examples/dreamhills_long_walk.py",
+          "sha256": "0f17a1a38d3408c31579bcb4e632ae578d36d85464deb887ae0e81de2a43dff4"
+        },
+        {
+          "path": "examples/drybrush_noodle_counter.py",
+          "sha256": "c57eb544d1e311bb580e61fd0464591e6fd0256c9e85c4242d03a800bd62f936"
+        },
+        {
+          "path": "examples/editorial_ideas.py",
+          "sha256": "76632a462c4638988f3ad662709590caa07661394e51b6e147dd8179c432aa5f"
+        },
+        {
+          "path": "examples/flatvector_night_camp.py",
+          "sha256": "6a87087c65e25cb0920fb4450aa2b1df59276b2d11b17147fa532935a9c51284"
+        },
+        {
+          "path": "examples/flexoki_pour_over.py",
+          "sha256": "e0867fa85ddeea3c49c2f10bec6ec290939f650bb089ca82fc21501b603a8926"
+        },
+        {
+          "path": "examples/gouache_rainy_day.py",
+          "sha256": "15f8281ec6c35b205ffee66aeefa35022b9436b4b8daafcc572bb9fad169402d"
+        },
+        {
+          "path": "examples/grading_math_quiz.py",
+          "sha256": "7d6b5d9b072515f59116c812403319ad2c4a26b2a67fc2bb7641bd65aa417b2a"
+        },
+        {
+          "path": "examples/grainbook_duck_pond.py",
+          "sha256": "37728d88248fb6db90bd27c5b6377bb1623e7d1ce6377fa6db69bf07177b5046"
+        },
+        {
+          "path": "examples/grainbook_snow_walk.py",
+          "sha256": "1bbd14d73261f0406355d2d1d9860ee7f3be9aefa965d6e7a2b8322d32f3ccbe"
+        },
+        {
+          "path": "examples/graphite_bicycle.py",
+          "sha256": "18cf677a76b26abcdb9b5e9417231a583790c764051741f3f991b5a2722a5fdb"
+        },
+        {
+          "path": "examples/illuminated_starchart.py",
+          "sha256": "b3277460390dbdda8e1fd94246d80d176efc434dc1d1d1a2f0be775e794371db"
+        },
+        {
+          "path": "examples/isometric_weather_island.py",
+          "sha256": "94a6b4e60e7cb2552f57d337267affc4fac52edfd3e1555c79d2197a04f9ee8d"
+        },
+        {
+          "path": "examples/jiangnan_spring_water.py",
+          "sha256": "c56e67da714fd8234ee44e2f3222fd7f82cc29df4cd4b959b9ede93ce3882c1e"
+        },
+        {
+          "path": "examples/letterpress_circus.py",
+          "sha256": "a36934627f7057bad54a751060dd301a463ccb722bcfc56223ca312cbe884743"
+        },
+        {
+          "path": "examples/lineart_paper_plane.py",
+          "sha256": "e3a833c9139352199a6d58df3de7110dc1764bb86b5c055b3d98001bed506033"
+        },
+        {
+          "path": "examples/lineprinter_launch.py",
+          "sha256": "59a005a9ec112d153a1ae57153e46f2127abc716e1ffb90ef6462f2161bfd195"
+        },
+        {
+          "path": "examples/linocut_snowy_village.py",
+          "sha256": "fc11289c8a8213e634bc1ae27a6a0e69bc0cf15e67cbf9d3eec8da9e3e43d194"
+        },
+        {
+          "path": "examples/lowpoly_canyon.py",
+          "sha256": "d5935c6267d01a0de15f5b6aa055ffc6d2a9193c1ad9d2fbc26245826935e898"
+        },
+        {
+          "path": "examples/macpaint_garden.py",
+          "sha256": "84e3b1452ce7fc687e9c4c37b373ffd61cf32835d6b519fe1bcc8bcdd0a90a90"
+        },
+        {
+          "path": "examples/moon_river.py",
+          "sha256": "03f6fa152d41b569079f8171635acc2970c3307f84a3f2fcef3ffb93280e40b5"
+        },
+        {
+          "path": "examples/morph_water_cycle.py",
+          "sha256": "8869b30dacf312e60a063a0553741a2dfe915ce589a5f2a8c576d347088d6fb3"
+        },
+        {
+          "path": "examples/mosaic_harbor.py",
+          "sha256": "bfb0a6005bc9c87cd7f3d9dc95f8eba5b2e72da6cddc826d15d771f7aebfab44"
+        },
+        {
+          "path": "examples/newscollage_curiosity.py",
+          "sha256": "797924cce829310b75b51f6b65d0c21860eba5dc4bde3e88a53a5e5cd8a0e389"
+        },
+        {
+          "path": "examples/nocturne_lava_sea.py",
+          "sha256": "c9484284b58088c6d9cb27d5dc0c346902a9474672a2a2fb9bca1ca37668e3a8"
+        },
+        {
+          "path": "examples/notebook_brewing.py",
+          "sha256": "8bf79a52a91952085605b88ff3b169a99a6a685c82b0ef547101ffdd4f3f75c0"
+        },
+        {
+          "path": "examples/obsidianui_reading_notes.py",
+          "sha256": "f875b8246a30045a3368899b9c9bc49907caead890a3f8354ae3b31b44f8c842"
+        },
+        {
+          "path": "examples/oil_wheatfield.py",
+          "sha256": "0a4959d7bbef76676247873a93dcd1a7a03bc1b1fbc9276dfb1bf1663a2b10eb"
+        },
+        {
+          "path": "examples/oilpastel_warm_cup.py",
+          "sha256": "5fb8d57b0fcde672e6b0acddfad1d3692d8910d62ab3e14cd6278f63fa837bfb"
+        },
+        {
+          "path": "examples/overlay_city_map.py",
+          "sha256": "1b968c05c1cea64fe013e548f4eabdcba61383edd2e81695a5e9f829c3d6da86"
+        },
+        {
+          "path": "examples/panel_radio.py",
+          "sha256": "eb5717f3382d24d145f18693bef3ab23771a99d5c849058a082f9d3edaa8ccbc"
+        },
+        {
+          "path": "examples/papercut_balloons.py",
+          "sha256": "6fa5913e90b858a05017bdc29a0b44148714a69ce91e48e5be26e17e582ec141"
+        },
+        {
+          "path": "examples/pastelui_packing.py",
+          "sha256": "6f919ee8f5f4b5ee879ef2d53473250a1ef02a144e5d0a8a3fcea693c0404f72"
+        },
+        {
+          "path": "examples/pastelvignette_marmalade_scarf.py",
+          "sha256": "0162d1ad5abcbf5f0880538a63e58d4aae56515716ca850bf6911d83fe98a265"
+        },
+        {
+          "path": "examples/patch_camping.py",
+          "sha256": "376a2bcaf4d5457ba842439d4e999a18963c348060508e3e323cc7b1b8ad3054"
+        },
+        {
+          "path": "examples/pencilbook_tortoise_crossing.py",
+          "sha256": "d84e8f5a92370a8dd373a7b8f330fd674de6cbaaeeae3682643a49dbc26ee6ca"
+        },
+        {
+          "path": "examples/penwash_neighbours.py",
+          "sha256": "16c348601834c0c4b417a8989f5d19081ffc691770c20ea03f61686e6371d3cb"
+        },
+        {
+          "path": "examples/perler_strawberry_coaster.py",
+          "sha256": "cbbed2ce1a6ff693581b3b077955621c3f5779ece2354f62aad32b61afc88770"
+        },
+        {
+          "path": "examples/petroglyph_migration.py",
+          "sha256": "8413ff72c1120655d2a4101e3f133b40a1b365d0f187c06492eea66fc2a908a6"
+        },
+        {
+          "path": "examples/pixel_rainy_cafe.py",
+          "sha256": "4f3cf12a650677d24b344dcdf168b5193491c69eb66c2fbe7c3307fd922d2f03"
+        },
+        {
+          "path": "examples/poetichalloween_ghost_jar.py",
+          "sha256": "a3e6706558bf51fd39c2b715260427a21edece265a8691a8b7824dd03518caff"
+        },
+        {
+          "path": "examples/popart_cat_moods.py",
+          "sha256": "aae79c804c299a15e2e60a454cd9cd4bc78bfc548b530a2fc35c0441936a4c6f"
+        },
+        {
+          "path": "examples/rubberhose_morning.py",
+          "sha256": "e16c16af0cb410715fb6905b6c3cbdfb87244c277d4804dc02bd5436a9c3a33c"
+        },
+        {
+          "path": "examples/shadowpuppet_cuju.py",
+          "sha256": "68f0da084b07eeb3c58d8aeef8c73e70df93018afa549871ffca5cd188793670"
+        },
+        {
+          "path": "examples/silhouette_family.py",
+          "sha256": "73fb08c1611c07501204ca841e572b1c8da4efe93a810441119c3247b0963937"
+        },
+        {
+          "path": "examples/sketchbook_kite_day.py",
+          "sha256": "4ead412375720338352ab7056dfd809627532c29d80302a0a6a7dc260eb97d23"
+        },
+        {
+          "path": "examples/sketchbook_reading_hour.py",
+          "sha256": "91ad327562b85092d8148bce6243fa4ddfa0e6fd459008e083b9ae48205d736a"
+        },
+        {
+          "path": "examples/soft3d_rise.py",
+          "sha256": "1c496477b4ff2a43e465018c115a7d0a9e89390dfdb4cf44327c099f19a766d6"
+        },
+        {
+          "path": "examples/spotillo_rainy_saturday.py",
+          "sha256": "a37267c0ca17737359dab5b164c8415c695f6e1176779b4f44b729c88c198a3d"
+        },
+        {
+          "path": "examples/stainedglass_seasons.py",
+          "sha256": "9dcc052932bef8c8ebfa5b70270da6d43c81e45f964d53480e8a5084e91c4e11"
+        },
+        {
+          "path": "examples/stencil_kite.py",
+          "sha256": "25e37b59eb57dccf3f5ae0886f4f9f5cacc844289da3d0f20d8fcf5617396540"
+        },
+        {
+          "path": "examples/sticker_market.py",
+          "sha256": "d3ac96b9bcf7152aa9b5ce7483c9ca22c2e930698ed2a0b5a121c648cae1369a"
+        },
+        {
+          "path": "examples/stitch_sampler.py",
+          "sha256": "53fc211f3b1ace6dd83eec743261c634dedc6c2659ca5dedf0b8df5c01763e77"
+        },
+        {
+          "path": "examples/storybook_acorn.py",
+          "sha256": "a1727887eb6da531ff000bded6f7d24e04286520030236f75505f31eb9e96f41"
+        },
+        {
+          "path": "examples/sunlitgreen_stream_steps.py",
+          "sha256": "a97133ef509655b9d0b352e428c261c6d99f55f2e2bf969df8aac8eddf0375cb"
+        },
+        {
+          "path": "examples/sunlitgreen_window_seat.py",
+          "sha256": "88c6539e5805c597cac30fc6915b81b2b56e1d2072f2c1453e15d047e4c6a2e4"
+        },
+        {
+          "path": "examples/synthwave_coastline.py",
+          "sha256": "c10d07ac512823064d17f46c1d385fb31e8282afa097a7ec2d03612093552603"
+        },
+        {
+          "path": "examples/thermal_kitchen.py",
+          "sha256": "a5b356881478b7ef46b4633b699a4f1763b8ee963bce50a9de401f379360c1ce"
+        },
+        {
+          "path": "examples/tomb_harvest.py",
+          "sha256": "3957b65fd94662196a3be84e4f2e973115120e7347a4424bef977e7fc2258810"
+        },
+        {
+          "path": "examples/twilight_paper_kite.py",
+          "sha256": "811a23baae4d3ba2582ca5ba8c4c000521d052cf10f713dd70b1155445b4b01d"
+        },
+        {
+          "path": "examples/ukiyoe_fuji.py",
+          "sha256": "3361bae14c793fcc4e4f4ab6bea06b9a89142b206744311fa8b65dd5c5a2a7b6"
+        },
+        {
+          "path": "examples/vhs_birthday.py",
+          "sha256": "344700da9770e43573cc1f8fba40a2bc8ec6d837c2c36deda44285af7c3f6f41"
+        },
+        {
+          "path": "examples/watercolor_autumn.py",
+          "sha256": "32a4d6d4fe918f2c41e129653079705d06cd6d2b33002303eae2082d238c604a"
+        },
+        {
+          "path": "examples/watercolor_washes.py",
+          "sha256": "98d931f7cf96d86bce915ab282d8c576c31a8745b06550302f83a65621417eeb"
+        },
+        {
+          "path": "examples/xray_luggage.py",
+          "sha256": "dcefe31de6d7548987208e38754de6dde9bfaf991c544216d79568c3cb3b9aa7"
+        },
+        {
+          "path": "lib/anime.py",
+          "sha256": "8231d606190df9ad53bb4da09d7407aa9f2bebb12f08002be05be7bee6b3e43c"
+        },
+        {
+          "path": "lib/artdeco.py",
+          "sha256": "0feaa177a71d51699a1ece4d5b388f7c889288236669c3a755a5206dfc224a13"
+        },
+        {
+          "path": "lib/aurora.py",
+          "sha256": "9e7e36416b9593b99598c9dc579669c9a4d97e0d609add6f9659a0984a8b0894"
+        },
+        {
+          "path": "lib/ballpoint.py",
+          "sha256": "80ed0c5292efa5c75ba843d140b2aaa02ec5a4b472ad180025ebeb682ddb32db"
+        },
+        {
+          "path": "lib/bauhaus.py",
+          "sha256": "81ed0819591f0fc0ea33b86c67fde15a04eaacae6946701cbbe24d42e7e3a601"
+        },
+        {
+          "path": "lib/blackfigure.py",
+          "sha256": "fcc7b7f252bb32322f2a9398158e37b21dee1c1bd61f3ac22922b8394bfb722b"
+        },
+        {
+          "path": "lib/bluebook.py",
+          "sha256": "4107cd9f7d77e1324c67785d299c47cd49b8ecfdb06e555cbf5810ba82693ab3"
+        },
+        {
+          "path": "lib/blueprint.py",
+          "sha256": "dc1f638c8b27849bf04f53afb6a722ee264ed0bf677f429ee7c0c967155e7cb3"
+        },
+        {
+          "path": "lib/canvasboard.py",
+          "sha256": "76058f126180b9e96a0c676199ebe742c2567d9f9bd4e83f390b1049f53c2727"
+        },
+        {
+          "path": "lib/cartoon.py",
+          "sha256": "847f7a94f0f27e289afc38d2049599d6a4248d2d96e7b43a6123439ba2f91266"
+        },
+        {
+          "path": "lib/cave.py",
+          "sha256": "e92d2d54eb585cde13f52e9bfd897b45177203f2f23754813fe17ef2d22ec8bc"
+        },
+        {
+          "path": "lib/chalk.py",
+          "sha256": "d65c13ad259a9119dcb736f416be2b55c8c63608c5554cefbf7a7169c7d7e88b"
+        },
+        {
+          "path": "lib/clay.py",
+          "sha256": "86b976fe134252e9a67d0918a19535bfe9e361d8dbb1e4db908d5f4dba44b17b"
+        },
+        {
+          "path": "lib/codex.py",
+          "sha256": "7f840eba7e1a86570da27f663df4132bce090c37747cde2f2bac8e20ea1528b6"
+        },
+        {
+          "path": "lib/colorpencil.py",
+          "sha256": "7cc65ced7ae9f7846ab1f4f58e52d2baf8189beb2bb6212e90abd4d237df7fbf"
+        },
+        {
+          "path": "lib/colortown.py",
+          "sha256": "d44ee4c5e20e27d01e7fb57ff1fc5e0200945f3a44eeea88c81df80ad763afb9"
+        },
+        {
+          "path": "lib/comic.py",
+          "sha256": "f3f26e0c0ebda6913a98da502d80c4b46252e1b7a82b695c5909826b386e651b"
+        },
+        {
+          "path": "lib/constructivism.py",
+          "sha256": "9c6bc9b31ddb40b867c53c0d37cc3c4324279c9740919225bd5285edbaa0f820"
+        },
+        {
+          "path": "lib/core.py",
+          "sha256": "67d023bcea6c028fbffb3d6e4bb2e9f8313dded2d63bbee1b7a8b89b7e67936f"
+        },
+        {
+          "path": "lib/crayon.py",
+          "sha256": "7c6e32439cce317c33ceb59804bd146bb3c3abe64a91d920e55b014cb4f28333"
+        },
+        {
+          "path": "lib/crt.py",
+          "sha256": "c864c565837720f6d1a5ef185b1462eb1d9c7447cae0f6d9988ffcbf880fb102"
+        },
+        {
+          "path": "lib/cyanotype.py",
+          "sha256": "55f74024b0f89a058086af07e00c28f3212483fde932eaea19b55d46fcd0b43c"
+        },
+        {
+          "path": "lib/cyberpunk.py",
+          "sha256": "04ed5a58acc7400053c69ed2c89c2f71c27b1740470191c0a22c8ca416fc1a8e"
+        },
+        {
+          "path": "lib/delft.py",
+          "sha256": "1850871e8f5c6dfc80fb3b1a7a51e96bb1b3497dc5d0e3d435560420b85d0d63"
+        },
+        {
+          "path": "lib/dreamhills.py",
+          "sha256": "b93f73e2439decbc1698ec7b496e3d39becae3d0c23ee7edb152f07d8f5a9e26"
+        },
+        {
+          "path": "lib/drybrush.py",
+          "sha256": "bf5c1f9861eb326e5946a121d6a3657a4f16ff62b28098d3ef50473d6d547416"
+        },
+        {
+          "path": "lib/editorial.py",
+          "sha256": "1a0c375f545325a1a975b0cdae8cd8b6292185bcfb7543b904978e877874ba85"
+        },
+        {
+          "path": "lib/flatvector.py",
+          "sha256": "741d10a8699caaba56223f826049e8f079757c1c06de82ee93b7c3ddc0c51967"
+        },
+        {
+          "path": "lib/flexoki.py",
+          "sha256": "876838443eaa9edbf66c00ab919d483343a389ea4f20516acd909381e7cf2991"
+        },
+        {
+          "path": "lib/gouache.py",
+          "sha256": "849a11e9da8e256f53d87a3a1b1b961356d5ad8ec521d9f3092bc157713170e5"
+        },
+        {
+          "path": "lib/grading.py",
+          "sha256": "2a67cb20a464553d93aaa8a764e09490b004091b304bb532a774635efdbb8678"
+        },
+        {
+          "path": "lib/grainbook.py",
+          "sha256": "dfbcf850ed6354fe84315f2fa184b45a748b2e3a57dc1861ce08005f98b5206b"
+        },
+        {
+          "path": "lib/graphite.py",
+          "sha256": "e51c16259bb4d5352120356d7f6a01d1774d31afaec051fcf4d933c250937c36"
+        },
+        {
+          "path": "lib/illuminated.py",
+          "sha256": "5b442046617631e644d17bf71c9964f2f33102b4a62222dc0af81b9a8ca84b49"
+        },
+        {
+          "path": "lib/inkpaint.py",
+          "sha256": "c8fed5dc7c78b32461794985e360e659af231a92ed3f2a1e397d8ff8e1b76aab"
+        },
+        {
+          "path": "lib/isometric.py",
+          "sha256": "d560cbf2785cc9f0cee93a18f6ae4d6892fe1e68607ff78db0cfbf53ba84fbc1"
+        },
+        {
+          "path": "lib/jiangnan.py",
+          "sha256": "f83d835e1804f58822f151759b353a5089b1e7a159e3a6a99b83526e0e876742"
+        },
+        {
+          "path": "lib/letterpress.py",
+          "sha256": "f2105b14d1bb61a01b03a225b3162281f0b111804e4a6d3086f2fe14a2a3facf"
+        },
+        {
+          "path": "lib/lineart.py",
+          "sha256": "5291e25ccaa86284a4cae56663a0f66cf6c40e46689d7da0472172c91b7467c0"
+        },
+        {
+          "path": "lib/lineprinter.py",
+          "sha256": "15c43fc3ebbbcc3f6e4070c71f8de1abb4ba66f021776ea643ad47d269864b18"
+        },
+        {
+          "path": "lib/linocut.py",
+          "sha256": "0214aed359be469918bb6bdf73bef945610901db0a90091466fbf423029e9a94"
+        },
+        {
+          "path": "lib/lowpoly.py",
+          "sha256": "f9c04c31f33f69c54d59342e3076d74e0bfb8f51e5ee15434914411c4ce3dd36"
+        },
+        {
+          "path": "lib/macpaint.py",
+          "sha256": "06b87aaac6a80641de0fd9c84259d3c7f7ad2055a419dd7f3812e8ca45a5c991"
+        },
+        {
+          "path": "lib/morph.py",
+          "sha256": "d4be1c0214aaf590ddee75196d36b18b4260eafa616b41e0bc2a0b1247ad2dca"
+        },
+        {
+          "path": "lib/mosaic.py",
+          "sha256": "161de8ed95467152521b2dfd4084b3c439bf73575125c15dc911d93d412b4e46"
+        },
+        {
+          "path": "lib/newscollage.py",
+          "sha256": "84301a5fc060db15f5b5f04b8939ba8fcdd22b287937dbe4282c3ed0b846082e"
+        },
+        {
+          "path": "lib/nocturne.py",
+          "sha256": "2d5f49c9b2067f6a85e78d296bc8fb345477aeb7786da8b3ccfdf5f3a55243b2"
+        },
+        {
+          "path": "lib/notebook.py",
+          "sha256": "5d1e4d6da51139f19e33248f7520d5d897e73f5542df82ae677c482f799ca068"
+        },
+        {
+          "path": "lib/obsidianui.py",
+          "sha256": "ac573f43935cf7deac82e770ac07eab3d75af31badfee2027a9d92f187392133"
+        },
+        {
+          "path": "lib/oilpaint.py",
+          "sha256": "69b779f67c326b1a96e3a4b2f26a623b312c5319fe29434ba288a461e883f481"
+        },
+        {
+          "path": "lib/oilpastel.py",
+          "sha256": "170232279667eb186fd9be2915bb495fd9666312887c7a3d60c044140744af64"
+        },
+        {
+          "path": "lib/overlay.py",
+          "sha256": "79e84728e82250f8e990b0c2175d2ef8a594082513805e75b5e8740915def1bf"
+        },
+        {
+          "path": "lib/panel.py",
+          "sha256": "06d202760beb70aff575b87e4ab8cccbcadd76d0998db798d15b88f32eeb3402"
+        },
+        {
+          "path": "lib/papercut.py",
+          "sha256": "759a9a44dadef255eab41ed8181ccc2af7b965abafbc4d40929592f5d8017ea5"
+        },
+        {
+          "path": "lib/pastelui.py",
+          "sha256": "7c3b492c45f283111a131406b2420d8dfa3c79a11d98efc202336d816abdc2e1"
+        },
+        {
+          "path": "lib/pastelvignette.py",
+          "sha256": "9ba97fabe86973dfe36c3971289073aafa05a0bd80455fcc1941e92fb48169a7"
+        },
+        {
+          "path": "lib/patch.py",
+          "sha256": "8dcf746191026afb151b81e7888845727cf6df0797974fa61cfa489c44fc4757"
+        },
+        {
+          "path": "lib/pencilbook.py",
+          "sha256": "a692f02e7aa914e5991188cf70567fe31b1b7e226b67e85799c3d313ed281440"
+        },
+        {
+          "path": "lib/penwash.py",
+          "sha256": "5e6e8e0fd57b0894dc237321244f213c7fff8544389bba1de957d9550fb1dc3c"
+        },
+        {
+          "path": "lib/perler.py",
+          "sha256": "2848f0fff93707dd0a89cfe2b00e54eefd8a03e87d17df7a4a9b4d8694f5c788"
+        },
+        {
+          "path": "lib/petroglyph.py",
+          "sha256": "aa73a93eb28ef27fa6fee2de722d45408f4f3af148a1e729eae2f4651fc91f8c"
+        },
+        {
+          "path": "lib/pixelart.py",
+          "sha256": "36b45632f4458aceb5424b0b141d721071434ddf7bba84c0e0b2403e6a97961a"
+        },
+        {
+          "path": "lib/poetichalloween.py",
+          "sha256": "de4cbd905a4883fdab2451864c55c3df365e0b841c010d52b67816ce1b408f46"
+        },
+        {
+          "path": "lib/popart.py",
+          "sha256": "01a2b21c1a4d429320efe95b74e14cd1a12a6ab3a2a8bfd1db3d037913a3869a"
+        },
+        {
+          "path": "lib/rubberhose.py",
+          "sha256": "17f05657d4957f6b95e70ad199def5fb2e4c21a6b5b1b27dcc0ae704b5f4e6f4"
+        },
+        {
+          "path": "lib/shadowpuppet.py",
+          "sha256": "2c3367ca1c735a6f9a2b2f55e5113379f98c675df7fc3eb8bf12973b22817782"
+        },
+        {
+          "path": "lib/silhouette.py",
+          "sha256": "1af5113d043a094de75f4a27da680180aa736d0a52843bf7e94131d1cfb75141"
+        },
+        {
+          "path": "lib/sketchbook.py",
+          "sha256": "d2aca855bcaa2b47919c49f1cee8cca86ad5ae87cf3638754c26c11aa985ea27"
+        },
+        {
+          "path": "lib/soft3d.py",
+          "sha256": "7cbaf1dad7dc4feae1aa52650695d44a7e60a71c785f2f3a627fd8c5c36c4b8d"
+        },
+        {
+          "path": "lib/spotillo.py",
+          "sha256": "98753da99407251cd4bd2c078a5265aaa7d926755b94ace77ccf10f86f397e2b"
+        },
+        {
+          "path": "lib/stainedglass.py",
+          "sha256": "a6e5f14be7331d5d1f18145147477fc6c86c3c561a188a08561ed56a2b8cc655"
+        },
+        {
+          "path": "lib/stencil.py",
+          "sha256": "55c7351e844ae46599d5433fe42547bc603c8636050f481b1261e4de3559c612"
+        },
+        {
+          "path": "lib/sticker.py",
+          "sha256": "dc8c08a9332e1846ed9f5f7c3b5dc048b81e1cee2b064d410acc47917ad84b5c"
+        },
+        {
+          "path": "lib/stitch.py",
+          "sha256": "a5e552ae5145ffeaf8b51d5c34952f70edf9e77648d72c69601a85fff4f44e27"
+        },
+        {
+          "path": "lib/storybook.py",
+          "sha256": "5456b84953e2a1fbe3aa1552a2a931c5f7d47f0a044e50973721f0aff8f1a84a"
+        },
+        {
+          "path": "lib/sunlitgreen.py",
+          "sha256": "4d629763b0c744dc8a187c8835f6cc95b7d996e620d5ade72c50ec29a79a016e"
+        },
+        {
+          "path": "lib/synthwave.py",
+          "sha256": "b627b1a5427cb45a145995d0d54c889b591e50eb68bb60d811012e74a19c790f"
+        },
+        {
+          "path": "lib/thermal.py",
+          "sha256": "3a4d9ed8c4e47d2cf16398712afa6a5dd8b4f588e4baea039c4bef8608f15d80"
+        },
+        {
+          "path": "lib/tomb.py",
+          "sha256": "0a6a2bb2335f8c42b3be0b0c6053bb005254bfda0540541b754c949b329f5e26"
+        },
+        {
+          "path": "lib/twilight.py",
+          "sha256": "ceb1a02b4fe210439bd6517b249cc11aa51aa886e4617431b8aa8e3fd20af26f"
+        },
+        {
+          "path": "lib/ukiyoe.py",
+          "sha256": "98781c72173dfe0e0e264d9ff5c6eb809d4caff0418d8dfeaabf39a6f65a6c1e"
+        },
+        {
+          "path": "lib/vhs.py",
+          "sha256": "525f96c83606da1e63a75926ea4ede3da15e27bb3f4a49e25b5cc4117fbcfd1b"
+        },
+        {
+          "path": "lib/watercolor.py",
+          "sha256": "1a535e36bddea324421031aca3ee24f0e40f138fa6635a8c771339c711ca5959"
+        },
+        {
+          "path": "lib/xray.py",
+          "sha256": "099ca6631f722590ef402d223079a541958c6b88528e1048a9fee012f10c1f1f"
+        },
+        {
+          "path": "requirements.txt",
+          "sha256": "b33aa44f85c8328d9c34d37fe5ed9e1073c11fd2a11ac302d887167b2e0a3ba7"
+        }
+      ],
+      "omitted_gallery_files": [
+        "docs/hero.jpg",
+        "docs/thumbs/anime_summer.jpg",
+        "docs/thumbs/artdeco_express.jpg",
+        "docs/thumbs/aurora_morning.jpg",
+        "docs/thumbs/ballpoint_board_game.jpg",
+        "docs/thumbs/bauhaus_form_colour.jpg",
+        "docs/thumbs/bawansiqian.jpg",
+        "docs/thumbs/blackfigure_games.jpg",
+        "docs/thumbs/bluebook_shared_umbrella.jpg",
+        "docs/thumbs/blueprint_lighthouse.jpg",
+        "docs/thumbs/canvasboard_moving_plan.jpg",
+        "docs/thumbs/cartoon_toaster.jpg",
+        "docs/thumbs/cave_hunt.jpg",
+        "docs/thumbs/chalk_lesson.jpg",
+        "docs/thumbs/clay_lighthouse.jpg",
+        "docs/thumbs/codex_ornithopter.jpg",
+        "docs/thumbs/colorpencil_dessert.jpg",
+        "docs/thumbs/colortown_festival_steps.jpg",
+        "docs/thumbs/comic_rocket.jpg",
+        "docs/thumbs/constructivism_radio.jpg",
+        "docs/thumbs/crayon_picnic.jpg",
+        "docs/thumbs/crt_weather.jpg",
+        "docs/thumbs/cyanotype_botanicals.jpg",
+        "docs/thumbs/cyberpunk_neon_street.jpg",
+        "docs/thumbs/delft_canal.jpg",
+        "docs/thumbs/dreamhills_long_walk.jpg",
+        "docs/thumbs/drybrush_noodle_counter.jpg",
+        "docs/thumbs/editorial_ideas.jpg",
+        "docs/thumbs/flatvector_night_camp.jpg",
+        "docs/thumbs/flexoki_pour_over.jpg",
+        "docs/thumbs/gouache_rainy_day.jpg",
+        "docs/thumbs/grading_math_quiz.jpg",
+        "docs/thumbs/grainbook_snow_walk.jpg",
+        "docs/thumbs/graphite_bicycle.jpg",
+        "docs/thumbs/illuminated_starchart.jpg",
+        "docs/thumbs/isometric_weather_island.jpg",
+        "docs/thumbs/jiangnan_spring_water.jpg",
+        "docs/thumbs/letterpress_circus.jpg",
+        "docs/thumbs/lineart_paper_plane.jpg",
+        "docs/thumbs/lineprinter_launch.jpg",
+        "docs/thumbs/linocut_snowy_village.jpg",
+        "docs/thumbs/lowpoly_canyon.jpg",
+        "docs/thumbs/macpaint_garden.jpg",
+        "docs/thumbs/morph_water_cycle.jpg",
+        "docs/thumbs/mosaic_harbor.jpg",
+        "docs/thumbs/newscollage_curiosity.jpg",
+        "docs/thumbs/nocturne_lava_sea.jpg",
+        "docs/thumbs/notebook_brewing.jpg",
+        "docs/thumbs/obsidianui_reading_notes.jpg",
+        "docs/thumbs/oil_wheatfield.jpg",
+        "docs/thumbs/oilpastel_warm_cup.jpg",
+        "docs/thumbs/overlay_city_map.jpg",
+        "docs/thumbs/panel_radio.jpg",
+        "docs/thumbs/papercut_balloons.jpg",
+        "docs/thumbs/pastelui_packing.jpg",
+        "docs/thumbs/pastelvignette_marmalade_scarf.jpg",
+        "docs/thumbs/patch_camping.jpg",
+        "docs/thumbs/pencilbook_tortoise_crossing.jpg",
+        "docs/thumbs/penwash_neighbours.jpg",
+        "docs/thumbs/perler_strawberry_coaster.jpg",
+        "docs/thumbs/petroglyph_migration.jpg",
+        "docs/thumbs/pixel_rainy_cafe.jpg",
+        "docs/thumbs/poetichalloween_ghost_jar.jpg",
+        "docs/thumbs/popart_cat_moods.jpg",
+        "docs/thumbs/rubberhose_morning.jpg",
+        "docs/thumbs/shadowpuppet_cuju.jpg",
+        "docs/thumbs/silhouette_family.jpg",
+        "docs/thumbs/sketchbook_reading_hour.jpg",
+        "docs/thumbs/soft3d_rise.jpg",
+        "docs/thumbs/spotillo_rainy_saturday_wide.jpg",
+        "docs/thumbs/stainedglass_seasons.jpg",
+        "docs/thumbs/stencil_kite.jpg",
+        "docs/thumbs/sticker_market.jpg",
+        "docs/thumbs/stitch_sampler.jpg",
+        "docs/thumbs/storybook_acorn.jpg",
+        "docs/thumbs/sunlitgreen_window_seat.jpg",
+        "docs/thumbs/synthwave_coastline.jpg",
+        "docs/thumbs/thermal_kitchen.jpg",
+        "docs/thumbs/tomb_harvest.jpg",
+        "docs/thumbs/twilight_paper_kite.jpg",
+        "docs/thumbs/ukiyoe_fuji.jpg",
+        "docs/thumbs/vhs_birthday.jpg",
+        "docs/thumbs/watercolor_autumn.jpg",
+        "docs/thumbs/xray_luggage.jpg",
+        "examples/anime_summer.jpg",
+        "examples/artdeco_express.jpg",
+        "examples/aurora_morning.jpg",
+        "examples/ballpoint_board_game.jpg",
+        "examples/bauhaus_form_colour.jpg",
+        "examples/bawansiqian.jpg",
+        "examples/blackfigure_games.jpg",
+        "examples/bluebook_shared_umbrella.jpg",
+        "examples/blueprint_lighthouse.jpg",
+        "examples/canvasboard_moving_plan.jpg",
+        "examples/cartoon_toaster.jpg",
+        "examples/cave_hunt.jpg",
+        "examples/chalk_lesson.jpg",
+        "examples/clay_lighthouse.jpg",
+        "examples/codex_ornithopter.jpg",
+        "examples/colorpencil_dessert.jpg",
+        "examples/colortown_festival_steps.jpg",
+        "examples/comic_rocket.jpg",
+        "examples/constructivism_radio.jpg",
+        "examples/crayon_picnic.jpg",
+        "examples/crt_weather.jpg",
+        "examples/cyanotype_botanicals.jpg",
+        "examples/cyberpunk_neon_street.jpg",
+        "examples/delft_canal.jpg",
+        "examples/drawing_anime_summer.gif",
+        "examples/drawing_artdeco_express.gif",
+        "examples/drawing_aurora_morning.gif",
+        "examples/drawing_ballpoint_board_game.gif",
+        "examples/drawing_bauhaus_form_colour.gif",
+        "examples/drawing_bawansiqian.gif",
+        "examples/drawing_blackfigure_games.gif",
+        "examples/drawing_bluebook_shared_umbrella.gif",
+        "examples/drawing_blueprint_lighthouse.gif",
+        "examples/drawing_canvasboard_moving_plan.gif",
+        "examples/drawing_cartoon_toaster.gif",
+        "examples/drawing_cave_hunt.gif",
+        "examples/drawing_chalk_lesson.gif",
+        "examples/drawing_clay_lighthouse.gif",
+        "examples/drawing_codex_ornithopter.gif",
+        "examples/drawing_colorpencil_dessert.gif",
+        "examples/drawing_colortown_festival_steps_wide.gif",
+        "examples/drawing_comic_rocket.gif",
+        "examples/drawing_constructivism_radio.gif",
+        "examples/drawing_crayon_picnic.gif",
+        "examples/drawing_crt_weather.gif",
+        "examples/drawing_cyanotype_botanicals.gif",
+        "examples/drawing_cyberpunk_neon_street.gif",
+        "examples/drawing_delft_canal.gif",
+        "examples/drawing_dreamhills_long_walk.gif",
+        "examples/drawing_dreamhills_long_walk_night.gif",
+        "examples/drawing_dreamhills_long_walk_noon.gif",
+        "examples/drawing_drybrush_noodle_counter.gif",
+        "examples/drawing_editorial_ideas.gif",
+        "examples/drawing_flatvector_night_camp.gif",
+        "examples/drawing_flexoki_pour_over.gif",
+        "examples/drawing_gouache_rainy_day.gif",
+        "examples/drawing_grading_math_quiz.gif",
+        "examples/drawing_grainbook_duck_pond.gif",
+        "examples/drawing_grainbook_snow_walk.gif",
+        "examples/drawing_graphite_bicycle.gif",
+        "examples/drawing_illuminated_starchart.gif",
+        "examples/drawing_isometric_weather_island.gif",
+        "examples/drawing_jiangnan_spring_water.gif",
+        "examples/drawing_letterpress_circus.gif",
+        "examples/drawing_lineart_paper_plane.gif",
+        "examples/drawing_lineprinter_launch.gif",
+        "examples/drawing_linocut_snowy_village.gif",
+        "examples/drawing_lowpoly_canyon.gif",
+        "examples/drawing_macpaint_garden.gif",
+        "examples/drawing_moon_river.gif",
+        "examples/drawing_morph_water_cycle.gif",
+        "examples/drawing_mosaic_harbor.gif",
+        "examples/drawing_newscollage_curiosity.gif",
+        "examples/drawing_nocturne_lava_sea.gif",
+        "examples/drawing_notebook_brewing.gif",
+        "examples/drawing_obsidianui_reading_notes.gif",
+        "examples/drawing_oil_wheatfield.gif",
+        "examples/drawing_oilpastel_warm_cup.gif",
+        "examples/drawing_overlay_city_map.gif",
+        "examples/drawing_panel_radio.gif",
+        "examples/drawing_papercut_balloons.gif",
+        "examples/drawing_pastelui_packing.gif",
+        "examples/drawing_pastelvignette_marmalade_scarf.gif",
+        "examples/drawing_patch_camping.gif",
+        "examples/drawing_pencilbook_tortoise_crossing.gif",
+        "examples/drawing_penwash_neighbours.gif",
+        "examples/drawing_perler_strawberry_coaster.gif",
+        "examples/drawing_petroglyph_migration.gif",
+        "examples/drawing_pixel_rainy_cafe.gif",
+        "examples/drawing_poetichalloween_ghost_jar.gif",
+        "examples/drawing_popart_cat_moods.gif",
+        "examples/drawing_rubberhose_morning.gif",
+        "examples/drawing_shadowpuppet_cuju.gif",
+        "examples/drawing_silhouette_family.gif",
+        "examples/drawing_sketchbook_kite_day.gif",
+        "examples/drawing_sketchbook_reading_hour.gif",
+        "examples/drawing_soft3d_rise.gif",
+        "examples/drawing_spotillo_rainy_saturday.gif",
+        "examples/drawing_stainedglass_seasons.gif",
+        "examples/drawing_stencil_kite.gif",
+        "examples/drawing_sticker_market.gif",
+        "examples/drawing_stitch_sampler.gif",
+        "examples/drawing_storybook_acorn.gif",
+        "examples/drawing_sunlitgreen_stream_steps.gif",
+        "examples/drawing_sunlitgreen_window_seat.gif",
+        "examples/drawing_sunlitgreen_window_seat_late.gif",
+        "examples/drawing_synthwave_coastline.gif",
+        "examples/drawing_thermal_kitchen.gif",
+        "examples/drawing_tomb_harvest.gif",
+        "examples/drawing_twilight_paper_kite.gif",
+        "examples/drawing_ukiyoe_fuji.gif",
+        "examples/drawing_vhs_birthday.gif",
+        "examples/drawing_watercolor_autumn.gif",
+        "examples/drawing_watercolor_washes.gif",
+        "examples/drawing_xray_luggage.gif",
+        "examples/dreamhills_long_walk.jpg",
+        "examples/dreamhills_long_walk_night.jpg",
+        "examples/drybrush_noodle_counter.jpg",
+        "examples/editorial_ideas.jpg",
+        "examples/flatvector_night_camp.jpg",
+        "examples/flexoki_pour_over.jpg",
+        "examples/gouache_rainy_day.jpg",
+        "examples/grading_math_quiz.jpg",
+        "examples/grainbook_duck_pond.jpg",
+        "examples/grainbook_snow_walk.jpg",
+        "examples/graphite_bicycle.jpg",
+        "examples/illuminated_starchart.jpg",
+        "examples/isometric_weather_island.jpg",
+        "examples/jiangnan_spring_water.jpg",
+        "examples/letterpress_circus.jpg",
+        "examples/lineart_paper_plane.jpg",
+        "examples/lineprinter_launch.jpg",
+        "examples/linocut_snowy_village.jpg",
+        "examples/lowpoly_canyon.jpg",
+        "examples/macpaint_garden.jpg",
+        "examples/moon_river.jpg",
+        "examples/morph_water_cycle.jpg",
+        "examples/mosaic_harbor.jpg",
+        "examples/newscollage_curiosity.jpg",
+        "examples/nocturne_lava_sea.jpg",
+        "examples/notebook_brewing.jpg",
+        "examples/obsidianui_reading_notes.jpg",
+        "examples/oil_wheatfield.jpg",
+        "examples/oilpastel_warm_cup.jpg",
+        "examples/overlay_city_map.jpg",
+        "examples/panel_radio.jpg",
+        "examples/papercut_balloons.jpg",
+        "examples/pastelui_packing.jpg",
+        "examples/pastelvignette_marmalade_scarf.jpg",
+        "examples/patch_camping.jpg",
+        "examples/pencilbook_tortoise_crossing.jpg",
+        "examples/penwash_neighbours.jpg",
+        "examples/perler_strawberry_coaster.jpg",
+        "examples/petroglyph_migration.jpg",
+        "examples/pixel_rainy_cafe.png",
+        "examples/poetichalloween_ghost_jar.jpg",
+        "examples/popart_cat_moods.jpg",
+        "examples/rubberhose_morning.jpg",
+        "examples/shadowpuppet_cuju.jpg",
+        "examples/silhouette_family.jpg",
+        "examples/sketchbook_kite_day.jpg",
+        "examples/sketchbook_reading_hour.jpg",
+        "examples/soft3d_rise.jpg",
+        "examples/spotillo_rainy_saturday.jpg",
+        "examples/spotillo_rainy_saturday_wide.jpg",
+        "examples/stainedglass_seasons.jpg",
+        "examples/stencil_kite.jpg",
+        "examples/sticker_market.jpg",
+        "examples/stitch_sampler.jpg",
+        "examples/storybook_acorn.jpg",
+        "examples/sunlitgreen_stream_steps.jpg",
+        "examples/sunlitgreen_window_seat.jpg",
+        "examples/synthwave_coastline.jpg",
+        "examples/thermal_kitchen.jpg",
+        "examples/tomb_harvest.jpg",
+        "examples/twilight_paper_kite.jpg",
+        "examples/ukiyoe_fuji.jpg",
+        "examples/vhs_birthday.jpg",
+        "examples/watercolor_autumn.jpg",
+        "examples/watercolor_washes.jpg",
+        "examples/xray_luggage.jpg"
+      ]
+    }
+  ],
+  "note": "Gallery media and packaged .skill archives omitted; runtime assets, libraries, scripts, references, licenses and example source retained."
+}
