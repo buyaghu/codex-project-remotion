@@ -374,7 +374,7 @@
           "sha256": "6742107724e234436c39b690eae2f54cf986825634de2b69053f419e99faa48d"
         },
         {
-          "path": "assets/角色/花叔形象_对比.jpg",
+          "path": "assets/\u89d2\u8272/\u82b1\u53d4\u5f62\u8c61_\u5bf9\u6bd4.jpg",
           "sha256": "e2dd1082f5a6d6c66182b27b16a71ad9b6426e567ff4b406e4ebec007e044615"
         },
         {
@@ -382,67 +382,67 @@
           "sha256": "8e1c98a9b5b8195f66c4060e05e5dded9bb95b797164a8b9c587bdfa5df4e0b4"
         },
         {
-          "path": "references/01-拆解.md",
+          "path": "references/01-\u62c6\u89e3.md",
           "sha256": "83dd492d5b1f616a6e45302b630a7fbcaa65a16120a8df443185df2ee615cb32"
         },
         {
-          "path": "references/02-机制.md",
+          "path": "references/02-\u673a\u5236.md",
           "sha256": "8b5a7c248bd5d816d2408a4f79fc6dbe866e8f03104c7a71b9d2fa2c8a696cdc"
         },
         {
-          "path": "references/03-一帧先行四条路线.md",
+          "path": "references/03-\u4e00\u5e27\u5148\u884c\u56db\u6761\u8def\u7ebf.md",
           "sha256": "cfc167ff5c13ed29f03fa967be4e775494e2f2d0a1879dfb8473cf2ea432c2d7"
         },
         {
-          "path": "references/04-纯代码绘制.md",
+          "path": "references/04-\u7eaf\u4ee3\u7801\u7ed8\u5236.md",
           "sha256": "7d234b7fb904626cc99af0cb687d3bb7104263c089b3ee2cda59408dc5dfc0eb"
         },
         {
-          "path": "references/05-节奏与配乐.md",
+          "path": "references/05-\u8282\u594f\u4e0e\u914d\u4e50.md",
           "sha256": "1086c15ea216548777d2fa5552cd5c874ff89df2da84f9ffa160737930e3d98f"
         },
         {
-          "path": "references/06-口播驱动的艺术短片.md",
+          "path": "references/06-\u53e3\u64ad\u9a71\u52a8\u7684\u827a\u672f\u77ed\u7247.md",
           "sha256": "9275abd6451831515ed9aed24724062bf47dda5e5d2d804baa8313c137236bc8"
         },
         {
-          "path": "references/07-正面经验.md",
+          "path": "references/07-\u6b63\u9762\u7ecf\u9a8c.md",
           "sha256": "b151c1cc6932a3cbc66b03d847e8a1b547073dc5a28d836a05da5ae9a11cb79b"
         },
         {
-          "path": "references/08-风格作者规范.md",
+          "path": "references/08-\u98ce\u683c\u4f5c\u8005\u89c4\u8303.md",
           "sha256": "b7db67c8418410dec8313b7212e2aa52f9db8d8395b26cc0b72c19ab1a376728"
         },
         {
-          "path": "references/09-视频动画语法.md",
+          "path": "references/09-\u89c6\u9891\u52a8\u753b\u8bed\u6cd5.md",
           "sha256": "2a2e3256fc5dd2ba1e0c96312e0fa63299ff3a5f0bb9d1bcf84539af902a26e1"
         },
         {
-          "path": "references/10-角色.md",
+          "path": "references/10-\u89d2\u8272.md",
           "sha256": "8fe37c83597892c42c8f292c00f302804fcc4a362ef47998abea038d96aa6166"
         },
         {
-          "path": "references/11-长卷穿越片.md",
+          "path": "references/11-\u957f\u5377\u7a7f\u8d8a\u7247.md",
           "sha256": "42f2e441687116c8d2dd789b187ada572390e242976996727a209959163a6ad6"
         },
         {
-          "path": "references/12-口播整片与经验回流.md",
+          "path": "references/12-\u53e3\u64ad\u6574\u7247\u4e0e\u7ecf\u9a8c\u56de\u6d41.md",
           "sha256": "b85f6e8b665c13a5d98ea461c10af340679a6949101ee31dd64eee7e88aed415"
         },
         {
-          "path": "references/13-口播与语音复刻.md",
+          "path": "references/13-\u53e3\u64ad\u4e0e\u8bed\u97f3\u590d\u523b.md",
           "sha256": "cb12d2002f9c7a8a41b9abd711bd44a99f9929bcd66351015232cea2eda024a6"
         },
         {
-          "path": "references/15-跨场景风格提炼.md",
+          "path": "references/15-\u8de8\u573a\u666f\u98ce\u683c\u63d0\u70bc.md",
           "sha256": "377920a1eb20da5d90bfd7af3f31fc2183b193cac2558d3f828afbf6bc5ad645"
         },
         {
-          "path": "references/16-风格演示95分协议.md",
+          "path": "references/16-\u98ce\u683c\u6f14\u793a95\u5206\u534f\u8bae.md",
           "sha256": "bfb400c87ec844fb04450b453c502c47455c5b4b90cf9e2800283886d7ee61ea"
         },
         {
-          "path": "references/18-媒介层与角色入画.md",
+          "path": "references/18-\u5a92\u4ecb\u5c42\u4e0e\u89d2\u8272\u5165\u753b.md",
           "sha256": "b0f0411c33d506ce8a932295150e49204c20cc5bfb36163fd0122beb093bff4d"
         },
         {
@@ -466,287 +466,287 @@
           "sha256": "e8559c64b39ca361909d8a9ba4e31bcad4c273213aa075000908f1cbeaf8e790"
         },
         {
-          "path": "references/动画语法/t1_3b1b.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/t1_3b1b.md",
           "sha256": "23fc11ea77a5f14b34768398f61240787e459debeac8f3fd5109f6ea5e43d827"
         },
         {
-          "path": "references/动画语法/t2_keynote_ui.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/t2_keynote_ui.md",
           "sha256": "0e2779a2e755f0513a8ac025482e542a4d873b02f0b00f0e908216e26d5a9625"
         },
         {
-          "path": "references/动画语法/t3_finance_chart.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/t3_finance_chart.md",
           "sha256": "ea1e21c49b50653ad48d0bd4ab0d1b1e88a698ccfbfd8e257c7e8f767adf2c20"
         },
         {
-          "path": "references/动画语法/y1_kurzgesagt.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/y1_kurzgesagt.md",
           "sha256": "a859f871f717c0017b4e4520f4c2760a7719784b54d92de37afb12e1967717a8"
         },
         {
-          "path": "references/动画语法/y2_vox.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/y2_vox.md",
           "sha256": "adb0491d000cd2205b37c4739b7885c817737ff11dd73331f8c99d5c5a8871d3"
         },
         {
-          "path": "references/动画语法/y3_whiteboard.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/y3_whiteboard.md",
           "sha256": "f2fda7768034d94928982193965f225a3c85a850eaf28f3f28459e85dbe0773d"
         },
         {
-          "path": "references/动画语法/y4_storytime.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/y4_storytime.md",
           "sha256": "b3c7ed7af47734bc5ca8465082ef3aa1e55d0d64c225d21cca34180e0dd000ae"
         },
         {
-          "path": "references/动画语法/y5_kinetic_type.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/y5_kinetic_type.md",
           "sha256": "97b200e68231d71cd10cf3f1027b4db36e99ce9a06004891d644994883bb15e2"
         },
         {
-          "path": "references/动画语法/y6_presenter_explainer.md",
+          "path": "references/\u52a8\u753b\u8bed\u6cd5/y6_presenter_explainer.md",
           "sha256": "405318fc5aac9ce03cbc374af9633ec7d652dc8206ad3810919abdb174eff273"
         },
         {
-          "path": "references/口播API.md",
+          "path": "references/\u53e3\u64adAPI.md",
           "sha256": "a9d2775fc97bf92f46cf0a6531f1921ccdcf195dd79475c575bf8f188ca5801e"
         },
         {
-          "path": "references/色板.md",
+          "path": "references/\u8272\u677f.md",
           "sha256": "3a1588ded19aba078131423b22f97fb8835f1656c1c5643afbba505ff8f6f8ae"
         },
         {
-          "path": "references/角色精细度.md",
+          "path": "references/\u89d2\u8272\u7cbe\u7ec6\u5ea6.md",
           "sha256": "15d1607771c5553942cba89edd22a8e8af0f8dfdb16977fd180b7babe5a2dbb6"
         },
         {
-          "path": "references/镜头表模板.md",
+          "path": "references/\u955c\u5934\u8868\u6a21\u677f.md",
           "sha256": "aef6aae50eaae318f1090a8135640bebb36974f6bbc537bc34253959d3523cae"
         },
         {
-          "path": "references/镜头语言.md",
+          "path": "references/\u955c\u5934\u8bed\u8a00.md",
           "sha256": "7afbf9266b4e530a183e7c682ffb55166645a3cd9e628f1b5ace4ebb22d8d2eb"
         },
         {
-          "path": "references/风格配方/01_cave.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/01_cave.md",
           "sha256": "ebdb5fc8f9a57d947ef3a325bfdaf275cbd906e36010945e05c7d2e7ef1f4d2c"
         },
         {
-          "path": "references/风格配方/02_egypt.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/02_egypt.md",
           "sha256": "a3097d1936d0e482a56a9745e31f3ba9a508aa2db50fbbefba4d97cc4d481ebb"
         },
         {
-          "path": "references/风格配方/03_greek.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/03_greek.md",
           "sha256": "0caa761151cd76d1a31390f602dc6bc131dba745c6244a2b12ba037697077b50"
         },
         {
-          "path": "references/风格配方/04_roman.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/04_roman.md",
           "sha256": "4066fc1b3edfaa7ad4494646df5c6bef0a79d77cb0326d7487b2f833fbb2a81d"
         },
         {
-          "path": "references/风格配方/05_gothic.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/05_gothic.md",
           "sha256": "2c33750ee754673f87828f1755c14d4c893cd0483e96ceb02fe8f0f33c3a440b"
         },
         {
-          "path": "references/风格配方/06_renaissance.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/06_renaissance.md",
           "sha256": "2fd2589f538747b7c2a178def2441e432a3ecc7bc5aee8e3a1f82c7a79792cc6"
         },
         {
-          "path": "references/风格配方/08_impressionism.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/08_impressionism.md",
           "sha256": "dd353d6e2ff550c3601a20bd529c8908118b4453d12b009e1e82761aa1822b65"
         },
         {
-          "path": "references/风格配方/09_postimp.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/09_postimp.md",
           "sha256": "20aebeaf193cb1ac960c73e70a289e52f6a939949ce558ec06f7d816311fdd0a"
         },
         {
-          "path": "references/风格配方/10_nouveau.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/10_nouveau.md",
           "sha256": "ed5a38a201c7d4c69473a662d2e17b8a7081d09cdd2fcbeb57575da7bef3cc64"
         },
         {
-          "path": "references/风格配方/11_cubism.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/11_cubism.md",
           "sha256": "0ab951ff470aa6bf6a001fe4bdd51d02367f03754a94f0dc443d27351a9aa6ba"
         },
         {
-          "path": "references/风格配方/12_bauhaus.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/12_bauhaus.md",
           "sha256": "729623cbc414f11d1c1629dcae0d1e64452acd7fdfc5c07bd41f44149f13c59d"
         },
         {
-          "path": "references/风格配方/13_pop.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/13_pop.md",
           "sha256": "01e334a4b76ebfd0c71fa6997acafc6d02929498998f99e4544689bd5fb43913"
         },
         {
-          "path": "references/风格配方/14_8bit.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/14_8bit.md",
           "sha256": "fa237f81d76cea3dae16929093814b92399829e33175aae3d26bd4cec39b6569"
         },
         {
-          "path": "references/风格配方/15_raytrace.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/15_raytrace.md",
           "sha256": "44498145e8b99156b2ee36446444424322f0ed6ee2e0384f34ff242fe89f68b1"
         },
         {
-          "path": "references/风格配方/16_2026.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/16_2026.md",
           "sha256": "4dfc199bdb1ed0b1fdc3ed9108bd5eb2e8078fdbb4de0e0bb5d00c6ba73f31f1"
         },
         {
-          "path": "references/风格配方/17_ink.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/17_ink.md",
           "sha256": "67f396530a9032b523151f649d0d8398562ff9f6acede3ef4aab85c831d2c032"
         },
         {
-          "path": "references/风格配方/18_klimt.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/18_klimt.md",
           "sha256": "c4e96a0f531b8157e05592379a152a85a41acf2718f77883ce872e04865dfef9"
         },
         {
-          "path": "references/风格配方/19_munch.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/19_munch.md",
           "sha256": "8c629e8bd02fb82c3355c37fe040c863f067827fde269d91ac7ab97bc118939e"
         },
         {
-          "path": "references/风格配方/20_dunhuang.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/20_dunhuang.md",
           "sha256": "3a5911346899c0f19cc5bee74bc4e8b4b1ffc9ae1c603a8a48b8277596057568"
         },
         {
-          "path": "references/风格配方/21_kusama.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/21_kusama.md",
           "sha256": "f39173eb8e80dba26fcdf822a60bb5cd0da2678d8efa4a8b2d19cbb2e1468a4a"
         },
         {
-          "path": "references/风格配方/22_constructivism.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/22_constructivism.md",
           "sha256": "ff4adc806f0bf39d86136d805ef8e2cc48026fbcec3731fae22477fdafac846d"
         },
         {
-          "path": "references/风格配方/23_dali.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/23_dali.md",
           "sha256": "facf3f033d5dbe42ab663860490a32920423fc5950ddcabf5f44bf81b49b3f2f"
         },
         {
-          "path": "references/风格配方/24_hopper.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/24_hopper.md",
           "sha256": "fd19a530f9e0544d74e7eee40a88c01fa7f675ae94d9cacf2e5af4e214c64c63"
         },
         {
-          "path": "references/风格配方/25_ghibli.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/25_ghibli.md",
           "sha256": "d094be1b497fd9635ef802f1997878696db98cfbc07ff81dd7bbc50442bf0a17"
         },
         {
-          "path": "references/风格配方/26_vaporwave.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/26_vaporwave.md",
           "sha256": "30cf8e825125ff74f02bff93b975a74c96ceae9df09fae06fd7ef887fb64ec44"
         },
         {
-          "path": "references/风格配方/27_kirby.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/27_kirby.md",
           "sha256": "e64b8a69ce706311b1e81aa7d0756c7d7390b2b3f84a17f18b67c3193bce2408"
         },
         {
-          "path": "references/风格配方/28_monet.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/28_monet.md",
           "sha256": "61b2bf9da6044e44ea0fa4758b3c380be8e60cfb72e2907e5afbbaa0c00d3513"
         },
         {
-          "path": "references/风格配方/29_seurat.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/29_seurat.md",
           "sha256": "2c50cfb11d3bcb83b50b946126e1c0ba76f9fc3b94eab055023eea2880440f84"
         },
         {
-          "path": "references/风格配方/30_matisse.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/30_matisse.md",
           "sha256": "4da4fb6d6828fa529e2827d20bf0c4e45822427348db42b7016ca4bdc336c60b"
         },
         {
-          "path": "references/风格配方/31_haring.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/31_haring.md",
           "sha256": "adcf02ce8c7dd9446e79e3393f61c411335c6f1734d584f3389f64283c5ab30b"
         },
         {
-          "path": "references/风格配方/32_rembrandt.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/32_rembrandt.md",
           "sha256": "383f5953f5b61249c5735fef4e31f0ed05148a7ec038f580bf39ddf7dc6ba7f7"
         },
         {
-          "path": "references/风格配方/33_rubberhose.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/33_rubberhose.md",
           "sha256": "c99886da03aa74351d78695641b403c92f5f9ab4b242feb2be45d8b8a7da9617"
         },
         {
-          "path": "references/风格配方/34_shadowpuppet.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/34_shadowpuppet.md",
           "sha256": "6cd4f9a090bff6d325695e8e4656ad041871f2ff0418b4eab1a46d51bd7d7609"
         },
         {
-          "path": "references/风格配方/35_shinkai.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/35_shinkai.md",
           "sha256": "b327bf36ef2edc246576cbfb8f1f1857c52600691adbd651efbb1eeb75e7a554"
         },
         {
-          "path": "references/风格配方/36_picasso_blue.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/36_picasso_blue.md",
           "sha256": "7578a99b0dc416414eb2cfd5c6aa9055ded387531bfde65fd5c1f17f22e4404a"
         },
         {
-          "path": "references/风格配方/37_rick_morty.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/37_rick_morty.md",
           "sha256": "321e3009c33faf400cf3242d87377d1777544a2ab2f59c9de8da11a141c3aed7"
         },
         {
-          "path": "references/风格配方/38_giotto.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/38_giotto.md",
           "sha256": "591e4412ba5c0ef7568f1ccec0400c32bda1f7e31fda693d2397cb46b946ca2b"
         },
         {
-          "path": "references/风格配方/39_piero.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/39_piero.md",
           "sha256": "a722bd0b3ba3168620d3d0bd13d1b6b576fe3a38c48995ad98d0155651a6ef14"
         },
         {
-          "path": "references/风格配方/40_raphael.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/40_raphael.md",
           "sha256": "fcd0352a413ccbe7a7baf9fceb7153fc70807fbdff534ac0bcb55e2129e82db9"
         },
         {
-          "path": "references/风格配方/41_michelangelo.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/41_michelangelo.md",
           "sha256": "d902c85020ac27b74e94ff4658529bd4fb32e5092a1d723234fa4f39eee33645"
         },
         {
-          "path": "references/风格配方/42_guardi.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/42_guardi.md",
           "sha256": "2ebe3d12fa81b0a84367f49ac955590d8a9b1daf78675ddab9badac15e44aa9a"
         },
         {
-          "path": "references/风格配方/43_lorenzetti.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/43_lorenzetti.md",
           "sha256": "d3e42f457027a2670b6e7d10798d55fa9fc42536e5cf68f90442a2c3b7405bbe"
         },
         {
-          "path": "references/风格配方/44_cortona.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/44_cortona.md",
           "sha256": "9fb3935cd7d853ca9c0da0c18e6c5dbbe591e1ab54f5259b59b6f79654f75819"
         },
         {
-          "path": "references/风格配方/45_renoir.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/45_renoir.md",
           "sha256": "b85f06fc351343902929c1ee6bfaad936d36b3fdafae0f1af95e66dbd36b14d3"
         },
         {
-          "path": "references/风格配方/46_pissarro.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/46_pissarro.md",
           "sha256": "9cd428ac8276c9b7134c04b9ecd49530c3c9989b7e6cc087de312f1d2faa372c"
         },
         {
-          "path": "references/风格配方/47_sisley.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/47_sisley.md",
           "sha256": "787eb8a787b01e810ca369032ba8524fc425087c0c2fa2c36b09b7e290e0a576"
         },
         {
-          "path": "references/风格配方/48_gauguin.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/48_gauguin.md",
           "sha256": "5e785b76ff0e1d4b976ff7b80559d3faf9ad84a3bcb97de4d0148d45f118b37b"
         },
         {
-          "path": "references/风格配方/49_chagall.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/49_chagall.md",
           "sha256": "2fca334d05347c1dcfbaaf7bfdd525c749ec175c076c5657bca9faa61f3bcde8"
         },
         {
-          "path": "references/风格配方/50_ma_yuan.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/50_ma_yuan.md",
           "sha256": "962b0d5b23727646cd36e3083f2b263be0b589ae1186da7856760cf232ec2ed5"
         },
         {
-          "path": "references/风格配方/51_persian_miniature.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/51_persian_miniature.md",
           "sha256": "619741242ba640ca931d5dda6bbb8d1b9d5a456e056dc7db956a1051090a818b"
         },
         {
-          "path": "references/风格配方/52_south_park.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/52_south_park.md",
           "sha256": "639b0b2e5fb0894dc3b44a4da67cac3ed986dc043ded886153abd2fec75ea9d8"
         },
         {
-          "path": "references/风格配方/53_pixar.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/53_pixar.md",
           "sha256": "c6b0eea92294aa08e53ed71a6068f96a6cccd29e679aa2bcf0df9478ef100aa2"
         },
         {
-          "path": "references/风格配方/55_dunhuang.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/55_dunhuang.md",
           "sha256": "ebf193ac4995dff6f146cf54ff62def57da5f8794ab2bdb8e7d0f18714af35f6"
         },
         {
-          "path": "references/风格配方/INDEX.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/INDEX.md",
           "sha256": "3a79ab6eed9ddc93c08ecdd529103d9a7ade77c1d23aa36eb236215ad0ef9cea"
         },
         {
-          "path": "references/风格配方/_转场_迁移测试.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/_\u8f6c\u573a_\u8fc1\u79fb\u6d4b\u8bd5.md",
           "sha256": "16e901fb8c6bb2b9ff6596bec30209471227b74440dc9d5f3ba7931c99238677"
         },
         {
-          "path": "references/风格配方/_重做进度.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/_\u91cd\u505a\u8fdb\u5ea6.md",
           "sha256": "2f83dabb5b810ce2b95b5012e15321d6dc2565a3bfff77f35a679683ea0bc82a"
         },
         {
-          "path": "references/风格配方/_音轨_艺术史速通.md",
+          "path": "references/\u98ce\u683c\u914d\u65b9/_\u97f3\u8f68_\u827a\u672f\u53f2\u901f\u901a.md",
           "sha256": "f9c360503ec366bf0833687fd00eb2a276f1c8dc5e02ab93651e676195d10d60"
         },
         {
@@ -778,7 +778,7 @@
           "sha256": "8c9e32f3ba45dc86ca4b2617cafdd974fdfa42b338e811fb6ce2e860dbfa091d"
         },
         {
-          "path": "scripts/audio/synth_艺术史速通.py",
+          "path": "scripts/audio/synth_\u827a\u672f\u53f2\u901f\u901a.py",
           "sha256": "6476605af684b477d47b7f47c3c987059277de36b97bff5d77d167c27efdb40d"
         },
         {
@@ -1274,23 +1274,23 @@
           "sha256": "bef942e77dfadd9e1d0a5de9e78339c9bb9a8958244dd22f839c2c833937aa2f"
         },
         {
-          "path": "scripts/engine/examples/assets/K线图_横屏.png",
+          "path": "scripts/engine/examples/assets/K\u7ebf\u56fe_\u6a2a\u5c4f.png",
           "sha256": "04a61f9be80bc4895136cfb168ed102860d96af41edab1957e326d647993cb19"
         },
         {
-          "path": "scripts/engine/examples/assets/终端_for循环求和.png",
+          "path": "scripts/engine/examples/assets/\u7ec8\u7aef_for\u5faa\u73af\u6c42\u548c.png",
           "sha256": "8871dce38e3ce0bc94a2aa22ab5479152df40837b67ced2b87de269a740badc3"
         },
         {
-          "path": "scripts/engine/examples/assets/终端_sum求和.png",
+          "path": "scripts/engine/examples/assets/\u7ec8\u7aef_sum\u6c42\u548c.png",
           "sha256": "2af3cac8b7468c120163c0993d98c8666d75d4814c8f0fbeced8d21db07302bf"
         },
         {
-          "path": "scripts/engine/examples/assets/营收图_竖屏.png",
+          "path": "scripts/engine/examples/assets/\u8425\u6536\u56fe_\u7ad6\u5c4f.png",
           "sha256": "5c3c9207a8ea289347463408547fdd8f19c63e68e1cbcbcdbc5de77b556b1648"
         },
         {
-          "path": "scripts/engine/examples/assets/财经图表_横屏.png",
+          "path": "scripts/engine/examples/assets/\u8d22\u7ecf\u56fe\u8868_\u6a2a\u5c4f.png",
           "sha256": "95c56c106f6eed633cf2c8b6bc46465ecf335aefe5abd9bb8e91563b48c572e1"
         },
         {
@@ -2186,7 +2186,7 @@
           "sha256": "92830ec34e10fc9eae1abe29fa50146435b42e67f0087ddadec219286ac0e48e"
         },
         {
-          "path": "scripts/engine/时代作者规范.md",
+          "path": "scripts/engine/\u65f6\u4ee3\u4f5c\u8005\u89c4\u8303.md",
           "sha256": "4e7661571b60fa0ed776fb5631462aff3a30235c5e6343aa06f9cd23973391fc"
         },
         {
@@ -2296,27 +2296,27 @@
         "assets/showcase/mario-pipe.gif",
         "assets/showcase/monet.gif",
         "assets/showcase/pixel.gif",
-        "assets/全风格总览.jpg",
-        "assets/动画语法/t1_3b1b_总览.jpg",
-        "assets/动画语法/t2_keynote_ui_总览.jpg",
-        "assets/动画语法/t3_finance_chart_总览.jpg",
-        "assets/动画语法/y1_kurzgesagt_总览.jpg",
-        "assets/动画语法/y2_vox_总览.jpg",
-        "assets/动画语法/y3_whiteboard_总览.jpg",
-        "assets/动画语法/y4_storytime_总览.jpg",
-        "assets/动画语法/y5_kinetic_type_总览.jpg",
-        "assets/新风格v2_证据/38_giotto.jpg",
-        "assets/新风格v2_证据/40_raphael.jpg",
-        "assets/新风格v2_证据/41_michelangelo.jpg",
-        "assets/新风格v2_证据/43_lorenzetti.jpg",
-        "assets/新风格v2_证据/44_cortona.jpg",
-        "assets/新风格v2_证据/46_pissarro.jpg",
-        "assets/新风格v2_证据/47_sisley.jpg",
-        "assets/新风格v2_证据/48_gauguin.jpg",
-        "assets/新风格v2_证据/50_ma_yuan.jpg",
-        "assets/新风格v2_证据/51_persian_miniature.jpg",
-        "assets/新风格v2_证据/总览.jpg",
-        "assets/长卷穿越_总览.jpg"
+        "assets/\u5168\u98ce\u683c\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/t1_3b1b_\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/t2_keynote_ui_\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/t3_finance_chart_\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/y1_kurzgesagt_\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/y2_vox_\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/y3_whiteboard_\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/y4_storytime_\u603b\u89c8.jpg",
+        "assets/\u52a8\u753b\u8bed\u6cd5/y5_kinetic_type_\u603b\u89c8.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/38_giotto.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/40_raphael.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/41_michelangelo.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/43_lorenzetti.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/44_cortona.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/46_pissarro.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/47_sisley.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/48_gauguin.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/50_ma_yuan.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/51_persian_miniature.jpg",
+        "assets/\u65b0\u98ce\u683cv2_\u8bc1\u636e/\u603b\u89c8.jpg",
+        "assets/\u957f\u5377\u7a7f\u8d8a_\u603b\u89c8.jpg"
       ]
     },
     {
@@ -3328,6 +3328,38 @@
         "examples/watercolor_autumn.jpg",
         "examples/watercolor_washes.jpg",
         "examples/xray_luggage.jpg"
+      ]
+    },
+    {
+      "name": "vox-explainer",
+      "repository": "https://github.com/charlie947/motion-graphics-skills",
+      "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+      "adaptation": "None. Upstream skill and MIT license retained.",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "ed17713237d18555a34c208bf0cb1ce347faa937731d509e265ce91be660e218"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "8e4066d59fc71f94f7ec82ebc21965cc44372809c4ce77b5b466dc9d7f9c9606"
+        }
+      ]
+    },
+    {
+      "name": "brand-intake",
+      "repository": "https://github.com/charlie947/motion-graphics-skills",
+      "commit": "229022ebca76972e119e36ada23a1648d51665ab",
+      "adaptation": "None. Upstream skill and MIT license retained.",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "ed17713237d18555a34c208bf0cb1ce347faa937731d509e265ce91be660e218"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "76d2d615e147150946375cf978286b1ca1fea560bf276d7df5943587bc0963e3"
+        }
       ]
     }
   ],
